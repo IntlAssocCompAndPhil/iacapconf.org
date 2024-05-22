@@ -21,7 +21,7 @@
 title: IACAP 2024 Conference, Eugene, OR, 8-10 July 2024
 email: iacap@ballsun.com
 description: >- # this means to ignore newlines until "baseurl:"
-  The Conference site for the 2024 IACAP Conference in Eugene, OR at the university of ORegon
+  The Conference site for the 2024 IACAP Conference in Eugene, OR at the University of Oregon
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
