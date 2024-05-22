@@ -6,17 +6,22 @@ layout: default
 ---
 
 
+<div style="margin:auto;text-align:center;width:100%;vertical-align:middle;">
+<img src="iacap-logo-oregon-1200.png" style="width:60%;  "/>
+</div>
 
-<div style="margin:auto;text-align:center;max-width:100%">
-<img src="iacap-logo-oregon-1200.png" style="width:30%"/><img src="oregon.jpg" style="width:70%">
+<h2 style="text-align:center; width: 100%; vertical-align:middle;">
+<a href="https://2024.iacapconf.org/IACAP/conference/">
+Register for the IACAP 2024 Conference in Eugene, Oregon. 
+</a>
+</h2>     
+
+<div style="margin:auto;text-align:center;max-width:100%;margin-top:4vh;margin-bottom:2vh">
+<img src="oregon.jpg" style="width:100%">
 </div>   
 
 
-<h2 style="margin:auto;text-align:center;width:100%">
-<a href="https://2024.iacapconf.org/IACAP/conference/">
-Register for the IACAP 2024 Conference in Eugene, Oregon.
-</a>
-</h2>     
+
 
 
 <h1>Information</h1>
@@ -26,6 +31,17 @@ Register for the IACAP 2024 Conference in Eugene, Oregon.
 <li><a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
 </ul>
+
+# Location 
+
+University of Oregon, <br/>
+Department of Philosophy <br/>
+1295 University of Oregon <br/>
+Eugene, OR 97403-1295
+
+# Date
+
+July 8th – 10th, 2024
 
 # Schedule
 
