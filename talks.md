@@ -4,6 +4,7 @@
 
 layout: default
 title: "Talks at IACAP 2024"
+published: false
 
 ---
 # Papers presented during Monday, 8 July 11:40--12:50 
