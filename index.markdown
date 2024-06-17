@@ -45,7 +45,7 @@ July 8th – 10th, 2024
 
 # Schedule
 
-* Talk Details
+* [Talk Details](talks)
 * Poster Details
 * Special Sessions, Keynotes, and Symposia
 
@@ -54,12 +54,12 @@ July 8th – 10th, 2024
     <th colspan="3">Monday, 8 July</th>
   </tr>
   <tr>
-    <td style="font-size:80%">09:30–10:00</td>
+    <td style="font-size:80%; width:15%;">09:30–10:00</td>
     <td style="text-align:center; background-color:#ddd" colspan="2">Registration</td>
   </tr>
   <tr>
     <td  style="font-size:80%">10:00–11:10</td>
-    <td>Room TBD</td>
+    <td style="width:16%;">Room TBD</td>
     <td ><strong>Keynote</strong></td>
   </tr>
   <tr>
@@ -117,8 +117,8 @@ July 8th – 10th, 2024
     <th colspan="3">Tuesday, 9 July</th>
   </tr>
   <tr>
-    <td style="font-size:80%">10:00–11:10</td>
-    <td>Room TBD</td>
+    <td style="font-size:80%; width:15%;">10:00–11:10</td>
+    <td  style="width:16%;">Room TBD</td>
     <td ><strong>Symposium:</strong> (Ramon) (NC)</td>
   </tr>
   <tr>
@@ -179,8 +179,8 @@ July 8th – 10th, 2024
     <th colspan="3">Wednesday, 10 July</th>
   </tr>
   <tr>
-    <td style="font-size:80%">10:00–11:10</td>
-    <td>Room TBD</td>
+    <td style="font-size:80% ; width:15%;">10:00–11:10</td>
+    <td style="width:16%;">Room TBD</td>
     <td >Computational Modelling in Science and Social Science</td>
   </tr>
   <tr>
