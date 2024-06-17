@@ -46,7 +46,7 @@ July 8th – 10th, 2024
 # Schedule
 
 * [Talk Details](talks)
-* Poster Details
+* [Poster Details](posters)
 * Special Sessions, Keynotes, and Symposia
 
 <table>
