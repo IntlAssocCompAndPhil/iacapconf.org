@@ -45,4 +45,173 @@ July 8th – 10th, 2024
 
 # Schedule
 
-Coming soon
+<table>
+  <tr>
+    <th colspan="4">Monday, 8 July</th>
+  </tr>
+  <tr>
+    <td>09:30--10:00</td>
+    <td colspan="3">Registration</td>
+  </tr>
+  <tr>
+    <td>10:00--11:10</td>
+    <td>Room TBD</td>
+    <td colspan="2"><strong>Keynote</strong></td>
+  </tr>
+  <tr>
+    <td>11:10--11:40</td>
+    <td colspan="3">Coffee Break</td>
+  </tr>
+  <tr>
+    <td>11:40--12:50</td>
+    <td>Room TBD</td>
+    <td colspan="2">Epistemology of ML</td>
+  </tr>
+  <tr>
+    <td>11:40--12:50</td>
+    <td>Room TBD</td>
+    <td colspan="2">Ethics of AI</td>
+  </tr>
+  <tr>
+    <td>12:50--14:00</td>
+    <td colspan="3">Lunch</td>
+  </tr>
+  <tr>
+    <td>14:00--15:10</td>
+    <td>Room TBD</td>
+    <td colspan="2"><strong>History and Philosophy of Computing</strong></td>
+  </tr>
+  <tr>
+    <td>14:00--15:10</td>
+    <td>Room TBD</td>
+    <td colspan="2">Societal Impact and Ethical Problems of AI, Computation, and Information</td>
+  </tr>
+  <tr>
+    <td>15:10--15:40</td>
+    <td colspan="3">Coffee &amp; Posters</td>
+  </tr>
+  <tr>
+    <td>15:40--16:50</td>
+    <td>Room TBD</td>
+    <td colspan="2">Epistemology of ML</td>
+  </tr>
+  <tr>
+    <td>15:40--16:50</td>
+    <td>Room TBD</td>
+    <td colspan="2">Ethics of AI</td>
+  </tr>
+  <tr>
+    <td>16:50--17:20</td>
+    <td colspan="3">Coffee &amp; Posters</td>
+  </tr>
+  <tr>
+    <td>17:20--18:30</td>
+    <td>Room TBD</td>
+    <td colspan="2">Epistemology of ML</td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <th colspan="4">Tuesday, 9 July</th>
+  </tr>
+  <tr>
+    <td>10:00--11:10</td>
+    <td>Room TBD</td>
+    <td colspan="2"><strong>Symposium:</strong> (Ramon) (NC)</td>
+  </tr>
+  <tr>
+    <td>11:10--11:40</td>
+    <td colspan="3">Coffee Break</td>
+  </tr>
+  <tr>
+    <td>11:40--12:50</td>
+    <td>Room TBD</td>
+    <td colspan="2"><strong>Special Interest Group:</strong> Minds and Machines</td>
+  </tr>
+  <tr>
+    <td>11:40--12:50</td>
+    <td>Room TBD</td>
+    <td colspan="2">Ethics of AI</td>
+  </tr>
+  <tr>
+    <td>12:50--14:00</td>
+    <td colspan="3">Lunch</td>
+  </tr>
+  <tr>
+    <td>14:00--15:10</td>
+    <td>Room TBD</td>
+    <td colspan="2">Epistemology of ML</td>
+  </tr>
+  <tr>
+    <td>14:00--15:10</td>
+    <td>Room TBD</td>
+    <td colspan="2">Societal Impact and Ethical Problems of AI, Computation, and Information</td>
+  </tr>
+  <tr>
+    <td>15:10--15:40</td>
+    <td colspan="3">Coffee &amp; Posters</td>
+  </tr>
+  <tr>
+    <td>15:40--16:50</td>
+    <td>Room TBD</td>
+    <td colspan="2"><strong>Special Interest Group:</strong> Minds and Machines</td>
+  </tr>
+  <tr>
+    <td>15:40--16:50</td>
+    <td>Room TBD</td>
+    <td colspan="2">HRI-Human Robot Interaction</td>
+  </tr>
+  <tr>
+    <td>16:50--17:20</td>
+    <td colspan="3">Coffee &amp; Posters</td>
+  </tr>
+  <tr>
+    <td>17:20--18:30</td>
+    <td>Room TBD</td>
+    <td colspan="2">Philosophical implications of AI</td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <th colspan="4">Wednesday, 10 July</th>
+  </tr>
+  <tr>
+    <td>10:00--11:10</td>
+    <td>Room TBD</td>
+    <td colspan="2">Computational Modelling in Science and Social Science</td>
+  </tr>
+  <tr>
+    <td>11:10--11:40</td>
+    <td colspan="3">Coffee Break</td>
+  </tr>
+  <tr>
+    <td>11:40--12:50</td>
+    <td>Room TBD</td>
+    <td colspan="2">Cognitive Science, Computation, and Cognition</td>
+  </tr>
+  <tr>
+    <td>11:40--12:50</td>
+    <td>Room TBD</td>
+    <td colspan="2">Societal Impact and Ethical Problems of AI, Computation, and Information</td>
+  </tr>
+  <tr>
+    <td>12:50--14:00</td>
+    <td colspan="3">Lunch</td>
+  </tr>
+  <tr>
+    <td>14:00--15:10</td>
+    <td>Room TBD</td>
+    <td colspan="2"><strong>Keynote</strong></td>
+  </tr>
+  <tr>
+    <td>15:10--15:20</td>
+    <td colspan="3">Break</td>
+  </tr>
+  <tr>
+    <td>15:20--16:00</td>
+    <td>Room TBD</td>
+    <td colspan="2"><strong>Members Meeting</strong></td>
+  </tr>
+</table>
