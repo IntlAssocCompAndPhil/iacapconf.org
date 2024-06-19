@@ -45,4 +45,4 @@ July 8th – 10th, 2024
 
 # Schedule
 
-Coming soon.
+[Preliminary schedule, updated 2024-06-19 7:00 UTC](https://iacapconf.org/schedule_2024-06-19.pdf)
