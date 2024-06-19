@@ -49,4 +49,4 @@ July 8th – 10th, 2024
 
 # Book of abstracts
 
-Will pe posted here soon.
+Will be posted here soon.
