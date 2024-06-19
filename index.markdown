@@ -39,6 +39,8 @@ Department of Philosophy <br/>
 1295 University of Oregon <br/>
 Eugene, OR 97403-1295
 
+[Tykeson Hall](https://map.uoregon.edu/d1b7770f7) on the main campus is the venue for all talks and posters.
+
 # Date
 
 July 8th – 10th, 2024
