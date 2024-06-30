@@ -52,3 +52,25 @@ July 8th – 10th, 2024
 # Book of abstracts
 
 Will be posted here soon.
+
+# Internet access
+
+For on-campus guests: `UOguest` open wifi.
+For others: `eduroam`, check with your home university for access details. Here is a [helpful site](https://cat.eduroam.org/).
+ 
+
+# Conference events
+
+IACAP is happy to be able to host two socializing events during IACAP24
+ 
+## Welcome drinks:
+
+*Monday July the 8th 7:00 PM at [Max’s Tavern](https://www.maxseugene.com/)*
+ 
+Max’s tavern is the oldest bar in Eugene and is only a 5-minute block from our conference venue. It is a relaxed local pub popular with both Eugene residents and college students. It is also famous because it is where Matt Groening, creator of the Simpsons, spent a lot of time writing his ideas. Max’s Tavern is supposed to have been a direct inspiration for Moe’s in the Simpsons. Side note: Springfield, Oregon, a town across the river (5-minute drive/30-minute walk), is supposed to be THE Springfield in the show, which would make Eugene Shelbyville (for those in the know). Springfield is full of Simpson’s murals.
+ 
+## Conference Dinner
+
+*Tuesday July the 9th 7:00 PM at [Agate Alley Bistro](https://agatealley.com/)*
+ 
+Agate Alley Bistro is a delightful neighborhood restaurant. It is only a 10-minute walk from our conference venue. It serves quality regional and seasonal dishes in an unpretentious setting and atmosphere. Although we may have to work with a limited menu given the size of our group, vegetarian, pescatarian and meat options will be available.
