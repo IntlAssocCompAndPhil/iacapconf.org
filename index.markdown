@@ -47,11 +47,11 @@ July 8th – 10th, 2024
 
 # Schedule
 
-[Schedule](https://iacapconf.org/20240701-IACAP2024_Short_Booklet.pdf), updated 2024-07-01 04:00 UTC
+[Schedule](https://iacapconf.org/20240708-IACAP2024_Timetable.pdf), updated 2024-07-08 15:00 UTC
 
 # Book of abstracts
 
-* [Book of Abstracts](https://iacapconf.org/20240703_IACAP2024_Booklet.pdf), updated 2024-07-03 12:00 UTC
+* [Book of Abstracts](https://iacapconf.org/20240708_IACAP2024_Booklet.pdf), updated 2024-07-08 15:00 UTC
 * [Zenodo Community for preprints and long abstracts](https://zenodo.org/communities/iacap-2024/records?q=&l=list&p=1&s=10&sort=newest)
 
 # Internet access
