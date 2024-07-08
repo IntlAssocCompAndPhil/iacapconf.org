@@ -47,7 +47,7 @@ July 8th – 10th, 2024
 
 # Schedule
 
-[Schedule](https://iacapconf.org/20240708-IACAP2024_Timetable.pdf), updated 2024-07-08 15:00 UTC
+[Schedule](https://iacapconf.org/20240708-1-IACAP2024_Timetable.pdf), updated 2024-07-08 15:00 UTC
 
 # Book of abstracts
 
