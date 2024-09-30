@@ -24,13 +24,6 @@ Register for the IACAP 2024 Conference in Eugene, Oregon.
 
 
 
-<h1>Information</h1>
-<ul>
-<li><a href="https://2024.iacapconf.org/IACAP/conference/">Register now for the conference and accommodation</a></li>
-{% for post in site.posts %}
-<li><a href="{{ post.url }}">{{ post.title }}</a></li>
-{% endfor %}
-</ul>
 
 # Location 
 

@@ -18,15 +18,18 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: IACAP 2024 Conference, Eugene, OR, 8-10 July 2024
+title: IACAP 2025 Conference
 email: iacap@ballsun.com
 description: >- # this means to ignore newlines until "baseurl:"
-  The Conference site for the 2024 IACAP Conference in Eugene, OR at the University of Oregon
+  The Conference site for the IACAP Conferences
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
 github_username:  
 
+header_pages:
+  - pages/iacap.md
+  - pages/past_conferences.md
 # Build settings
 theme: minima
 plugins:
