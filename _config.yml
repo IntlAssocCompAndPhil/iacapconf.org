@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: IACAP 2025 Conference
+title: IACAP/AISB-25
 email: iacap@ballsun.com
 description: >- # this means to ignore newlines until "baseurl:"
   The Conference site for the IACAP Conferences
