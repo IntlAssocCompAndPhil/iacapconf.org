@@ -7,8 +7,8 @@ layout: home
 <img src="iacap-logo300.png" style="width:60%;  "/>
 </div>
 
-# IACAP 2025
+# IACAP/AISB, Joint Philosophy and AI Conference 2025 (AI-25)
 
-IACAP 2025 will be held in Twente, Netherlands.
+1-3 July 2025, University of Twente, NL
 
 * Call for Abstracts
