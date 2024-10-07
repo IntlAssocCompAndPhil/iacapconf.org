@@ -4,7 +4,8 @@ layout: home
 
 
 <div style="margin:auto;text-text-align:center;margin-left:auto;margin-right:auto;width:100%;vertical-text-align:middle;">
-<a href="https://iacap.org"><img src="iacap300.png" style="width:80%;"/></a>
+<a href="https://iacap.org"><img src="iacap300.png" style="height:5em;"/></a>
+<a href="https://aisb.org.uk/"><img src="aisb.png" style="height:5em;"/></a>
 </div>
 
 # Joint IACAP/AISB Conference on Philosophy of Computing and AI (IACAP/AISB-25)
