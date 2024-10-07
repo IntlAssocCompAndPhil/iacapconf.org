@@ -29,8 +29,8 @@ Deadline for [Symposia](https://pretalx.iacapconf.org/iacap-2025/cfp?submission_
 ## Keynote Speakers
 
 * AISB Keynote - Philip Brey
-* IACAP Covey Award Address – To be announced. https://www.iacap.org/2024/10/02/call-for-nominations-the-covey-award-2025/
-* IACAP Simon Award Address – To be announced. https://www.iacap.org/2024/10/02/call-for-nominations-the-simon-award-2025/
+* IACAP Covey Award Address – To be announced. Nominations: [https://www.iacap.org/2024/10/02/call-for-nominations-the-covey-award-2025/]
+* IACAP Simon Award Address – To be announced. Nominations: [https://www.iacap.org/2024/10/02/call-for-nominations-the-simon-award-2025/]
 
 
 ## Call for Abstracts and Symposia Proposals 
