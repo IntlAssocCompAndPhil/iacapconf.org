@@ -12,15 +12,15 @@ layout: home
 
 1-3 July 2025, University of Twente, NL
 
-* [Call for Abstracts](https://2025.iacapconf.org)
+* [Call for Abstracts](https://pretalx.iacapconf.org/iacap-2025/)
 
 The International Association for Computing and Philosophy (IACAP) and the Society for the Study of Artificial Intelligence and Simulation of Behaviour (AISB) will host a joint conference in July 2025. Please see below for joint CFA.
 
 * **Conference dates**: July 1-3
 * **Conference website**: [https://iacapconf.org/](https://iacapconf.org/)
 * **Host Organisation Websites**:
-  * [iacap.org](https://iacap.org)
-  * [aisb.org.uk](https://aisb.org.uk/)
+  * [IACAP.org](https://iacap.org)
+  * [AISB.org.uk](https://aisb.org.uk/)
 * **Conference location**: Enschede, NL.
 * **Conference host**: University of Twente
 
@@ -35,7 +35,7 @@ Deadline for [Symposia](https://pretalx.iacapconf.org/iacap-2025/cfp?submission_
 
 ## Call for Abstracts and Symposia Proposals 
 
-The International Association for Computing and Philosophy (IACAP, https://www.iacap.org) has a long-lasting tradition of promoting philosophical dialogue and interdisciplinary research on all aspects of computing as it relates to philosophy. IACAP’s members have contributed to shaping the philosophical (both theoretical and applied) debate about computing, information technologies, and artificial intelligence. 
+The International Association for Computing and Philosophy (IACAP) has a long-lasting tradition of promoting philosophical dialogue and interdisciplinary research on all aspects of computing as it relates to philosophy. IACAP’s members have contributed to shaping the philosophical (both theoretical and applied) debate about computing, information technologies, and artificial intelligence. 
 
 The Society for the Study of Artificial Intelligence and Simulation of Behaviour (AISB) is the largest Artificial Intelligence Society in the United Kingdom. Founded in 1964, the society has an international membership from academia and industry, with a serious interest in Artificial Intelligence, Cognitive Science and related areas. It is a member of the European Coordinating Committee for Artificial Intelligence.[AISB info], and topic suggestions from AISB’s side.
 
