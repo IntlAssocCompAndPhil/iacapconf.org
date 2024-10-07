@@ -3,16 +3,16 @@ layout: home
 ---
 
 
-<div style="margin:auto;text-text-align:center;margin-left:auto;margin-right:auto;width:100%;vertical-text-align:middle;width:100%">
-<a style="margin-left:auto;margin-right:2em;" href="https://iacap.org"><img src="iacap300.png" style="height:5em;"/></a> 
-<a style="margin-right:auto" href="https://aisb.org.uk/"><img src="aisb.png" style="height:5em;"/></a>
+<div style="margin:auto;text-align:center;margin-left:auto;margin-right:auto;width:100%;">
+<a style="margin-left:auto;margin-right:2em;" href="https://iacap.org"><img src="iacap300.png" style="height:7em;"/></a> 
+<a style="margin-right:auto" href="https://aisb.org.uk/"><img src="aisb.png" style="height:7em;"/></a>
 </div>
 
 # Joint IACAP/AISB Conference on Philosophy of Computing and AI (IACAP/AISB-25)
 
 1-3 July 2025, University of Twente, NL
 
-* [Call for Abstracts](https://pretalx.iacapconf.org/iacap-2025/)
+* **[Call for Abstracts](https://pretalx.iacapconf.org/iacap-2025/cfp)**
 
 The International Association for Computing and Philosophy (IACAP) and the Society for the Study of Artificial Intelligence and Simulation of Behaviour (AISB) will host a joint conference in July 2025. Please see below for joint CFA.
 
