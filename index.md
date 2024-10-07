@@ -3,9 +3,9 @@ layout: home
 ---
 
 
-<div style="margin:auto;text-text-align:center;margin-left:auto;margin-right:auto;width:100%;vertical-text-align:middle;">
-<a href="https://iacap.org"><img src="iacap300.png" style="height:5em;"/></a>
-<a href="https://aisb.org.uk/"><img src="aisb.png" style="height:5em;"/></a>
+<div style="margin:auto;text-text-align:center;margin-left:auto;margin-right:auto;width:100%;vertical-text-align:middle;width:100%">
+<a style="margin-left:auto;margin-right:2em;" href="https://iacap.org"><img src="iacap300.png" style="height:5em;"/></a> 
+<a style="margin-right:auto" href="https://aisb.org.uk/"><img src="aisb.png" style="height:5em;"/></a>
 </div>
 
 # Joint IACAP/AISB Conference on Philosophy of Computing and AI (IACAP/AISB-25)
@@ -29,8 +29,8 @@ Deadline for [Symposia](https://pretalx.iacapconf.org/iacap-2025/cfp?submission_
 ## Keynote Speakers
 
 * AISB Keynote - Philip Brey
-* IACAP Covey Award Address – To be announced. Nominations: [https://www.iacap.org/2024/10/02/call-for-nominations-the-covey-award-2025/]
-* IACAP Simon Award Address – To be announced. Nominations: [https://www.iacap.org/2024/10/02/call-for-nominations-the-simon-award-2025/]
+* IACAP Covey Award Address – To be announced. Nominations: [https://www.iacap.org/2024/10/02/call-for-nominations-the-covey-award-2025/](https://www.iacap.org/2024/10/02/call-for-nominations-the-covey-award-2025/)
+* IACAP Simon Award Address – To be announced. Nominations: [https://www.iacap.org/2024/10/02/call-for-nominations-the-simon-award-2025/](https://www.iacap.org/2024/10/02/call-for-nominations-the-simon-award-2025/)
 
 
 ## Call for Abstracts and Symposia Proposals 
