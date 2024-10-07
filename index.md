@@ -16,13 +16,15 @@ layout: home
 
 The International Association for Computing and Philosophy (IACAP) and the Society for the Study of Artificial Intelligence and Simulation of Behaviour (AISB) will host a joint conference in July 2025. Please see below for joint CFA.
 
-**Conference dates**: July 1-3
-**Conference website**: https://iacapconf.org/
-**Host Organisation Websites**:
-* [iacap.org](https://iacap.org)
-* [aisb.org.uk](https://aisb.org.uk/)
-**Conference location**: Enschede, NL.
-**Conference host**: University of Twente
+* **Conference dates**: July 1-3
+* **Conference website**: [https://iacapconf.org/](https://iacapconf.org/)
+* **Host Organisation Websites**:
+  * [iacap.org](https://iacap.org)
+  * [aisb.org.uk](https://aisb.org.uk/)
+* **Conference location**: Enschede, NL.
+* **Conference host**: University of Twente
+
+Deadline for [Symposia](https://pretalx.iacapconf.org/iacap-2025/cfp?submission_type=4821-symposium) submission is 1 December 2025.
 
 ## Keynote Speakers
 
