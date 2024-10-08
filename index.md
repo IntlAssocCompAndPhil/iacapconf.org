@@ -37,7 +37,7 @@ Deadline for [Symposia](https://pretalx.iacapconf.org/iacap-2025/cfp?submission_
 
 The International Association for Computing and Philosophy (IACAP) has a long-lasting tradition of promoting philosophical dialogue and interdisciplinary research on all aspects of computing as it relates to philosophy. IACAP’s members have contributed to shaping the philosophical (both theoretical and applied) debate about computing, information technologies, and artificial intelligence. 
 
-The Society for the Study of Artificial Intelligence and Simulation of Behaviour (AISB) is the largest Artificial Intelligence Society in the United Kingdom. Founded in 1964, the society has an international membership from academia and industry, with a serious interest in Artificial Intelligence, Cognitive Science and related areas. It is a member of the European Coordinating Committee for Artificial Intelligence.[AISB info], and topic suggestions from AISB’s side.
+The Society for the Study of Artificial Intelligence and Simulation of Behaviour (AISB) is the largest Artificial Intelligence Society in the United Kingdom. Founded in 1964, the society has an international membership from academia and industry, with a serious interest in Artificial Intelligence, Cognitive Science and related areas. It is a member of the European Coordinating Committee for Artificial Intelligence.
 
 Our joint 2025 annual meeting will gather philosophers, ethicists, roboticists, and computer scientists and engineers interested topics that include:
 
