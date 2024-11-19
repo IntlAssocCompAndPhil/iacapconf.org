@@ -24,7 +24,7 @@ The International Association for Computing and Philosophy (IACAP) and the Socie
 * **Conference location**: Enschede, NL.
 * **Conference host**: University of Twente
 
-Deadline for [Symposia](https://pretalx.iacapconf.org/iacap-2025/cfp?submission_type=4821-symposium) submission is 1 December 2025.
+Deadline for [Symposia](https://pretalx.iacapconf.org/iacap-2025/cfp?submission_type=4821-symposium) submission is 1 December 2024.
 
 ## Keynote Speakers
 
