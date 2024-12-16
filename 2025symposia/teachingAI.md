@@ -1,12 +1,14 @@
-# **Teaching With and About AI using Engagement Philosophy and Case Studies**
+title: Call for Abstracts for the Teaching With and About AI using Engagement Philosophy and Case Studies Symposium, IACAP/AISB-25
 
-## **Conveners**
+---
+
+## Conveners
 
 * Brian Ballsun-Stanton ([brian.ballsun-stanton@mq.edu.au](mailto:brian.ballsun-stanton@mq.edu.au))  
 * Ines Hipolito ([ines.hipolito@mq.edu.au](mailto:ines.hipolito@mq.edu.au))  
 * Max Parks ([max.parks@mcc.edu](mailto:max.parks@mcc.edu))
 
-# **Proposal**
+# Proposal
 
 Brando's Engagement Philosophy encourages "direct engagement with our subjects of research, not only as sources of information, but as structural contributors to the development of our research projects and its priorities." This symposium applies this principle to the integration of AI in education, examining how students and educators collectively shape our understanding of AI's role in teaching and learning.
 
@@ -31,7 +33,7 @@ The symposium will conclude with a collaborative session developing themes for a
 
 Through engagement philosophy, and case studies, we aim to develop more nuanced and effective approaches to teaching with and about AI.
 
-## **Expected Outcomes:**
+## Expected Outcomes:
 
 The symposium will produce a design for an edited volume examining the practical and philosophical dimensions of AI in education. Contributors will document:  
 - Successful methodologies for teaching AI literacy  
@@ -42,11 +44,11 @@ The symposium will produce a design for an edited volume examining the practical
 
 Accepted contributors should expect to submit their full papers to an edited volume within three months after the conference.
 
-## **Format and Timeline:**
+## Format and Timeline:
 
 We propose a full-day symposium structured around experiential learning and collaborative analysis. The morning workshop will demonstrate practical applications, followed by presentation sessions and concluding with collaborative analysis of emerging themes. .
 
-## **Submission Guidelines:**
+# Submission Guidelines:
 
 We seek extended abstracts (1000-1500 words) that:  
 - Present clear methodological frameworks  
@@ -56,19 +58,21 @@ We seek extended abstracts (1000-1500 words) that:
 - Consider ethical and social impacts  
 - Discuss assessments which benefit from and teach the thoughtful and pragmatic use of AI
 
-## Important Dates
+## Important Dates:
 
 Please [submit your extended abstract on pretalx](https://pretalx.iacapconf.org/iacap-2025/cfp?submission_type=5232-extended-abstract-for-teaching-ai-symposium-and-volume) by Jan 30, 2025 with your extended abstract, intended for participation in the Symposium. It will be read by Brian, Ines, and Max. If it is accepted, we expect that you will be willing to contribute on that topic to an edited volume, due in October 2025. 
 
 Submit here: [https://pretalx.iacapconf.org/iacap-2025/cfp?submission_type=5232-extended-abstract-for-teaching-ai-symposium-and-volume](https://pretalx.iacapconf.org/iacap-2025/cfp?submission_type=5232-extended-abstract-for-teaching-ai-symposium-and-volume)
 
-## **Research and Ethics**
+# Other Details
+
+## Research and Ethics:
 
 Participants with ethics clearance will be given access to deidentified assessments collected as part of a Macquarie University unit on the pragmatics of AI, and are encouraged to get informed consent from their classes to contribute their own tranches of evidence for the case study. Participants are also encouraged to ask their students to contribute reflections and useful evidence on their use of AI for consideration of inclusion in the volume. Please contact [brian.ballsun-stanton@mq.edu.au](mailto:brian.ballsun-stanton@mq.edu.au) for details if you would like access to this corpus before submitting your extended abstract. 
 
 Researchers may also be brought on board Ballsun-Stanton's program of study, if Australian Human Research Ethics is applicable to your home institution.
 
-## **Target Audience:**
+## Target Audience:
 
 - Educators adapting to AI-driven changes in teaching  
 - Researchers investigating AI's impact on learning  
@@ -76,7 +80,7 @@ Researchers may also be brought on board Ballsun-Stanton's program of study, if 
 - Students pursuing research in AI and education  
 - Practitioners interested in ethical AI implementation
 
-## **Resource Requirements:**
+## Resource Requirements:
 
 Presenters should note that while the symposium includes technical demonstrations, no programming knowledge is required. Access to frontier AI models will be provided during the workshop portion. Participants in the symposium **are expected to read all of the extended abstracts and/or preprints before attending**. 
 
