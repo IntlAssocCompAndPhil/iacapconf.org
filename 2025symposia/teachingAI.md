@@ -8,7 +8,7 @@ title: Call for Abstracts for the Teaching With and About AI using Engagement Ph
 * Ines Hipolito ([ines.hipolito@mq.edu.au](mailto:ines.hipolito@mq.edu.au))  
 * Max Parks ([max.parks@mcc.edu](mailto:max.parks@mcc.edu))
 
-# Proposal
+## **Proposal**
 
 Brando's Engagement Philosophy encourages "direct engagement with our subjects of research, not only as sources of information, but as structural contributors to the development of our research projects and its priorities." This symposium applies this principle to the integration of AI in education, examining how students and educators collectively shape our understanding of AI's role in teaching and learning.
 
@@ -48,7 +48,7 @@ Accepted contributors should expect to submit their full papers to an edited vol
 
 We propose a full-day symposium structured around experiential learning and collaborative analysis. The morning workshop will demonstrate practical applications, followed by presentation sessions and concluding with collaborative analysis of emerging themes. .
 
-# Submission Guidelines:
+## Submission Guidelines:
 
 We seek extended abstracts (1000-1500 words) that:  
 - Present clear methodological frameworks  
@@ -64,7 +64,7 @@ Please [submit your extended abstract on pretalx](https://pretalx.iacapconf.org/
 
 Submit here: [https://pretalx.iacapconf.org/iacap-2025/submit/In34fa/info/?submission_type=5232-extended-abstract-for-teaching-ai-symposium-and-volume](https://pretalx.iacapconf.org/iacap-2025/submit/In34fa/info/?submission_type=5232-extended-abstract-for-teaching-ai-symposium-and-volume)
 
-# Other Details
+## **Other Details**
 
 ## Research and Ethics:
 
