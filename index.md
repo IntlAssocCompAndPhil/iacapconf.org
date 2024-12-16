@@ -59,6 +59,10 @@ Authors of papers are free to decide whether they submit their contributions to 
 
 Depending on format, submissions may be published in proceedings either as extended abstracts or as full papers. 
 
+## Calls for Symposia Contributions
+
+* Symposium and Edited Volume: [Teaching With and About AI using Engagement Philosophy and Case Studies](2025symposia/teachingAI)
+
 # Important Dates
 
 * Symposia Proposals due date (_new_, was December 1): January 15, 2025.
@@ -67,3 +71,12 @@ Depending on format, submissions may be published in proceedings either as exten
 * Notification of acceptance for Presentations, Posters, Workshops: March 31, 2025.
 * Conference registration opens: April 1, 2025.
 (For individual papers, posters, and workshops: In case you need a visa, please note this with your submission so that we can facilitate an early review.)
+
+# Join the Community
+
+
+For updates on IACAP conferences and to be part of the conversation with other attendees, you can join:
+
+* Our [Slack channel here](https://join.slack.com/t/iacapworkspace/shared_invite/zt-1qjs05kaa-BecKu_EZnBrPLUky0XV9xg)
+* Our [Mailing List here](https://listi.jpberlin.de/mailman/listinfo/iacap-announce) (no book or paper announcements)
+
