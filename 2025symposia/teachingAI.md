@@ -58,8 +58,9 @@ We seek extended abstracts (1000-1500 words) that:
 
 ## Important Dates
 
-Please email Brian Ballsun-Stanton (brian.ballsun-stanton@mq.edu.au) by Jan 30, 2025 with your extended abstract, intended for participation in the Symposium. It will be read by Brian, Ines, and Max. If it is accepted, we expect that you will be willing to contribute on that topic to an edited volume, due in October 2025. 
+Please [submit your extended abstract on pretalx](https://pretalx.iacapconf.org/iacap-2025/cfp?submission_type=5232-extended-abstract-for-teaching-ai-symposium-and-volume) by Jan 30, 2025 with your extended abstract, intended for participation in the Symposium. It will be read by Brian, Ines, and Max. If it is accepted, we expect that you will be willing to contribute on that topic to an edited volume, due in October 2025. 
 
+Submit here: [https://pretalx.iacapconf.org/iacap-2025/cfp?submission_type=5232-extended-abstract-for-teaching-ai-symposium-and-volume](https://pretalx.iacapconf.org/iacap-2025/cfp?submission_type=5232-extended-abstract-for-teaching-ai-symposium-and-volume)
 
 ## **Research and Ethics**
 
