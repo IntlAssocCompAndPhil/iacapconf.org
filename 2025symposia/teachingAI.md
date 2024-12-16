@@ -1,5 +1,5 @@
+---
 title: Call for Abstracts for the Teaching With and About AI using Engagement Philosophy and Case Studies Symposium, IACAP/AISB-25
-
 ---
 
 ## Conveners
