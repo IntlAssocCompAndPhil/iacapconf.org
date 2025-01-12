@@ -46,7 +46,7 @@ Accepted contributors should expect to submit their full papers to an edited vol
 
 ## Format and Timeline:
 
-We propose a full-day symposium structured around experiential learning and collaborative analysis. The morning workshop will demonstrate practical applications, followed by presentation sessions and concluding with collaborative analysis of emerging themes. .
+We propose a full-day symposium structured around experiential learning and collaborative analysis. The morning workshop will demonstrate practical applications, followed by presentation sessions and concluding with collaborative analysis of emerging themes.
 
 ## Submission Guidelines:
 
@@ -60,7 +60,7 @@ We seek extended abstracts (1000-1500 words) that:
 
 ## Important Dates:
 
-Please [submit your extended abstract on pretalx](https://pretalx.iacapconf.org/iacap-2025/submit/In34fa/info/?submission_type=5232-extended-abstract-for-teaching-ai-symposium-and-volume) by 30 Jan 2025 with your extended abstract, intended for participation in the Symposium. It will be read by Brian, Ines, and Max. If it is accepted, we expect that you will be willing to contribute on that topic to an edited volume, due in October 2025. 
+Please [submit your extended abstract on pretalx](https://pretalx.iacapconf.org/iacap-2025/submit/In34fa/info/?submission_type=5232-extended-abstract-for-teaching-ai-symposium-and-volume) by 28 Feb 2025 with your extended abstract, intended for participation in the Symposium. It will be read by Brian, Ines, and Max. If it is accepted, we expect that you will be willing to contribute on that topic to an edited volume, due in October 2025. Please contact [brian.ballsun-stanton@mq.edu.au](mailto:brian.ballsun-stanton@mq.edu.au) *earlier* if you are planning to submit an abstract so that we may discuss topics and to see if it fits our theme before submission. If it is a good fit, we may provide access to the research material. 
 
 Submit here: [https://pretalx.iacapconf.org/iacap-2025/submit/In34fa/info/?submission_type=5232-extended-abstract-for-teaching-ai-symposium-and-volume](https://pretalx.iacapconf.org/iacap-2025/submit/In34fa/info/?submission_type=5232-extended-abstract-for-teaching-ai-symposium-and-volume)
 
