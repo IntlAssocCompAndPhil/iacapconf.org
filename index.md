@@ -62,6 +62,7 @@ Depending on format, submissions may be published in proceedings either as exten
 ## Calls for Symposia Contributions
 
 * Symposium and Edited Volume: [Teaching With and About AI using Engagement Philosophy and Case Studies](2025symposia/teachingAI)
+* Symposium: [AI and Animals: Ethical Impacts of Artificial Intelligence on Non-humans](https://www.4tu.nl/ethics/news/AI%20and%20Animals/)
 
 # Important Dates
 
