@@ -63,7 +63,7 @@ Depending on format, submissions may be published in proceedings either as exten
 
 * Symposia Proposals due date (_new_, was December 1): January 15, 2025.
 * Notification of acceptance for Symposia proposals: December 9, 2024 for all submissions sent before December 1, all others January 30, 2025.
-* Extended Abstracts (approx. 1000 words) for individual Presentations, Posters, and  Workshops independent of Symposia, due date (_new_, was December 20): January 15, 2025.
+* Extended Abstracts (approx. 1000 words) for individual Presentations, Posters, and  Workshops independent of Symposia, due date (_new_, was December 20): January 15, 2025. _We will accept submissions for a few more days._
 * Notification of acceptance for Presentations, Posters, Workshops: March 31, 2025.
 * Conference registration opens: April 1, 2025.
 (For individual papers, posters, and workshops: In case you need a visa, please note this with your submission so that we can facilitate an early review.)
