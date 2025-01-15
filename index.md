@@ -61,8 +61,9 @@ Depending on format, submissions may be published in proceedings either as exten
 
 ## Calls for Symposia Contributions
 
-* Symposium and Edited Volume: [Teaching With and About AI using Engagement Philosophy and Case Studies](2025symposia/teachingAI)
-* Symposium: [AI and Animals: Ethical Impacts of Artificial Intelligence on Non-humans](https://www.4tu.nl/ethics/news/AI%20and%20Animals/)
+If you consider submitting a paper for a symposium at IACAP/AISB, the symposia have their own specifications and deadlines. Here are symposia accepted to date that are open for submissions:
+* Symposium and Edited Volume: [Teaching With and About AI using Engagement Philosophy and Case Studies](2025symposia/teachingAI). Deadline: 28 February 2025.
+* Symposium: [AI and Animals: Ethical Impacts of Artificial Intelligence on Non-humans](https://www.4tu.nl/ethics/news/AI%20and%20Animals/). Deadline: 14 February 2025.
 
 # Important Dates
 
