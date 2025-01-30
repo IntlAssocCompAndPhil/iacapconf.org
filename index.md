@@ -24,16 +24,20 @@ The International Association for Computing and Philosophy (IACAP) and the Socie
 * **Conference location**: Enschede, NL.
 * **Conference host**: University of Twente
 
-Deadline for [Symposia](https://pretalx.iacapconf.org/iacap-2025/cfp?submission_type=4821-symposium) submission is _15 January 2025_ (was 1 December 2024, _see extended deadlines below_).
-
 ## Keynote Speakers
 
 * AISB Keynote - Philip Brey
 * IACAP Covey Award Address – To be announced. Nominations: [https://www.iacap.org/2024/10/02/call-for-nominations-the-covey-award-2025/](https://www.iacap.org/2024/10/02/call-for-nominations-the-covey-award-2025/)
 * IACAP Simon Award Address – To be announced. Nominations: [https://www.iacap.org/2024/10/02/call-for-nominations-the-simon-award-2025/](https://www.iacap.org/2024/10/02/call-for-nominations-the-simon-award-2025/)
 
+## Calls for Symposia Contributions (still open)
 
-## Call for Abstracts and Symposia Proposals 
+If you consider submitting a paper for a symposium at IACAP/AISB, each symposium has its own submission format, specifications and timeline. Here are the symposia accepted to date that are open for submissions:
+* Symposium and Edited Volume: [Teaching With and About AI using Engagement Philosophy and Case Studies](2025symposia/teachingAI). Deadline: 28 February 2025.
+* Symposium and Proceedings: [Moral and Legal AI Alignment](https://alignment.udk.ai/). Deadline: 28 February 2025.
+* Symposium: [AI and Animals: Ethical Impacts of Artificial Intelligence on Non-humans](https://www.4tu.nl/ethics/news/AI%20and%20Animals/). Deadline: 14 February 2025.
+
+## Call for Abstracts and Symposia Proposals (all closed)
 
 The International Association for Computing and Philosophy (IACAP) has a long-lasting tradition of promoting philosophical dialogue and interdisciplinary research on all aspects of computing as it relates to philosophy. IACAP’s members have contributed to shaping the philosophical (both theoretical and applied) debate about computing, information technologies, and artificial intelligence. 
 
@@ -59,18 +63,11 @@ Authors of papers are free to decide whether they submit their contributions to 
 
 Depending on format, submissions may be published in proceedings either as extended abstracts or as full papers. 
 
-## Calls for Symposia Contributions
-
-If you consider submitting a paper for a symposium at IACAP/AISB, each symposium has its own submission format, specifications and timeline. Here are the symposia accepted to date that are open for submissions:
-* Symposium and Edited Volume: [Teaching With and About AI using Engagement Philosophy and Case Studies](2025symposia/teachingAI). Deadline: 28 February 2025.
-* Symposium and Proceedings: [Moral and Legal AI Alignment](https://alignment.udk.ai/). Deadline: 28 February 2025.
-* Symposium: [AI and Animals: Ethical Impacts of Artificial Intelligence on Non-humans](https://www.4tu.nl/ethics/news/AI%20and%20Animals/). Deadline: 14 February 2025.
-
 # Important Dates
 
-* Symposia Proposals due date (_new_, was December 1): January 15, 2025.
+* Symposia Proposals due date (_extended_, was December 1): January 15, 2025.
 * Notification of acceptance for Symposia proposals: December 9, 2024 for all submissions sent before December 1, all others January 30, 2025.
-* Extended Abstracts (approx. 1000 words) for individual Presentations, Posters, and  Workshops independent of Symposia, due date (_new_, was December 20): January 15, 2025. _We will accept submissions for a few more days._
+* Extended Abstracts (approx. 1000 words) for individual Presentations, Posters, and  Workshops independent of Symposia, due date (_extended_, was December 20): January 15, 2025. 
 * Notification of acceptance for Presentations, Posters, Workshops: March 31, 2025.
 * Conference registration opens: April 1, 2025.
 (For individual papers, posters, and workshops: In case you need a visa, please note this with your submission so that we can facilitate an early review.)
