@@ -37,6 +37,12 @@ If you consider submitting a paper for a symposium at IACAP/AISB, each symposium
 * Symposium and Proceedings: [Moral and Legal AI Alignment](https://alignment.udk.ai/). Deadline: 28 February 2025.
 * Symposium: [AI and Animals: Ethical Impacts of Artificial Intelligence on Non-humans](https://www.4tu.nl/ethics/news/AI%20and%20Animals/). Deadline: 14 February 2025.
 
+## Accepted Symposia in closed format (no call for contributions) ##
+
+* Advancing Debates on the Epistemology of Medical AI, with Juan M. Durán, Emanuele Ratti, Emma-Jane Spencer and Chirag Arora 
+* The Epistemic Risks of AI Integration, with Ian Robertson, Sascha Fink, Hadeel Naeem and Brandon Ashby
+* Values and AI Systems, with Vincent C. Müller, Max Hellrigel-Holderbaum, Ibifuro Robert Jaja and Eleonora Catena 
+
 ## Call for Abstracts and Symposia Proposals (all closed)
 
 The International Association for Computing and Philosophy (IACAP) has a long-lasting tradition of promoting philosophical dialogue and interdisciplinary research on all aspects of computing as it relates to philosophy. IACAP’s members have contributed to shaping the philosophical (both theoretical and applied) debate about computing, information technologies, and artificial intelligence. 
