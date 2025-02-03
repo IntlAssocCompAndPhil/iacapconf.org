@@ -1,6 +1,6 @@
 ---
-title: Reimagining AI Agents: Artificial, Angelic, or Adversarial
-Intelligences? Symposium, IACAP/AISB-25
+title: "Reimagining AI Agents: Artificial, Angelic, or Adversarial
+Intelligences? Symposium, IACAP/AISB-25"
 ---
 
 **Symposium Date & Location:**
@@ -13,9 +13,7 @@ Intelligences? Symposium, IACAP/AISB-25
 **📌 Abstract Submission Deadline: 15.3.2025\
 📌 Notification of Acceptance: 1.4.2025**
 
-**\
-Submission link: <https://pretalx.iacapconf.org/iacap-2025/cfp?submission_type=5452-extended-abstract-for-reimagining-ai-agents-artificial-angelic-or-adversarial-intelligences>\
-**
+**Submission link:** <https://pretalx.iacapconf.org/iacap-2025/cfp?submission_type=5452-extended-abstract-for-reimagining-ai-agents-artificial-angelic-or-adversarial-intelligences>
 
 ## Call for Papers: Symposium on AI, Agency, and Non-Human Intelligence
 
