@@ -11,7 +11,7 @@ title: "Bridging Justice and Meaningful Human Control in Medical AI Symposium, I
 
 **📌 Abstract Submission Deadline: 28.02.2025\
 📌 Notification of Acceptance: 28.03.2025\
-📌 Camera-ready Camera-ready Copy for Proceedings: 28.04.2025**
+📌 Camera-ready Copy for Proceedings: 28.04.2025**
 
 **Submission link:** <https://easychair.org/my/conference?conf=jmhc2025>
 
