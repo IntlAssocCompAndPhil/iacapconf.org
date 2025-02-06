@@ -7,15 +7,15 @@ title: "Bridging Justice and Meaningful Human Control in Medical AI Symposium, I
 **📅 July 1-3\
 📍 University of Twente, Enschede, NL**
 
-## Call for Papers
+## Important Dates
 
 **📌 Abstract Submission Deadline: 28.02.2025\
 📌 Notification of Acceptance: 28.03.2025\
-📌 Camera-ready copy: 28.04.2025**
+📌 Camera-ready Camera-ready Copy for Proceedings: 28.04.2025**
 
 **Submission link:** <https://easychair.org/my/conference?conf=jmhc2025>
 
-## Bridging Justice and Meaningful Human Control in Medical AI
+## Overview
 
 The deployment of AI systems in healthcare (in diagnosis, treatment recommendations, risk assessments, surgery and other domains) raises questions about their responsible use. Due to their self-learning properties and epistemic limitations (e.g., opacity), AI may create so-called responsibility gaps (Matthias, 2004). Developed as a way to counter the emergence of these gaps (Mecacci et al. 2024), meaningful human control requires AI systems to be responsive to the reasons of relevant agents and that agents remain ultimately responsible for the system behavior. But what if unjust power dynamics prevent possibly relevant agents from rendering their reasons accessible to the AI system?  How can vulnerable social groups – but also medical professionals - maintain their epistemic and moral agency under conditions of (epistemic) injustice (see, e.g., Pozzi, 2023)? In other words, to what extent does meaningful human control require (epistemic) justice? This also connects to the debate on patients’ empowerment, that is the question to what extent can AI give patients more or less power over their health and well-being.  This symposium aims to bring together scholars working on justice, responsibility, Meaningful Human Control, and empowerment in AI to explore fruitful points of intersection between these domains, with a specific focus on medical technologies. The topic urges us to bring together scholars working on the ethics of AI, the epistemology of AI, law, medical ethics, the design-engineering perspective, and their crossovers.
 
@@ -33,10 +33,6 @@ The deployment of AI systems in healthcare (in diagnosis, treatment recommendati
 
 Submissions 	must 	be 	abstracts 	and 	should 	be 	sent 	via [https://easychair.org/my/conference?conf=jmhc2025](https://easychair.org/my/conference?conf=jmhc2025) 
 We request that abstracts range between 500 and 1000 words. Each abstract will receive at least two reviews. Selected abstracts will be published in the general proceedings of the IACAP / AISB Conference, with the proviso that at least ONE author attends the symposium, in person, to present the paper and participate in general symposium activities. 
-
-📌 **Deadline fort Abstracts:** 28 February 2025 
-📌 **Notification of Acceptance:** 28 March 2025
-📌 **Camera-ready Copy for Proceedings:** 28 April 2025
 
 
 ## Symposium Organisers
