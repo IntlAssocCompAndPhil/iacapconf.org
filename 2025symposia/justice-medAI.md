@@ -2,10 +2,15 @@
 title: "Bridging Justice and Meaningful Human Control in Medical AI Symposium, IACAP/AISB-25"
 ---
 
-**Symposium Date & Location:**
+**Symposium Date & Location**
 
 **📅 July 1-3\
 📍 University of Twente, Enschede, NL**
+
+**Invited Speakers**
+
+- Lily Frank (TU Eindhoven)
+- Patrik Hummel (TU Eindhoven)
 
 ## Important Dates
 
