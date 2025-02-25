@@ -35,7 +35,7 @@ The International Association for Computing and Philosophy (IACAP) and the Socie
 If you consider submitting a paper for a symposium at IACAP/AISB, each symposium has its own submission format, specifications and timeline. Here are the symposia that are open for submissions:
 * Symposium and Edited Volume: [Teaching With and About AI using Engagement Philosophy and Case Studies](2025symposia/teachingAI). Deadline: 28 February 2025.
 * Symposium and Proceedings: [Moral and Legal AI Alignment](https://alignment.udk.ai/). Deadline (extended): 15 March 2025.
-* Symposium: [AI and Animals: Ethical Impacts of Artificial Intelligence on Non-humans](https://www.4tu.nl/ethics/news/AI%20and%20Animals/). Deadline: 14 February 2025.
+* Symposium: AI and Animals: Ethical Impacts of Artificial Intelligence on Non-humans. Deadline: 14 February 2025 – _submissions closed_.
 * Symposium: [Reimagining AI Agents: Artificial, Angelic, or Adversarial Intelligences?](2025symposia/reimaginingAI). Deadline: 15 March 2025.
 * Symposium: [Bridging Justice and Meaningful Human Control in Medical AI](https://iacapconf.org/2025symposia/justice-medAI). Deadline: 28 February 2025.
 * Symposium: [Generative Companionship in the Digital Age: On Human-AI Relationships and the Ethical Landscape Surrounding Artificial Others](https://genai-human-relationship.weebly.com/symposium.html). Deadline: 15 March 2025.
