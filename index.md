@@ -37,7 +37,7 @@ If you consider submitting a paper for a symposium at IACAP/AISB, each symposium
 * Symposium and Proceedings: [Moral and Legal AI Alignment](https://alignment.udk.ai/). Deadline (extended): 15 March 2025.
 * Symposium: AI and Animals: Ethical Impacts of Artificial Intelligence on Non-humans. Deadline: 14 February 2025 – _submissions closed_.
 * Symposium: [Reimagining AI Agents: Artificial, Angelic, or Adversarial Intelligences?](2025symposia/reimaginingAI). Deadline: 15 March 2025.
-* Symposium: [Bridging Justice and Meaningful Human Control in Medical AI](https://iacapconf.org/2025symposia/justice-medAI). Deadline: 28 February 2025.
+* Symposium: [Bridging Justice and Meaningful Human Control in Medical AI](https://iacapconf.org/2025symposia/justice-medAI). Deadline (extended): 15 March 2025.
 * Symposium: [Generative Companionship in the Digital Age: On Human-AI Relationships and the Ethical Landscape Surrounding Artificial Others](https://genai-human-relationship.weebly.com/symposium.html). Deadline: 15 March 2025.
 
 ## Accepted Symposia in closed format (no call for contributions) ##
