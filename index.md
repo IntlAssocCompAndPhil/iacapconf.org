@@ -27,8 +27,8 @@ The International Association for Computing and Philosophy (IACAP) and the Socie
 ## Keynote Speakers
 
 * AISB Keynote - Philip Brey
-* IACAP Covey Award Address – To be announced. Nominations: [https://www.iacap.org/2024/10/02/call-for-nominations-the-covey-award-2025/](https://www.iacap.org/2024/10/02/call-for-nominations-the-covey-award-2025/)
-* IACAP Simon Award Address – To be announced. Nominations: [https://www.iacap.org/2024/10/02/call-for-nominations-the-simon-award-2025/](https://www.iacap.org/2024/10/02/call-for-nominations-the-simon-award-2025/)
+* IACAP Covey Award Address – To be announced soon. Nominations (closed): [https://www.iacap.org/2024/10/02/call-for-nominations-the-covey-award-2025/](https://www.iacap.org/2024/10/02/call-for-nominations-the-covey-award-2025/)
+* IACAP Simon Award Address – To be announced soon. Nominations (closed): [https://www.iacap.org/2024/10/02/call-for-nominations-the-simon-award-2025/](https://www.iacap.org/2024/10/02/call-for-nominations-the-simon-award-2025/)
 
 ## Calls for Symposia Contributions (still open)
 
