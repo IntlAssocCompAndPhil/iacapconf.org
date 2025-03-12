@@ -10,7 +10,7 @@ Intelligences? Symposium, IACAP/AISB-25"
 
 **Call for Papers Deadline:**
 
-**📌 Abstract Submission Deadline: 15.3.2025\
+**📌 Abstract Submission Deadline (extended): 28.3.2025\
 📌 Notification of Acceptance: 1.4.2025**
 
 **Submission link:** <https://pretalx.iacapconf.org/iacap-2025/cfp?submission_type=5452-extended-abstract-for-reimagining-ai-agents-artificial-angelic-or-adversarial-intelligences>
