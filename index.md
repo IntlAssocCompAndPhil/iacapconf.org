@@ -27,18 +27,18 @@ The International Association for Computing and Philosophy (IACAP) and the Socie
 ## Keynote Speakers
 
 * AISB Keynote - Philip Brey
-* IACAP Covey Award Address – To be announced soon. Nominations are closed.
+* IACAP Covey Award Address – [Vincent C. Müller](https://www.iacap.org/2025/03/29/2025-covey-award-winner-vincent-c-muller/)
 * IACAP Simon Award Address – To be announced soon. Nominations are closed.
 
-## Calls for Symposia Contributions (still open)
+## Calls for Symposia Contributions (now closed or soon closing)
 
 If you consider submitting a paper for a symposium at IACAP/AISB, each symposium has its own submission format, specifications and timeline. Here are the symposia that are open for submissions:
 * Symposium and Edited Volume: [Teaching With and About AI using Engagement Philosophy and Case Studies](2025symposia/teachingAI). Deadline: 28 February 2025.
-* Symposium and Proceedings: [Moral and Legal AI Alignment](https://alignment.udk.ai/). Deadline (extended): 15 March 2025.
+* Symposium and Proceedings: [Moral and Legal AI Alignment](https://alignment.udk.ai/). Deadline (extended): 15 March 2025 – _submissions closed_.
 * Symposium: AI and Animals: Ethical Impacts of Artificial Intelligence on Non-humans. Deadline: 14 February 2025 – _submissions closed_.
 * Symposium: [Reimagining AI Agents: Artificial, Angelic, or Adversarial Intelligences?](2025symposia/reimaginingAI). Deadline (extended): 28 March 2025.
-* Symposium: [Bridging Justice and Meaningful Human Control in Medical AI](https://iacapconf.org/2025symposia/justice-medAI). Deadline (extended): 15 March 2025.
-* Symposium: [Generative Companionship in the Digital Age: On Human-AI Relationships and the Ethical Landscape Surrounding Artificial Others](https://genai-human-relationship.weebly.com/symposium.html). Deadline: 15 March 2025.
+* Symposium: [Bridging Justice and Meaningful Human Control in Medical AI](https://iacapconf.org/2025symposia/justice-medAI). Deadline (extended): 15 March 2025 – _submissions closed_.
+* Symposium: [Generative Companionship in the Digital Age: On Human-AI Relationships and the Ethical Landscape Surrounding Artificial Others](https://genai-human-relationship.weebly.com/symposium.html). Deadline: 15 March 2025– _submissions closed_.
 
 ## Accepted Symposia in closed format (no call for contributions) ##
 
