@@ -26,7 +26,7 @@ The International Association for Computing and Philosophy (IACAP) and the Socie
 
 ## Keynote Speakers
 
-* AISB Keynote - Philip Brey
+* AISB Keynote - [Philip Brey](https://people.utwente.nl/p.a.e.brey)
 * IACAP Covey Award Address – [Vincent C. Müller](https://www.iacap.org/2025/03/29/2025-covey-award-winner-vincent-c-muller/)
 * IACAP Simon Award Address – To be announced soon. Nominations are closed.
 
