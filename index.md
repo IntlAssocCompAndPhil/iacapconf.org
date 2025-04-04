@@ -32,7 +32,7 @@ The International Association for Computing and Philosophy (IACAP) and the Socie
 
 ## Calls for Symposia Contributions (_now all closed_)
 
-Each symposium at IACAP/AISB has its own submission format, specifications and timeline. Here are the symposia that were open for submissions:
+Each symposium at IACAP/AISB has its own programme committee, submission format, specifications and timeline. Here are the symposia that were open for submissions:
 * Symposium and Edited Volume: [Teaching With and About AI using Engagement Philosophy and Case Studies](2025symposia/teachingAI). Deadline: 28 February 2025.
 * Symposium and Proceedings: [Moral and Legal AI Alignment](https://alignment.udk.ai/). Deadline (extended): 15 March 2025.
 * Symposium: AI and Animals: Ethical Impacts of Artificial Intelligence on Non-humans. Deadline: 14 February 2025.
