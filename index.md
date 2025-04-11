@@ -18,6 +18,7 @@ The International Association for Computing and Philosophy (IACAP) and the Socie
 
 * **Conference dates**: July 1-3
 * **Conference website**: [https://iacapconf.org/](https://iacapconf.org/)
+* **Conference registration**: coming soon 
 * **Host Organisation Websites**:
   * [IACAP.org](https://iacap.org)
   * [AISB.org.uk](https://aisb.org.uk/)
