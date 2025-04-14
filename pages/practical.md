@@ -1,3 +1,8 @@
+---
+layout: page
+title: Practical Information
+---
+
 # Practical Information
 
 **On this page:** Getting to IACAP/AISB-25 – Finding your way on campus – Hotels
