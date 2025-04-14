@@ -48,7 +48,7 @@ This highly interdisciplinary workshop is free and open to everyone, although pr
 
 Questions about the conference to: [Y. J. Erden](mailto:y.j.erden@utwente.nl) and [Stephen Rainey](mailto:S.Rainey@tudelft.nl) 
 Questions about the symposia to: [Y. J. Erden](mailto:y.j.erden@utwente.nl) and [Stephen Rainey](mailto:S.Rainey@tudelft.nl) 
-Questions about non-symposia presentations, posters and registration technicalities: [Arzu Fomanek, Björn Lundgren, Hajo Greif](iacap@ballsun.com) 
+Questions about non-symposia presentations, posters and registration technicalities: [Arzu Fomanek, Björn Lundgren, Hajo Greif, Brian Ballsun-Stanton](iacap@ballsun.com) 
 
 ## Call for Contriutions (archive) 
 You will find the call for contributions [here](https://iacapconf.org/pages/cfp)
