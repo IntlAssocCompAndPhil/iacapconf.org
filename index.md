@@ -12,9 +12,13 @@ layout: home
 
 1-3 July 2025, University of Twente, NL
 
-* **[Call for Abstracts](https://pretalx.iacapconf.org/iacap-2025/cfp)**
+The [International Association for Computing and Philosophy](https://iacap.org) (IACAP) and the [Society for the Study of Artificial Intelligence and Simulation of Behaviour](https://aisb.org.uk/) (AISB) will host a joint conference from 1-3 July, 2025 at the University of Twente, NL. Submissions are now closed. The programme will be published soon.
 
-The International Association for Computing and Philosophy (IACAP) and the Society for the Study of Artificial Intelligence and Simulation of Behaviour (AISB) will host a joint conference in July 2025. Please see below for joint CFA.
+On 30 June, 4TU.ethics will host a workshop on AI and neurotechnology at the University of Twente that will directly precede the conference. This workshop, organised in conjunction with member societies IACAP and AISB, also comprises the formal opening of the joint IACAP-AISB conference. The conference will include symposia, talks, posters, and panels on a range of topics from AI to computing. The 4TU.ethics workshop will give space to consider AI and neurotechnology ethics before an already exciting programme of events.
+
+This highly interdisciplinary workshop is free and open to everyone, although priority will be given to members of 4TU.ethics and those who are registered to attend the conference. The workshop will be followed by a reception which doubles as a 4TU.ethics social event, allowing visitors the opportunity to meet up and (further) discuss ideas over drinks. The workshop is planned in association with this [special issue on NeuroAI](https://www.elspublishing.com/journals/law-ethics-technology/special_issues/ai-enabled-neurotechnologies). 
+
+## Important Information
 
 * **Conference dates**: July 1-3
 * **Conference website**: [https://iacapconf.org/](https://iacapconf.org/)
@@ -24,12 +28,32 @@ The International Association for Computing and Philosophy (IACAP) and the Socie
   * [AISB.org.uk](https://aisb.org.uk/)
 * **Conference location**: Enschede, NL.
 * **Conference host**: University of Twente
+* **[Call for Abstracts (now closed)](https://pretalx.iacapconf.org/iacap-2025/cfp)**
+
 
 ## Keynote Speakers
 
 * AISB Keynote - [Philip Brey](https://people.utwente.nl/p.a.e.brey)
 * IACAP Covey Award Address – [Vincent C. Müller](https://www.iacap.org/2025/03/29/2025-covey-award-winner-vincent-c-muller/)
 * IACAP Simon Award Address – [Emily E. Sullivan](https://www.iacap.org/2025/04/07/2025-simon-award-winner-emily-sullivan/)
+
+## IACAP-AISB-2025 Organising Committee [OC]
+ 
+* Y. J. Erden (Univeristy of Twente)
+* Stephen Rainey (TU Delft) 
+* Rob Wortham (University of Bath)
+* Arzu Formanek (Fraunhofer Institute)
+* Björn Lundgren (University of Erlangen)
+* Hajo Greif (Warsaw University of Technology)
+
+Questions about the conference to: [Y. J. Erden](mailto:y.j.erden@utwente.nl) and [Stephen Rainey](mailto:S.Rainey@tudelft.nl) 
+Questions about the symposia to: [Y. J. Erden](mailto:y.j.erden@utwente.nl) and [Stephen Rainey](mailto:S.Rainey@tudelft.nl) 
+Questions about non-symposia presentations, posters and registration technicalities: [Arzu Fomanek, Björn Lundgren, Hajo Greif](iacap@ballsun.com) 
+
+***
+
+***
+
 
 ## Calls for Symposia Contributions (_now all closed_)
 
