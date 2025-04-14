@@ -1,6 +1,6 @@
 # Practical Information
 
-**On this page:** Getting to IACAP/AISB-25 | Finding your way on campus | Hotels
+**On this page:** Getting to IACAP/AISB-25 – Finding your way on campus – Hotels
 
 ## Location of the University of Twente Campus
 
