@@ -53,8 +53,6 @@ Questions about non-symposia presentations, posters and registration technicalit
 ## Call for Contriutions (archive) 
 You will find the call for contributions [here](https://iacapconf.org/pages/cfp)
 
-***
-
 ## Join the Community
 
 
