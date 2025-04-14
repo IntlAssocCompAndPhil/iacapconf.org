@@ -47,7 +47,9 @@ This highly interdisciplinary workshop is free and open to everyone, although pr
 * Hajo Greif (Warsaw University of Technology)
 
 Questions about the conference to: [Y. J. Erden](mailto:y.j.erden@utwente.nl) and [Stephen Rainey](mailto:S.Rainey@tudelft.nl) 
+
 Questions about the symposia to: [Y. J. Erden](mailto:y.j.erden@utwente.nl) and [Stephen Rainey](mailto:S.Rainey@tudelft.nl) 
+
 Questions about non-symposia presentations, posters and registration technicalities: [Arzu Fomanek, Björn Lundgren, Hajo Greif, Brian Ballsun-Stanton](iacap@ballsun.com) 
 
 ## Call for Contriutions (archive) 
