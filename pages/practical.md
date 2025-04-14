@@ -1,5 +1,3 @@
-# Practical Information
-
 ## Location of the University of Twente Campus
 
 The IACAP/AISB 2025 conference venue is situated on the campus of the University of Twente, between the cities of Hengelo and Enschede. The address of the UT campus is [Drienerlolaan 5, 7522 NB Enschede, Netherlands.](https://www.google.nl/maps/place/Universiteit+Twente/@52.2396538,6.84979,17z/data=!3m2!4b1!5s0x47b813d9fcd767e3:0xd6c4861027d901e8!4m6!3m5!1s0x47b813d992e2ab01:0x790b33d6b663608f!8m2!3d52.2396538!4d6.84979!16zL20vMHBzN2g?entry=ttu)
@@ -23,8 +21,8 @@ The registration is organised in the open area on the ground floor of the Raveli
 **Rooms Ravelijn**  
 Room 1501 is on the ground floor. The rooms starting with 2 are on the first floor.
 
-**Rooms DesignLab  
-**When you enter the Gallery follow the sign (turn left) to DesignLab and walk the long corridor until you enter the DesignLab. Room Learn-X and room Inspire are both at your right hand.
+**Rooms DesignLab**  
+When you enter the Gallery follow the sign (turn left) to DesignLab and walk the long corridor until you enter the DesignLab. Room Learn-X and room Inspire are both at your right hand.
 
 ## Hotels
 
