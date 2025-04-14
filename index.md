@@ -18,6 +18,13 @@ On 30 June, 4TU.ethics will host a workshop on AI and neurotechnology at the Uni
 
 This highly interdisciplinary workshop is free and open to everyone, although priority will be given to members of 4TU.ethics and those who are registered to attend the conference. The workshop will be followed by a reception which doubles as a 4TU.ethics social event, allowing visitors the opportunity to meet up and (further) discuss ideas over drinks. The workshop is planned in association with this [special issue on NeuroAI](https://www.elspublishing.com/journals/law-ethics-technology/special_issues/ai-enabled-neurotechnologies). 
 
+
+## Keynote Speakers
+
+* AISB Keynote - [Philip Brey](https://people.utwente.nl/p.a.e.brey)
+* IACAP Covey Award Address – [Vincent C. Müller](https://www.iacap.org/2025/03/29/2025-covey-award-winner-vincent-c-muller/)
+* IACAP Simon Award Address – [Emily E. Sullivan](https://www.iacap.org/2025/04/07/2025-simon-award-winner-emily-sullivan/)
+
 ## Important Information
 
 * **Conference dates**: July 1-3
@@ -29,13 +36,6 @@ This highly interdisciplinary workshop is free and open to everyone, although pr
 * **Conference location**: Enschede, NL.
 * **Conference host**: University of Twente
 * **[Call for Abstracts (now closed)](https://pretalx.iacapconf.org/iacap-2025/cfp)**
-
-
-## Keynote Speakers
-
-* AISB Keynote - [Philip Brey](https://people.utwente.nl/p.a.e.brey)
-* IACAP Covey Award Address – [Vincent C. Müller](https://www.iacap.org/2025/03/29/2025-covey-award-winner-vincent-c-muller/)
-* IACAP Simon Award Address – [Emily E. Sullivan](https://www.iacap.org/2025/04/07/2025-simon-award-winner-emily-sullivan/)
 
 ## IACAP-AISB-2025 Organising Committee [OC]
  
