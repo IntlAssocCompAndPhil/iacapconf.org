@@ -13,7 +13,7 @@ Each symposium at IACAP/AISB has its own programme committee, submission format,
 * Symposium: [Bridging Justice and Meaningful Human Control in Medical AI](https://iacapconf.org/2025symposia/justice-medAI). Deadline (extended): 15 March 2025.
 * Symposium: [Generative Companionship in the Digital Age: On Human-AI Relationships and the Ethical Landscape Surrounding Artificial Others](https://genai-human-relationship.weebly.com/symposium.html). Deadline: 15 March 2025.
 
-## Accepted Symposia in closed format (no call for contributions) ##
+## Accepted Symposia in closed format (no call for contributions) 
 
 * Advancing Debates on the Epistemology of Medical AI, with Juan M. Durán, Emanuele Ratti, Emma-Jane Spencer and Chirag Arora 
 * The Epistemic Risks of AI Integration, with Ian Robertson, Sascha Fink, Hadeel Naeem and Brandon Ashby
@@ -45,7 +45,7 @@ Authors of papers are free to decide whether they submit their contributions to 
 
 Depending on format, submissions may be published in proceedings either as extended abstracts or as full papers. 
 
-# Important Dates
+## Important Dates
 
 * Symposia Proposals due date (_extended_, was December 1): January 15, 2025.
 * Notification of acceptance for Symposia proposals: December 9, 2024 for all submissions sent before December 1, all others January 30, 2025.
