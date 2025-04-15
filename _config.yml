@@ -30,6 +30,8 @@ github_username:
 header_pages:
   - pages/iacap.md
   - pages/aisb.md
+  - pages/practical.md
+  - pages/cfp.md
   - pages/past_conferences.md
 # Build settings
 theme: minima
