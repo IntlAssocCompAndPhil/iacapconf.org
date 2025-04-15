@@ -28,8 +28,8 @@ This highly interdisciplinary workshop is free and open to everyone, although pr
 ## Important Information
 
 * **Conference dates**: July 1-3
-* **Conference website**: [https://iacapconf.org/](https://iacapconf.org/)
-* **Conference registration**: coming soon 
+* **Conference website**: [iacapconf.org/](https://iacapconf.org/)
+* **Conference registration**: [2025.tickets.iacapconf.org/](https://2025.tickets.iacapconf.org/) – early bird rates untile May 31, registration closes June 15
 * **Host Organisation Websites**:
   * [IACAP.org](https://iacap.org)
   * [AISB.org.uk](https://aisb.org.uk/)
