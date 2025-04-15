@@ -29,6 +29,7 @@ github_username:
 
 header_pages:
   - pages/registration.md
+  - pages/schedule.md
   - pages/iacap.md
   - pages/aisb.md
   - pages/practical.md
