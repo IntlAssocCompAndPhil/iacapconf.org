@@ -23,10 +23,6 @@ Online you can check [the campus map](https://www.utwente.nl/download/campusmap.
 
 A map of the campus and an excerpt of the conference area can be found [here](https://www.utwente.nl/download/campusmap.pdf). The events and sessions of the conference take place in the Ravelijn (no. 10) and in DesignLab (no. 17). The Ravelijn is situated next to a few other buildings with in the middle a central square, O&O square (no. 0). All building entrances are located at the sides of this square. The DesignLab is located in the Gallery (no. 17) building. You can enter DesignLab via the front entrance on the O&O square.
 
-![Campus overview](/2025/Campus_Twente_Overview.png)
-
-![Campus detail](/2025/Campus_Twente_Detail.png)
-
 The registration is organised in the open area on the ground floor of the Ravelijn (no. 10). Lunches and poster sessions also take place in this open area. Symposia, plenary and parallel sessions take place in different rooms of Ravelijn and DesignLab. Please refer to the program schedule for the exact location.
 
 **Rooms Ravelijn**  
@@ -34,6 +30,10 @@ Room 1501 is on the ground floor. The rooms starting with 2 are on the first flo
 
 **Rooms DesignLab**  
 When you enter the Gallery follow the sign (turn left) to DesignLab and walk the long corridor until you enter the DesignLab. Room Learn-X and room Inspire are both at your right hand.
+
+![Campus overview](/2025/Campus_Twente_Overview.png)
+
+![Campus detail](/2025/Campus_Twente_Detail.png)
 
 ## Hotels
 
