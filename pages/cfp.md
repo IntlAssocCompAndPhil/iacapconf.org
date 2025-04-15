@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Call for Contributions
+title: Call for Proposals
 ---
 
 ## Calls for Symposia Contributions (_all closed_)
