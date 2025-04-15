@@ -3,8 +3,6 @@ layout: page
 title: Practical Information
 ---
 
-# Practical Information
-
 **On this page:** Getting to IACAP/AISB-25 – Finding your way on campus – Hotels
 
 ## Location of the University of Twente Campus
@@ -24,6 +22,10 @@ Online you can check [the campus map](https://www.utwente.nl/download/campusmap.
 ## On Campus
 
 A map of the campus and an excerpt of the conference area can be found [here](https://www.utwente.nl/download/campusmap.pdf). The events and sessions of the conference take place in the Ravelijn (no. 10) and in DesignLab (no. 17). The Ravelijn is situated next to a few other buildings with in the middle a central square, O&O square (no. 0). All building entrances are located at the sides of this square. The DesignLab is located in the Gallery (no. 17) building. You can enter DesignLab via the front entrance on the O&O square.
+
+![Campus overview](/2025/Campus_Twente_Overview.png)
+
+![Campus detail](/2025/Campus_Twente_Detail.png)
 
 The registration is organised in the open area on the ground floor of the Ravelijn (no. 10). Lunches and poster sessions also take place in this open area. Symposia, plenary and parallel sessions take place in different rooms of Ravelijn and DesignLab. Please refer to the program schedule for the exact location.
 
