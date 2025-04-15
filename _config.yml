@@ -28,6 +28,7 @@ twitter_username:
 github_username:  
 
 header_pages:
+  - [Registration](https://2025.tickets.iacapconf.org/)
   - pages/iacap.md
   - pages/aisb.md
   - pages/practical.md
