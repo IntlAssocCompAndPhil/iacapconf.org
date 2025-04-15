@@ -52,7 +52,7 @@ Questions about the symposia to: [Y. J. Erden](mailto:y.j.erden@utwente.nl) and 
 
 Questions about non-symposia presentations, posters and registration technicalities: [Arzu Fomanek, Björn Lundgren, Hajo Greif, Brian Ballsun-Stanton](iacap@ballsun.com) 
 
-## Call for Contriutions (archive) 
+## Call for Contributions (archive) 
 You will find the call for contributions [here](https://iacapconf.org/pages/cfp)
 
 ## Join the Community
