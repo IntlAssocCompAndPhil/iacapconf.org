@@ -1,6 +1,6 @@
 ---
 layout: page
-title: AISB.org.uk
+title: AISB
 ---
 
 Redirecting to <a href="https://aisb.org.uk/">https://aisb.org.uk/</a>...

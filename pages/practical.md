@@ -1,9 +1,14 @@
 ---
 layout: page
-title: Practical Information
+title: 2025 Information
+toc: true
 ---
 
-**On this page:** Getting to IACAP/AISB-25 – Finding your way on campus – Hotels
+**On this page:** 
+* [Getting to IACAP/AISB-25](#location-of-the-university-of-twente-campus) 
+* [Finding your way on campus](#on-campus) 
+* [Hotels](#hotels)
+* [Get your tickets](https://2025.tickets.iacapconf.org)
 
 ## Location of the University of Twente Campus
 
@@ -45,3 +50,6 @@ When you enter the Gallery follow the sign (turn left) to DesignLab and walk the
 | [**City Hotel Hengelo**](https://www.cityhotelhengelo.com/en/)<br><br>(5,2 km from campus UT) | Mail to [groups.hengelo@leonardo-hotels.nl](mailto:groups.hengelo@leonardo-hotels.nl) with reference IACAP/AISB 2025 for max. 12% discount on flexible prices for standard, kingsize bed- and superior rooms |
 | [**Van der Valk Hotel Hengelo**](https://www.hotelhengelo.com/special-discount/IACAP-AISB-25)<br><br>(8,9 km from campus UT) | Book directly [via this link](https://www.hotelhengelo.com/special-discount/IACAP-AISB-25) to get 5% discount and use code: HEN-IACAP2025 (valid till 15 June 2025) |
 
+## Registration
+
+[Get tickets](https://2025.tickets.iacapconf.org)

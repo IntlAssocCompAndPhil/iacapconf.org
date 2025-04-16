@@ -14,6 +14,8 @@ layout: home
 
 The [International Association for Computing and Philosophy](https://iacap.org) (IACAP) and the [Society for the Study of Artificial Intelligence and Simulation of Behaviour](https://aisb.org.uk/) (AISB) will host a joint conference from 1-3 July, 2025 at the University of Twente, NL. Submissions are closed, programme is in preparation, outline schedule is available [here](/pages/schedule.md).
 
+### 30 June 2025, 4TU.ethics Workshop 
+
 On 30 June, 4TU.ethics will host a workshop on AI and neurotechnology at the University of Twente that will directly precede the conference. This workshop, generously sponsored by 4TU.ethics, and organised in conjunction with member societies IACAP and AISB, also comprises the formal opening of the joint IACAP-AISB conference. The conference will include symposia, talks, posters, and panels on a range of topics from AI to computing. The 4TU.ethics workshop will give space to consider AI and neurotechnology ethics before an already exciting programme of events.
 
 This highly interdisciplinary workshop is free and open to everyone, although priority will be given to members of 4TU.ethics and those who are registered to attend the conference. The workshop will be followed by a reception which doubles as a 4TU.ethics social event, allowing visitors the opportunity to meet up and (further) discuss ideas over drinks. The workshop is planned in association with this [special issue on NeuroAI](https://www.elspublishing.com/journals/law-ethics-technology/special_issues/ai-enabled-neurotechnologies). 
@@ -36,6 +38,9 @@ This highly interdisciplinary workshop is free and open to everyone, although pr
 * **Conference location**: Enschede, NL.
 * **Conference host**: University of Twente
 * **[Call for Abstracts (now closed)](https://pretalx.iacapconf.org/iacap-2025/cfp)**
+* **Useful Resources:**
+  * [Practical Information](pages/practical)
+  * [Schedule](pages/schedule)
 
 ## IACAP-AISB-2025 Organising Committee [OC]
  
@@ -50,9 +55,10 @@ Questions about the conference to: [Y. J. Erden](mailto:y.j.erden@utwente.nl) an
 
 Questions about the symposia to: [Y. J. Erden](mailto:y.j.erden@utwente.nl) and [Stephen Rainey](mailto:S.Rainey@tudelft.nl) 
 
-Questions about non-symposia presentations, posters and registration technicalities: [Arzu Fomanek, Björn Lundgren, Hajo Greif, Brian Ballsun-Stanton](iacap@ballsun.com) 
+Questions about non-symposia presentations, posters and registration technicalities: [Arzu Fomanek, Björn Lundgren, Hajo Greif, Brian Ballsun-Stanton](mailto:iacap@ballsun.com) 
 
 ## Call for Proposals (archive) 
+
 You will find the call for proposals [here](https://iacapconf.org/pages/cfp)
 
 ## Join the Community
@@ -63,3 +69,6 @@ For updates on IACAP conferences and to be part of the conversation with other a
 * Our [Slack channel here](https://join.slack.com/t/iacapworkspace/shared_invite/zt-1qjs05kaa-BecKu_EZnBrPLUky0XV9xg)
 * Our [Mailing List here](https://listi.jpberlin.de/mailman/listinfo/iacap-announce) (no book or paper announcements)
 
+## Past conferences
+
+* See links to our [past conferences](pages/past_conferences.md)

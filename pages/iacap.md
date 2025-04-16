@@ -1,6 +1,6 @@
 ---
 layout: page
-title: IACAP.org
+title: IACAP
 ---
 
 Redirecting to <a href="https://www.iacap.org">https://www.iacap.org</a>...
