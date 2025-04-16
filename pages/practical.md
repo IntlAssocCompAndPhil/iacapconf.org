@@ -22,13 +22,15 @@ Tickets for the train can be bought beforehand on the [website of the NS](https:
 - **From Enschede** railway station take either bus 1 to Universiteit or 9 to Hengelo (buses pass the University). Get off at one of the line 1 stops on campus or for line 9, exit at _Kennispark_ or _Westerbegraafplaats/UT_ to enter our campus.
 - **From Enschede Kennispark** railway station take bus 1 to Universiteit. Get off at one of the stops on the campus. There are several bus stops on the campus. You can find them on [the campus map](https://www.utwente.nl/download/campusmap.pdf). During peak hours, there are extra bus lines.
 
+Like the rest of the Netherlands, the region of Twente has plenty of well-maintained bike lanes that take you across the cities, towns and countryside. Bikes are thus an easy and efficient way to get around and tour the area. The university is a 20 minute cycle ride from Enschede train station, and around the same from Hengelo station. Bike rental is also possible. You can find more details on the [UT page](https://www.utwente.nl/en/contact/route/#by-bike), or on [Visit Enschede](https://www.visit-enschede.com/bike-rental). Some hotels also offer bike rental, but bear in mind that they may have only a few available. We therefore recommend asking about these as soon as you book your room.
+
 Online you can check [the campus map](https://www.utwente.nl/download/campusmap.pdf) for the University of Twente. Our campus is home to a dynamic community where more than 12,000 students and 3,700 staff members, representing a hundred nationalities, use the latest knowledge and technology for a better future.
 
 ## On Campus
 
-A map of the campus and an excerpt of the conference area can be found [here](https://www.utwente.nl/download/campusmap.pdf). The events and sessions of the conference take place in the Ravelijn (no. 10) and in DesignLab (no. 17). The Ravelijn is situated next to a few other buildings with in the middle a central square, O&O square (no. 0). All building entrances are located at the sides of this square. The DesignLab is located in the Gallery (no. 17) building. You can enter DesignLab via the front entrance on the O&O square.
+Maps of the campus and an excerpt of the conference area can be found below, also downloadable [here](https://www.utwente.nl/download/campusmap.pdf). The events and sessions of the conference take place in the _Ravelijn (building no. 10)_ and in _DesignLab (no. 17)_. The Ravelijn is situated next to a few other buildings arramged around a central square, _O&O square (no. 0)_. All building entrances are located at the sides of this square. The DesignLab is located in the _Gallery (no. 17)_ building. You can enter DesignLab via the front entrance on the O&O square.
 
-The registration is organised in the open area on the ground floor of the Ravelijn (no. 10). Lunches and poster sessions also take place in this open area. Symposia, plenary and parallel sessions take place in different rooms of Ravelijn and DesignLab. Please refer to the program schedule for the exact location.
+The registration is organised in the open area on the ground floor of the _Ravelijn (no. 10)_. Lunches and poster sessions also take place in this open area. Symposia, plenary and parallel sessions take place in different rooms of Ravelijn and DesignLab. Please refer to the schedule for the exact location.
 
 **Rooms Ravelijn**  
 Room 1501 is on the ground floor. The rooms starting with 2 are on the first floor.

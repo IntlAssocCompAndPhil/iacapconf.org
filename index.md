@@ -44,7 +44,7 @@ This highly interdisciplinary workshop is free and open to everyone, although pr
 
 ## IACAP-AISB-2025 Organising Committee [OC]
  
-* Y. J. Erden (Univeristy of Twente)
+* Y. J. Erden (University of Twente)
 * Stephen Rainey (TU Delft) 
 * Rob Wortham (University of Bath)
 * Arzu Formanek (Fraunhofer Institute)
@@ -53,7 +53,9 @@ This highly interdisciplinary workshop is free and open to everyone, although pr
 
 Questions about the conference to: [Y. J. Erden](mailto:y.j.erden@utwente.nl) and [Stephen Rainey](mailto:S.Rainey@tudelft.nl) 
 
-Questions about the symposia to: [Y. J. Erden](mailto:y.j.erden@utwente.nl) and [Stephen Rainey](mailto:S.Rainey@tudelft.nl) 
+General questions about symposia to: [Y. J. Erden](mailto:y.j.erden@utwente.nl) and [Stephen Rainey](mailto:S.Rainey@tudelft.nl)
+
+Questions about symposium interna to the respective symposium organisers.
 
 Questions about non-symposia presentations, posters and registration technicalities: [Arzu Fomanek, Björn Lundgren, Hajo Greif, Brian Ballsun-Stanton](mailto:iacap@ballsun.com) 
 
