@@ -41,6 +41,8 @@ theme: minima
 plugins:
   - jekyll-include-cache
 
+xfun::pkg_load2(c("htmltools", "mime"))
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
