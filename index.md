@@ -18,8 +18,7 @@ The [International Association for Computing and Philosophy](https://iacap.org) 
 
 On 30 June, 4TU.ethics will host a workshop on AI and neurotechnology at the University of Twente that will directly precede the conference. This workshop, generously sponsored by 4TU.ethics, and organised in conjunction with member societies IACAP and AISB, also comprises the formal opening of the joint IACAP-AISB conference. The conference will include symposia, talks, posters, and panels on a range of topics from AI to computing. The 4TU.ethics workshop will give space to consider AI and neurotechnology ethics before an already exciting programme of events.
 
-This highly interdisciplinary workshop is free and open to everyone, although priority will be given to members of 4TU.ethics and those who are registered to attend the conference. The workshop will be followed by a reception which doubles as a 4TU.ethics social event, allowing visitors the opportunity to meet up and (further) discuss ideas over drinks. The workshop is planned in association with this [special issue on NeuroAI](https://www.elspublishing.com/journals/law-ethics-technology/special_issues/ai-enabled-neurotechnologies). 
-
+This highly interdisciplinary workshop is free and open to everyone, although priority will be given to members of 4TU.ethics and those who are registered to attend the conference. The workshop will be followed by a reception which doubles as a 4TU.ethics social event, allowing visitors the opportunity to meet up and (further) discuss ideas over drinks. The workshop is planned in association with this [special issue on NeuroAI](https://www.elspublishing.com/journals/law-ethics-technology/special_issues/ai-enabled-neurotechnologies).
 
 ## Keynote Speakers
 

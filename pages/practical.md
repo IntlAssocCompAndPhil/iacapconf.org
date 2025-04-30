@@ -5,8 +5,9 @@ toc: true
 ---
 
 **On this page:** 
-* [Getting to IACAP/AISB-25](#location-of-the-university-of-twente-campus) 
+* [Getting to IACAP/AISB-25](#location-of-the-university-of-twente-campus)
 * [Finding your way on campus](#on-campus) 
+* [About Design Lab](#design-lab) 
 * [Hotels](#hotels)
 * [Get your tickets](https://2025.tickets.iacapconf.org)
 
@@ -41,6 +42,10 @@ When you enter the Gallery follow the sign (turn left) to DesignLab and walk the
 ![Campus overview](/2025/Campus_Twente_Overview.png)
 
 ![Campus detail](/2025/Campus_Twente_Detail.png)
+
+## Design Lab
+
+The conference includes a collaboration with [DesignLab](https://www.utwente.nl/en/designlab/). As well as providing rooms for some of our symposia and other events, colleagues in DesignLab can also provide tours of their unique spaces for creative, transdisciplinary work on societal challenges. More information about the tours will be provided during the conference. You can find the route to reach DesignLab [here](https://www.utwente.nl/en/designlab/about-designLab/contact/#how-to-find-us).
 
 ## Hotels
 
