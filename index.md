@@ -30,7 +30,7 @@ This highly interdisciplinary workshop is free for members of 4TU.ethics and tho
 
 * **Conference dates**: July 1-3
 * **Conference website**: [iacapconf.org/](https://iacapconf.org/)
-* **Conference registration**: [2025.tickets.iacapconf.org/](https://2025.tickets.iacapconf.org/) – early bird rates until May 31, registration closes June 19
+* **Conference registration**: [2025.tickets.iacapconf.org/](https://2025.tickets.iacapconf.org/) – early bird rates until June 5 (extended), registration closes June 19
 * **Host Organisation Websites**:
   * [IACAP.org](https://iacap.org)
   * [AISB.org.uk](https://aisb.org.uk/)
