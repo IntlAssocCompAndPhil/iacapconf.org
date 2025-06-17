@@ -1,14 +1,12 @@
 ---
 layout: page
-title: Conduct
+title: Code of Conduct
 ---
-## IACAP/AISB-25 Code of Conduct
 
 IACAP and AISB are dedicated to providing a safe and harassment-free conference experience for everyone, regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age or religion. We do not tolerate harassment of conference participants in any form. Conference participants violating these rules may be sanctioned or expelled from the conference without a refund at the discretion of the conference organisers.   
    
 **Harassment includes, but is not limited to:**  
  
-
 * Verbal comments that reinforce social structures of domination related to gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age, religion  
 * Sexual images in public spaces  
 * Deliberate intimidation, stalking, or following  
@@ -22,7 +20,6 @@ IACAP and AISB are dedicated to providing a safe and harassment-free conference 
    
 **Enforcement:**  
  
-
 * Participants asked to stop any harassing behaviour are expected to comply immediately.  
 * If a participant engages in harassing behaviour, event organisers retain the right to take action to keep the event a welcoming environment for all participants. This includes warning the offender or expulsion from the conference with no refund.  
 * Event organisers may take action to redress anything designed to, or with the clear impact of, disrupting the event or making the environment hostile for any participants.  
