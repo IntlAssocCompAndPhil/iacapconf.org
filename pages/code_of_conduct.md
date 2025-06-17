@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Code of Conduct
+title: Conduct
 ---
 ## IACAP/AISB-25 Code of Conduct
 
