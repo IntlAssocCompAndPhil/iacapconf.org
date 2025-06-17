@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 2025 Information
+title: Information
 toc: true
 ---
 
