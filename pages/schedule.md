@@ -14,6 +14,7 @@ Schedule will be updated regularly. Latest version: 23 June, 2025. View below as
 
  <object data="/2025/IACAP-AISB_Program_2025-06-23.pdf" width="800" height="550"></object> 
 <br>
+---
 
  ## Book of Abstracts
 
