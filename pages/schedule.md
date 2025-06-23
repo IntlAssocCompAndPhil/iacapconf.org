@@ -5,10 +5,10 @@ toc: true
 ---
 
 **On this page:** 
-* [Schedule](#iacap/aisb-25-schedule)
+* [Schedule](#schedule)
 * [Book of Abstracts](#book-of-abstracts)
 
-## IACAP/AISB-25 Schedule
+## Schedule
 
 Schedule will be updated regularly. Latest version: 23 June, 2025. View below as embedded pdf or <a href="/2025/IACAP-AISB_Program_2025-06-23.pdf">download here</a>.
 
