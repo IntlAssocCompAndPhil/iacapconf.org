@@ -12,7 +12,7 @@ layout: home
 
 ### 1-3 July 2025, University of Twente, NL
 
-The [International Association for Computing and Philosophy](https://iacap.org) (IACAP) and the [Society for the Study of Artificial Intelligence and Simulation of Behaviour](https://aisb.org.uk/) (AISB) will host a joint conference from 1-3 July, 2025 at the University of Twente, NL. Submissions are closed, programme is available [here](/pages/schedule.md).
+The [International Association for Computing and Philosophy](https://iacap.org) (IACAP) and the [Society for the Study of Artificial Intelligence and Simulation of Behaviour](https://aisb.org.uk/) (AISB) will host a joint conference from 1-3 July, 2025 at the University of Twente, NL. Submissions and registration are closed, programme and abstracts are available [here](/pages/schedule.md), symposia proceedings [here](https://aisb.org.uk/wp-content/uploads/2025/06/AISB-IACAP-Convention2025.pdf).
 
 ### 30 June 2025, 4TU.ethics Workshop 
 
@@ -30,7 +30,7 @@ This highly interdisciplinary workshop is free for members of 4TU.ethics and tho
 
 * **Conference dates**: July 1-3
 * **Conference website**: [iacapconf.org/](https://iacapconf.org/)
-* **Conference proceedings** (from symposia): [pdf](https://aisb.org.uk/wp-content/uploads/2025/06/AISB-IACAP-Convention2025.pdf)
+* **Conference proceedings (from symposia)**: [pdf](https://aisb.org.uk/wp-content/uploads/2025/06/AISB-IACAP-Convention2025.pdf)
 * **[Conference registration (now closed)](https://2025.tickets.iacapconf.org/)**
 * **Code of Conduct**: [view here](pages/code_of_conduct)
 * **Host Organisation Websites**:
