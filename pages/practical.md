@@ -9,7 +9,6 @@ toc: true
 * [Finding your way on campus](#on-campus) 
 * [About Design Lab](#design-lab) 
 * [Hotels](#hotels)
-* [Get your tickets](https://2025.tickets.iacapconf.org)
 
 ## Location of the University of Twente Campus
 
@@ -56,7 +55,3 @@ The conference includes a collaboration with [DesignLab](https://www.utwente.nl/
 | **[InterCityHotel Enschede](https://intercityhotel-enschede.h-rez.com/)**<br><br>(4,3 km from campus UT) | Mail [completed form](/2025/Reservation_Form_Intercity_Hotel.pdf) to [enschede@intercityhotel.com](mailto:enschede@intercityhotel.com) (valid till 5 May 2025 or as long as available) |
 | [**City Hotel Hengelo**](https://www.cityhotelhengelo.com/en/)<br><br>(5,2 km from campus UT) | Mail to [groups.hengelo@leonardo-hotels.nl](mailto:groups.hengelo@leonardo-hotels.nl) with reference IACAP/AISB 2025 for max. 12% discount on flexible prices for standard, kingsize bed- and superior rooms |
 | [**Van der Valk Hotel Hengelo**](https://www.hotelhengelo.com/special-discount/IACAP-AISB-25)<br><br>(8,9 km from campus UT) | Book directly [via this link](https://www.hotelhengelo.com/special-discount/IACAP-AISB-25) to get 5% discount and use code: HEN-IACAP2025 (valid till 15 June 2025) |
-
-## Registration
-
-[Get tickets](https://2025.tickets.iacapconf.org)
