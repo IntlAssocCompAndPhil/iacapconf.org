@@ -5,10 +5,22 @@ toc: true
 ---
 
 **On this page:** 
+* [On-site information](#on-site-information)
 * [Getting to IACAP/AISB-25](#location-of-the-university-of-twente-campus)
 * [Finding your way on campus](#on-campus) 
 * [About Design Lab](#design-lab) 
 * [Hotels](#hotels)
+
+## On-site information
+
+- You will need to check in at the registration desk on arrival, and keep your conference badge visible at all times in order to access buildings and conference catering. 
+
+- AV equipment is available in all rooms. Computers are installed only in the Ravelijn building (check the [schedule](/pages/schedule.md) for tracks assigned to rooms starting with "RA").
+
+- If your symposium or talk is hosted in DesignLab (check the [schedule](/pages/schedule.md) for tracks assigned to rooms "Learn-X" and "Inspire"), you will need to bring your own laptops (or share one), plus any special connections, e.g. to attach a Mac to an AV wire. There are no computers in those rooms. 
+
+- For any practical questions or issues before or during the conference, please contact Saskia, Elize and Karin, who will also be at the registration desk each morning: [email contact](\mailto:secretariat-philosophy-bms@utwente.nl).
+ 
 
 ## Location of the University of Twente Campus
 
