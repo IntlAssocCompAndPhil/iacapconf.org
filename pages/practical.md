@@ -19,7 +19,7 @@ toc: true
 
 - If your symposium or talk is hosted in DesignLab (check the [schedule](/pages/schedule) for tracks assigned to rooms "Learn-X" and "Inspire"), you will need to bring your own laptops (or share one), plus any special connections, e.g. to attach a Mac to an AV wire. There are no computers in those rooms. 
 
-- For any practical questions or issues before or during the conference, please contact Saskia, Elize and Karin, who will also be at the registration desk each morning: [email contact](/mailto:secretariat-philosophy-bms@utwente.nl).
+- For any practical questions or issues before or during the conference, please contact Saskia, Elize and Karin, who will also be at the registration desk each morning: [email contact](mailto:secretariat-philosophy-bms@utwente.nl).
  
 
 ## Location of the University of Twente Campus
