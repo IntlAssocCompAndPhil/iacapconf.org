@@ -22,7 +22,7 @@ Schedule will be updated regularly. Latest version: 25 June, 2025. View below as
 
  A booklet with abstracts of all talks and posters can be viewed as an embedded pdf below or  <a href="/2025/IACAP-AISB-2025_Book_of_Abstracts.pdf">downloaded here</a>.
 
-  <object data="/2025/IACAP-AISB-2025_Book_of_Abstracts.pdf" width="800" height="1100"></object> 
+<object data="/2025/IACAP-AISB-2025_Book_of_Abstracts.pdf" width="800" height="1100"></object> 
 
 
 <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
