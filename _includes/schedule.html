@@ -1,1965 +1,1567 @@
-
-<style>
-/* Base styles */
-* { box-sizing: border-box; }
-
-body {
-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-line-height: 1.6;
-color: #333;
-max-width: 1200px;
-margin: 0 auto;
-padding: 10px;
-background: #f5f5f5;
-}
-
-h1 {
-text-align: center;
-color: #2c3e50;
-margin-bottom: 10px;
-font-size: 1.8rem;
-}
-
-.version {
-text-align: center;
-color: #666;
-margin-bottom: 20px;
-font-size: 0.9rem;
-}
-
-/* jQuery UI Accordion Overrides - Main Level (Days) */
-#mainAccordion.ui-accordion .ui-accordion-header {
-background: #34495e;
-color: white;
-border: none;
-border-radius: 8px;
-margin-bottom: 5px;
-padding: 15px 20px;
-font-size: 1.1rem;
-font-weight: bold;
-cursor: pointer;
-transition: background 0.3s;
-}
-
-#mainAccordion.ui-accordion .ui-accordion-header:hover {
-background: #2c3e50;
-}
-
-#mainAccordion.ui-accordion .ui-accordion-header.ui-state-active {
-background: #2c3e50;
-border-radius: 8px 8px 0 0;
-margin-bottom: 0;
-}
-
-#mainAccordion.ui-accordion .ui-accordion-content {
-background: white;
-border: none;
-padding: 20px;
-margin-bottom: 5px;
-border-radius: 0 0 8px 8px;
-box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-
-/* jQuery UI Icons for main accordion */
-#mainAccordion .ui-icon {
-background-image: none !important;
-text-indent: 0;
-position: absolute;
-right: 20px;
-top: 50%;
-transform: translateY(-50%);
-width: auto;
-height: auto;
-font-size: 1.5rem;
-margin-top: 0;
-}
-
-#mainAccordion .ui-icon:before {
-content: "+";
-color: white;
-font-weight: bold;
-}
-
-#mainAccordion .ui-state-active .ui-icon:before {
-content: "−";
-}
-
-/* Session styles */
-.session {
-margin-bottom: 20px;
-padding: 15px;
-background: #f8f9fa;
-border-radius: 8px;
-border-left: 4px solid #3498db;
-}
-
-.session-break {
-border-left-color: #f39c12;
-background: #fef5e7;
-}
-
-.session-plenary {
-border-left-color: #27ae60;
-background: #e8f8f5;
-text-color: #000;
-}
-
-.session-special, .session-social {
-border-left-color: #9b59b6;
-background: #f4ecf7;
-}
-
-.session-registration {
-border-left-color: #95a5a6;
-background: #ecf0f1;
-}
-
-.session-closing {
-border-left-color: #e74c3c;
-background: #fadbd8;
-}
-
-.session-time {
-font-weight: bold;
-color: #2c3e50;
-font-size: 1.1rem;
-margin-bottom: 5px;
-}
-
-.session-title {
-font-weight: 500;
-margin-bottom: 10px;
-}
-
-.plenary-info {
-margin-top: 10px;
-padding: 10px;
-background: white;
-border-radius: 4px;
-}
-
-.plenary-title {
-font-size: 1.1rem;
-font-weight: 600;
-color: #2c3e50;
-margin-bottom: 8px;
-}
-
-.plenary-speaker {
-font-weight: bold;
-color: #27ae60;
-}
-
-.plenary-chair {
-font-size: 0.9rem;
-color: #666;
-margin-top: 5px;
-}
-
-/* Track accordion styles (nested) */
-.tracks-accordion.ui-accordion {
-margin-top: 15px;
-}
-
-.tracks-accordion.ui-accordion .ui-accordion-header {
-background: #ecf0f1;
-color: #2c3e50;
-border: 1px solid #ddd;
-border-radius: 4px;
-margin-bottom: 8px;
-padding: 12px 15px;
-font-size: 0.95rem;
-font-weight: 500;
-cursor: pointer;
-transition: all 0.2s;
-position: relative;
-}
-
-.tracks-accordion.ui-accordion .ui-accordion-header:hover {
-background: #d5dbdb;
-border-color: #bdc3c7;
-}
-
-.tracks-accordion.ui-accordion .ui-accordion-header.ui-state-active {
-background: #3498db;
-color: white;
-border-color: #3498db;
-border-radius: 4px 4px 0 0;
-margin-bottom: 0;
-}
-
-.tracks-accordion.ui-accordion .ui-accordion-content {
-background: white;
-border: 1px solid #ddd;
-border-top: none;
-padding: 15px;
-margin-bottom: 8px;
-border-radius: 0 0 4px 4px;
-}
-
-/* Track type indicators */
-.tracks-accordion .track-type-symposium {
-background: #020232 !important;
-}
-
-.tracks-accordion .track-type-workshop {
-background: #1f13e0 !important;
-}
-
-/* Icons for track accordion */
-.tracks-accordion .ui-icon {
-background-image: none !important;
-text-indent: 0;
-position: absolute;
-right: 15px;
-top: 50%;
-transform: translateY(-50%);
-width: auto;
-height: auto;
-font-size: 1.2rem;
-margin-top: 0;
-}
-
-.tracks-accordion .ui-icon:before {
-content: "▶";
-color: #7f8c8d;
-font-size: 0.8rem;
-}
-
-.tracks-accordion .ui-state-active .ui-icon:before {
-content: "▼";
-color: white;
-}
-
-/* Talk styles */
-.talk-item {
-margin-bottom: 12px;
-padding: 10px;
-background: #f8f9fa;
-border-radius: 4px;
-border-left: 3px solid #3498db;
-}
-
-.talk-time {
-font-size: 0.85rem;
-color: #7f8c8d;
-font-weight: 500;
-}
-
-.talk-title {
-font-weight: 500;
-margin: 3px 0;
-color: #2c3e50;
-}
-
-.talk-speakers {
-font-size: 0.9rem;
-color: #666;
-font-style: italic;
-}
-
-/* Abstract toggle styles */
-.abstract-toggle {
-margin-top: 5px;
-color: #3498db;
-font-size: 0.85rem;
-cursor: pointer;
-display: inline-block;
-user-select: none;
-transition: color 0.2s;
-}
-
-.abstract-toggle:hover {
-color: #2980b9;
-text-decoration: underline;
-}
-
-.talk-abstract {
-display: none;
-margin-top: 10px;
-padding: 10px;
-background: white;
-border-radius: 4px;
-border: 1px solid #e0e0e0;
-font-size: 0.9rem;
-line-height: 1.5;
-}
-
-.talk-abstract p {
-margin: 0 0 10px 0;
-}
-
-.talk-abstract p:last-child {
-margin-bottom: 0;
-}
-
-.no-talks {
-color: #999;
-font-style: italic;
-font-size: 0.9rem;
-padding: 10px;
-}
-
-/* Remove default jQuery UI focus outlines */
-.ui-accordion .ui-accordion-header:focus {
-outline: none;
-box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.3);
-}
-
-/* Loading indicator */
-.loading {
-text-align: center;
-padding: 40px;
-color: #666;
-}
-
-/* Disable abstracts toggle */
-.abstracts-disabled .abstract-toggle {
-display: none;
-}
-
-/* Mobile adjustments */
-@media (max-width: 767px) {
-body { padding: 5px; }
-h1 { font-size: 1.5rem; }
-
-#mainAccordion.ui-accordion .ui-accordion-header {
-padding: 12px 40px 12px 15px;
-font-size: 1rem;
-}
-
-#mainAccordion .ui-icon {
-right: 10px;
-}
-
-.session { padding: 12px; }
-
-.tracks-accordion.ui-accordion .ui-accordion-header {
-padding: 10px 35px 10px 12px;
-font-size: 0.9rem;
-}
-
-.tracks-accordion .ui-icon {
-right: 10px;
-}
-}
-</style>
-
 <div id="mainAccordion">
+    
+        <h3>Day 1: Tuesday, July 1</h3>
+        <div>
 
-<h3>Day 1: Tuesday, July 1</h3>
-<div>
+            <div class="session session-registration">
+                <div class="session-time">09:00-09:30</div>
+                <div class="session-title">Registration and Coffee</div>
+            </div>
 
-<div class="session session-registration">
-<div class="session-time">09:00-09:30</div>
-<div class="session-title">Registration and Coffee</div>
-</div>
+            <div class="session session-plenary">
+                <div class="session-time">09:30-10:30</div>
+                <div class="session-title">Plenary Session</div>
+                <div class="plenary-info">
+                    <div class="plenary-title">Relational Intelligence and Human–AI Relationships: Foundations, Technologies, and Ethical Dimensions</div>
+                    <div class="plenary-speaker">Speaker: Philip Brey</div>
 
-<div class="session session-plenary">
-<div class="session-time">09:30-10:30</div>
-<div class="session-title">Plenary Session</div>
-<div class="plenary-info">
-<div class="plenary-title">Relational Intelligence and Human–AI Relationships: Foundations, Technologies, and Ethical Dimensions</div>
-<div class="plenary-speaker">Speaker: Philip Brey</div>
+                    <div class="plenary-chair">Chairs: YJ Erden, Stephen Rainey</div>
 
-</div>
-</div>
+                    <div class="plenary-chair">AISB Keynote</div>
 
-<div class="session session-break">
-<div class="session-time">10:30-11:00</div>
-<div class="session-title">Coffee</div>
-</div>
+                </div>
+            </div>
 
-<div class="session">
-<div class="session-time">11:00-13:00</div>
-<div class="session-title">Session 1</div>
+            <div class="session session-break">
+                <div class="session-time">10:30-11:00</div>
+                <div class="session-title">Coffee</div>
+            </div>
 
-<div id="tracksAccordion-day1-session3" class="tracks-accordion">
+            <div class="session">
+                <div class="session-time">11:00-13:00</div>
+                <div class="session-title">Session 1</div>
 
-<h3 class="track-type-individual-talks">Track 1 - Philosophy and History of Computing (RA1501) | Chair: Tom Powers</h3>
-<div>
+                <div id="tracksAccordion-day1-session3" class="tracks-accordion">
 
-<div class="talk-item">
+                    <h3 class="track-type-individual-talks">Track 1 - Philosophy and History of Computing (RA1501) | Chair: Tom Powers</h3>
+                    <div>
 
-<div class="talk-time">11:00</div>
+                        <div class="talk-item">
 
-<div class="talk-title">Epistemic Type Mismatch</div>
+                            <div class="talk-time">11:00</div>
 
-<div class="talk-speakers">Yves Bouchard</div>
+                            <div class="talk-title">Epistemic Type Mismatch</div>
 
-</div>
+                            <div class="talk-speakers">Yves Bouchard</div>
 
-<div class="talk-item">
+                        </div>
 
-<div class="talk-time">11:30</div>
+                        <div class="talk-item">
 
-<div class="talk-title">Universal computable prediction and inductive bias</div>
+                            <div class="talk-time">11:30</div>
 
-<div class="talk-speakers">Tom Sterkenburg</div>
+                            <div class="talk-title">Universal computable prediction and inductive bias</div>
 
-</div>
+                            <div class="talk-speakers">Tom Sterkenburg</div>
 
-<div class="talk-item">
+                        </div>
 
-<div class="talk-time">12:00</div>
+                        <div class="talk-item">
 
-<div class="talk-title">What is a Knowledge Graph?</div>
+                            <div class="talk-time">12:00</div>
 
-<div class="talk-speakers">Georgios Tsagdis</div>
+                            <div class="talk-title">What is a Knowledge Graph?</div>
 
-</div>
+                            <div class="talk-speakers">Georgios Tsagdis</div>
 
-<div class="talk-item">
+                        </div>
 
-<div class="talk-time">12:30</div>
+                        <div class="talk-item">
 
-<div class="talk-title">Knowledge graphs, synthetic data</div>
+                            <div class="talk-time">12:30</div>
 
-<div class="talk-speakers">Tom Powers</div>
+                            <div class="talk-title">Knowledge graphs, synthetic data</div>
 
-</div>
+                            <div class="talk-speakers">Tom Powers</div>
 
-</div>
+                        </div>
 
-<h3 class="track-type-individual-talks">Track 2 - Artificial Intelligence and Machine Learning (RA2501) | Chair: Ramon Alvarado</h3>
-<div>
+                    </div>
 
-<div class="talk-item">
+                    <h3 class="track-type-individual-talks">Track 2 - Artificial Intelligence and Machine Learning (RA2501) | Chair: Ramon Alvarado</h3>
+                    <div>
 
-<div class="talk-time">11:00</div>
+                        <div class="talk-item">
 
-<div class="talk-title">Could AI Assuage Loneliness? And if so, which kind?</div>
+                            <div class="talk-time">11:00</div>
 
-<div class="talk-speakers">Ramon Alvarado</div>
+                            <div class="talk-title">Could AI Assuage Loneliness? And if so, which kind?</div>
 
-</div>
+                            <div class="talk-speakers">Ramon Alvarado</div>
 
-<div class="talk-item">
+                        </div>
 
-<div class="talk-time">11:30</div>
+                        <div class="talk-item">
 
-<div class="talk-title">Axe the X in XAI: A Plea for Understandable AI</div>
+                            <div class="talk-time">11:30</div>
 
-<div class="talk-speakers">Andrés Páez</div>
+                            <div class="talk-title">Axe the X in XAI: A Plea for Understandable AI</div>
 
-</div>
+                            <div class="talk-speakers">Andrés Páez</div>
 
-<div class="talk-item">
+                        </div>
 
-<div class="talk-time">12:00</div>
+                        <div class="talk-item">
 
-<div class="talk-title">Can an LLM Apprehend Meaning?</div>
+                            <div class="talk-time">12:00</div>
 
-<div class="talk-speakers">Daniel Hardt</div>
+                            <div class="talk-title">Can an LLM Apprehend Meaning?</div>
 
-</div>
+                            <div class="talk-speakers">Daniel Hardt</div>
 
-</div>
+                        </div>
 
-<h3 class="track-type-individual-talks">Track 3 - Ethics of AI and Computing (RA2503) | Chair: Don Berkich</h3>
-<div>
+                    </div>
 
-<div class="talk-item">
+                    <h3 class="track-type-individual-talks">Track 3 - Ethics of AI and Computing (RA2503) | Chair: Don Berkich</h3>
+                    <div>
 
-<div class="talk-time">11:00</div>
+                        <div class="talk-item">
 
-<div class="talk-title">Recommendation Algorithms and Human Freedom, the Technology and Ethics</div>
+                            <div class="talk-time">11:00</div>
 
-<div class="talk-speakers">James Brusseau</div>
+                            <div class="talk-title">Recommendation Algorithms and Human Freedom, the Technology and Ethics</div>
 
-</div>
+                            <div class="talk-speakers">James Brusseau</div>
 
-<div class="talk-item">
+                        </div>
 
-<div class="talk-time">11:30</div>
+                        <div class="talk-item">
 
-<div class="talk-title">On the moral boundaries of AI ethics principlism</div>
+                            <div class="talk-time">11:30</div>
 
-<div class="talk-speakers">Alice Rangel Teixeira</div>
+                            <div class="talk-title">On the moral boundaries of AI ethics principlism</div>
 
-</div>
+                            <div class="talk-speakers">Alice Rangel Teixeira</div>
 
-<div class="talk-item">
+                        </div>
 
-<div class="talk-time">12:00</div>
+                        <div class="talk-item">
 
-<div class="talk-title">Kantian Deontology for AI: Alignment Without Moral Agency</div>
+                            <div class="talk-time">12:00</div>
 
-<div class="talk-speakers">Oluwaseun Sanwoolu</div>
+                            <div class="talk-title">Kantian Deontology for AI: Alignment Without Moral Agency</div>
 
-</div>
+                            <div class="talk-speakers">Oluwaseun Sanwoolu</div>
 
-<div class="talk-item">
+                        </div>
 
-<div class="talk-time">12:30</div>
+                        <div class="talk-item">
 
-<div class="talk-title">Wisdom in the Age of Intelligent Machines</div>
+                            <div class="talk-time">12:30</div>
 
-<div class="talk-speakers">Edward H. Spence</div>
+                            <div class="talk-title">Wisdom in the Age of Intelligent Machines</div>
 
-</div>
+                            <div class="talk-speakers">Edward H. Spence</div>
 
-</div>
+                        </div>
 
-<h3 class="track-type-symposium">Track 4 - Generative Companionship in the Digital Age - Session 1 (Normative Concerns in the Employment of GenAIs) (Learn-X)</h3>
-<div>
+                    </div>
 
-<div class="talk-item">
+                    <h3 class="track-type-symposium">Track 4 - Generative Companionship in the Digital Age - Session 1 (Normative Concerns in the Employment of GenAIs) (Learn-X)</h3>
+                    <div>
 
-<div class="talk-time">11:00</div>
+                        <div class="talk-item">
 
-<div class="talk-title">Introduction to Companion GenAI</div>
+                            <div class="talk-time">11:00</div>
 
-</div>
+                            <div class="talk-title">Introduction to Companion GenAI</div>
 
-<div class="talk-item">
+                            <div class="talk-speakers">Robert Clowes, Kesavan Thanagopal</div>
 
-<div class="talk-time">11:05-11:30</div>
+                        </div>
 
-<div class="talk-title">What Makes Human-AI Relationships Morally Problematic?</div>
+                        <div class="talk-item">
 
-<div class="talk-speakers">Kesavan Thanagopal</div>
+                            <div class="talk-time">11:05-11:30</div>
 
-</div>
+                            <div class="talk-title">What Makes Human-AI Relationships Morally Problematic?</div>
 
-<div class="talk-item">
+                            <div class="talk-speakers">Kesavan Thanagopal</div>
 
-<div class="talk-time">11:30</div>
+                        </div>
 
-<div class="talk-title">LLMs, Sycophancy, and Self-Deception</div>
+                        <div class="talk-item">
 
-<div class="talk-speakers">Eric Funkhouser</div>
+                            <div class="talk-time">11:30</div>
 
-</div>
+                            <div class="talk-title">LLMs, Sycophancy, and Self-Deception</div>
 
-<div class="talk-item">
+                            <div class="talk-speakers">Eric Funkhouser</div>
 
-<div class="talk-time">12:00</div>
+                        </div>
 
-<div class="talk-title">Can We Trust AI Companions?</div>
+                        <div class="talk-item">
 
-<div class="talk-speakers">Marianna B. Ganapini</div>
+                            <div class="talk-time">12:00</div>
 
-</div>
+                            <div class="talk-title">Can We Trust AI Companions?</div>
 
-</div>
+                            <div class="talk-speakers">Marianna B. Ganapini</div>
 
-<h3 class="track-type-symposium">Track 5 - Bridging Justice and Meaningful Human Control in Medical AI (Inspire)</h3>
-<div>
+                        </div>
 
-<div class="talk-item">
+                    </div>
 
-<div class="talk-time">11:00-11:05</div>
+                    <h3 class="track-type-symposium">Track 5 - Bridging Justice and Meaningful Human Control in Medical AI (Inspire)</h3>
+                    <div>
 
-<div class="talk-title">Welcome</div>
+                        <div class="talk-item">
 
-</div>
+                            <div class="talk-time">11:00-11:05</div>
 
-<div class="talk-item">
+                            <div class="talk-title">Welcome</div>
 
-<div class="talk-time">11:05-11:30</div>
+                        </div>
 
-<div class="talk-title">Epistemic justice through meaningful human control in medical AI</div>
+                        <div class="talk-item">
 
-<div class="talk-speakers">Giorgia Pozzi, Filippo Santoni de Sio</div>
+                            <div class="talk-time">11:05-11:30</div>
 
-</div>
+                            <div class="talk-title">Epistemic justice through meaningful human control in medical AI</div>
 
-<div class="talk-item">
+                            <div class="talk-speakers">Giorgia Pozzi, Filippo Santoni de Sio</div>
 
-<div class="talk-time">11:30</div>
+                        </div>
 
-<div class="talk-title">Epistemic Justice in Healthcare: Enhancing Meaningful Human Control through Responsibility Distribution</div>
+                        <div class="talk-item">
 
-<div class="talk-speakers">Sanaa Abrahams, Giulio Mecacci</div>
+                            <div class="talk-time">11:30</div>
 
-</div>
+                            <div class="talk-title">Epistemic Justice in Healthcare: Enhancing Meaningful Human Control through Responsibility Distribution</div>
 
-<div class="talk-item">
+                            <div class="talk-speakers">Sanaa Abrahams, Giulio Mecacci</div>
 
-<div class="talk-time">12:00</div>
+                        </div>
 
-<div class="talk-title">Keynote: Automating Reproduction: AI, Risk Prediction, and the New Politics of Control</div>
+                        <div class="talk-item">
 
-<div class="talk-speakers">Lily Frank</div>
+                            <div class="talk-time">12:00</div>
 
-</div>
+                            <div class="talk-title">Keynote: Automating Reproduction: AI, Risk Prediction, and the New Politics of Control</div>
 
-<div class="talk-item">
+                            <div class="talk-speakers">Lily Frank</div>
 
-<div class="talk-time">12:30</div>
+                        </div>
 
-<div class="talk-title">Panel discussion among speakers</div>
+                        <div class="talk-item">
 
-</div>
+                            <div class="talk-time">12:30</div>
 
-</div>
+                            <div class="talk-title">Panel discussion among speakers</div>
 
-</div>
+                        </div>
 
-</div>
+                    </div>
 
-<div class="session session-break">
-<div class="session-time">13:00-14:00</div>
-<div class="session-title">Lunch</div>
-</div>
+                </div>
 
-<div class="session">
-<div class="session-time">14:00-15:30</div>
-<div class="session-title">Session 2</div>
+            </div>
 
-<div id="tracksAccordion-day1-session5" class="tracks-accordion">
+            <div class="session session-break">
+                <div class="session-time">13:00-14:00</div>
+                <div class="session-title">Lunch</div>
+            </div>
 
-<h3 class="track-type-individual-talks">Track 1 - Embodied, Ecological, and Distributed Cognition (RA1501) | Chair: Hajo Greif</h3>
-<div>
+            <div class="session">
+                <div class="session-time">14:00-15:30</div>
+                <div class="session-title">Session 2</div>
 
-<div class="talk-item">
+                <div id="tracksAccordion-day1-session5" class="tracks-accordion">
 
-<div class="talk-time">14:00</div>
+                    <h3 class="track-type-individual-talks">Track 1 - Embodied, Ecological, and Distributed Cognition (RA1501) | Chair: Hajo Greif</h3>
+                    <div>
 
-<div class="talk-title">Explaining Mental Disorders: Enactivist Sense-Making versus Miscomputation</div>
+                        <div class="talk-item">
 
-<div class="talk-speakers">Nir Fresco, Dominic Murphy</div>
+                            <div class="talk-time">14:00</div>
 
-</div>
+                            <div class="talk-title">From Dilemmas to Innovation: Distributed Moral Reasoning for R&D Teams</div>
 
-<div class="talk-item">
+                            <div class="talk-speakers">Marco Innocenti</div>
 
-<div class="talk-time">14:30</div>
+                        </div>
 
-<div class="talk-title">From Dilemmas to Innovation: Distributed Moral Reasoning for R&D Teams</div>
+                        <div class="talk-item">
 
-<div class="talk-speakers">Marco Innocenti</div>
+                            <div class="talk-time">14:30</div>
 
-</div>
+                            <div class="talk-title">Mind Reading Machines? Conceptual Muddles behind some neurorights concerns</div>
 
-<div class="talk-item">
+                            <div class="talk-speakers">Stephen Rainey</div>
 
-<div class="talk-time">15:00</div>
+                        </div>
 
-<div class="talk-title">Mind Reading Machines? Conceptual Muddles behind some neurorights concerns</div>
+                        <div class="talk-item">
 
-<div class="talk-speakers">Stephen Rainey</div>
+                            <div class="talk-time">15:00</div>
 
-</div>
+                            <div class="talk-title">Explaining Mental Disorders: Enactivist Sense-Making versus Miscomputation</div>
 
-</div>
+                            <div class="talk-speakers">Nir Fresco, Dominic Murphy</div>
 
-<h3 class="track-type-individual-talks">Track 2 - Artificial Intelligence and Machine Learning (RA2501) | Chair: Brian Ballsun-Stanton</h3>
-<div>
+                        </div>
 
-<div class="talk-item">
+                    </div>
 
-<div class="talk-time">14:00</div>
+                    <h3 class="track-type-individual-talks">Track 2 - Artificial Intelligence and Machine Learning (RA2501) | Chair: Brian Ballsun-Stanton</h3>
+                    <div>
 
-<div class="talk-title">AI and High Risk contexts: Distinguishing Standards for Decisionmaking</div>
+                        <div class="talk-item">
 
-<div class="talk-speakers">Rooke Christy</div>
+                            <div class="talk-time">14:00</div>
 
-</div>
+                            <div class="talk-title">AI and High Risk contexts: Distinguishing Standards for Decisionmaking</div>
 
-<div class="talk-item">
+                            <div class="talk-speakers">Rooke Christy</div>
 
-<div class="talk-time">14:30</div>
+                        </div>
 
-<div class="talk-title">Meta+phenomenology I: A Taxonomy of Learning Experiences</div>
+                        <div class="talk-item">
 
-<div class="talk-speakers">Michael Winter</div>
+                            <div class="talk-time">14:30</div>
 
-</div>
+                            <div class="talk-title">Meta+phenomenology I: A Taxonomy of Learning Experiences</div>
 
-<div class="talk-item">
+                            <div class="talk-speakers">Michael Winter</div>
 
-<div class="talk-time">15:00</div>
+                        </div>
 
-<div class="talk-title">Reliability of Deep Learning Simulations for Photovoltaic Systems</div>
+                        <div class="talk-item">
 
-<div class="talk-speakers">Nicola Angius, Lucia Guerrisi, Alessio Plebe</div>
+                            <div class="talk-time">15:00</div>
 
-</div>
+                            <div class="talk-title">Reliability of Deep Learning Simulations for Photovoltaic Systems</div>
 
-</div>
+                            <div class="talk-speakers">Nicola Angius, Lucia Guerrisi, Alessio Plebe</div>
 
-<h3 class="track-type-individual-talks">Track 3 - Societal Implications of AI and Computing (RA2503) | Chair: Arzu Formanek</h3>
-<div>
+                        </div>
 
-<div class="talk-item">
+                    </div>
 
-<div class="talk-time">14:00</div>
+                    <h3 class="track-type-individual-talks">Track 3 - Societal Implications of AI and Computing (RA2503) | Chair: Arzu Formanek</h3>
+                    <div>
 
-<div class="talk-title">It Is Not a Camera! Radio Sensing Holography as a Disruptive Technology</div>
+                        <div class="talk-item">
 
-<div class="talk-speakers">Ciano Aydin</div>
+                            <div class="talk-time">14:00</div>
 
-</div>
+                            <div class="talk-title">It Is Not a Camera! Radio Sensing Holography as a Disruptive Technology</div>
 
-<div class="talk-item">
+                            <div class="talk-speakers">Ciano Aydin</div>
 
-<div class="talk-time">14:30</div>
+                        </div>
 
-<div class="talk-title">Weathering the STORM: SocioTechnical Operation Risk Management</div>
+                        <div class="talk-item">
 
-<div class="talk-speakers">John Sullins</div>
+                            <div class="talk-time">14:30</div>
 
-</div>
+                            <div class="talk-title">Weathering the STORM: SocioTechnical Operation Risk Management</div>
 
-<div class="talk-item">
+                            <div class="talk-speakers">John Sullins</div>
 
-<div class="talk-time">15:00</div>
+                        </div>
 
-<div class="talk-title">Assisted autonomy? Wellbeing and the importance of the sensorium in the ethical analysis of wearable exoskeletons</div>
+                        <div class="talk-item">
 
-<div class="talk-speakers">Aline Franzke</div>
+                            <div class="talk-time">15:00</div>
 
-</div>
+                            <div class="talk-title">Assisted autonomy? Wellbeing and the importance of the sensorium in the ethical analysis of wearable exoskeletons</div>
 
-</div>
+                            <div class="talk-speakers">Aline Franzke</div>
 
-<h3 class="track-type-symposium">Track 4 - Generative Companionship in the Digital Age - Session 2 (Developing, Deploying, and Deepening Relationships with Digital Companions) (Learn-X)</h3>
-<div>
+                        </div>
 
-<div class="talk-item">
+                    </div>
 
-<div class="talk-time">14:00</div>
+                    <h3 class="track-type-symposium">Track 4 - Generative Companionship in the Digital Age - Session 2 (Developing, Deploying, and Deepening Relationships with Digital Companions) (Learn-X)</h3>
+                    <div>
 
-<div class="talk-title">Rethinking Relationships Through AI</div>
+                        <div class="talk-item">
 
-<div class="talk-speakers">Yan Zhuang, Shuting Yin</div>
+                            <div class="talk-time">14:00</div>
 
-</div>
+                            <div class="talk-title">Rethinking Relationships Through AI</div>
 
-<div class="talk-item">
+                            <div class="talk-speakers">Yan Zhuang, Shuting Yin</div>
 
-<div class="talk-time">14:30</div>
+                        </div>
 
-<div class="talk-title">Social Needs, Anthropomorphism, and Reorienting Digital AI Companions to Stimulate Prosocial Human-Human Interaction</div>
+                        <div class="talk-item">
 
-<div class="talk-speakers">Rose E. Guingrich</div>
+                            <div class="talk-time">14:30</div>
 
-</div>
+                            <div class="talk-title">Social Needs, Anthropomorphism, and Reorienting Digital AI Companions to Stimulate Prosocial Human-Human Interaction</div>
 
-<div class="talk-item">
+                            <div class="talk-speakers">Rose E. Guingrich</div>
 
-<div class="talk-time">15:00</div>
+                        </div>
 
-<div class="talk-title">The Ethics of Digital Duplicates</div>
+                        <div class="talk-item">
 
-<div class="talk-speakers">Atay Kozlovski, Mykola Makhortykh</div>
+                            <div class="talk-time">15:00</div>
 
-</div>
+                            <div class="talk-title">The Ethics of Digital Duplicates</div>
 
-</div>
+                            <div class="talk-speakers">Atay Kozlovski, Mykola Makhortykh</div>
 
-<h3 class="track-type-symposium">Track 5 - Bridging Justice and Meaningful Human Control in Medical AI (Inspire)</h3>
-<div>
+                        </div>
 
-<div class="talk-item">
+                    </div>
 
-<div class="talk-time">14:00</div>
+                    <h3 class="track-type-symposium">Track 5 - Bridging Justice and Meaningful Human Control in Medical AI (Inspire)</h3>
+                    <div>
 
-<div class="talk-title">When AI ignores emotions: contributory injustice and epistemic calcification in healthcare</div>
+                        <div class="talk-item">
 
-<div class="talk-speakers">Eliana Bergamin, Angeliki Kerasidou</div>
+                            <div class="talk-time">14:00</div>
 
-</div>
+                            <div class="talk-title">When AI ignores emotions: contributory injustice and epistemic calcification in healthcare</div>
 
-<div class="talk-item">
+                            <div class="talk-speakers">Eliana Bergamin, Angeliki Kerasidou</div>
 
-<div class="talk-time">14:30</div>
+                        </div>
 
-<div class="talk-title">Keynote: How can accurate data be unjust?</div>
+                        <div class="talk-item">
 
-<div class="talk-speakers">Patrik Hummel</div>
+                            <div class="talk-time">14:30</div>
 
-</div>
+                            <div class="talk-title">Keynote: How can accurate data be unjust?</div>
 
-<div class="talk-item">
+                            <div class="talk-speakers">Patrik Hummel</div>
 
-<div class="talk-time">15:00</div>
+                        </div>
 
-<div class="talk-title">Panel discussion among speakers</div>
+                        <div class="talk-item">
 
-</div>
+                            <div class="talk-time">15:00</div>
 
-</div>
+                            <div class="talk-title">Panel discussion among speakers</div>
 
-</div>
+                        </div>
 
-</div>
+                    </div>
 
-<div class="session session-break">
-<div class="session-time">15:30-16:00</div>
-<div class="session-title">Coffee</div>
-</div>
+                </div>
 
-<div class="session">
-<div class="session-time">16:00-17:30</div>
-<div class="session-title">Session 3</div>
+            </div>
 
-<div id="tracksAccordion-day1-session7" class="tracks-accordion">
+            <div class="session session-break">
+                <div class="session-time">15:30-16:00</div>
+                <div class="session-title">Coffee</div>
+            </div>
 
-<h3 class="track-type-workshop">Track 1 - Philosophy of Computing Book Club (RA1501) | Chair: Nico Formanek</h3>
-<div>
+            <div class="session">
+                <div class="session-time">16:00-17:30</div>
+                <div class="session-title">Session 3</div>
 
-<div class="talk-item">
+                <div id="tracksAccordion-day1-session7" class="tracks-accordion">
 
-<div class="talk-time">16:00</div>
+                    <h3 class="track-type-workshop">Track 1 - Workshop: Philosophy of Computing Book Club (RA1501) | Chair: Nico Formanek</h3>
+                    <div>
 
-<div class="talk-title">Philosophy of Computing Book Club</div>
+                        <div class="talk-item">
 
-<div class="talk-speakers">Nico Formanek et al.</div>
+                            <div class="talk-time">16:00</div>
 
-</div>
+                            <div class="talk-title">Philosophy of Computing Book Club</div>
 
-</div>
+                            <div class="talk-speakers">Nico Formanek et al.</div>
 
-<h3 class="track-type-individual-talks">Track 2 - Artificial Intelligence and Machine Learning (RA2501) | Chair: Ian Robertson</h3>
-<div>
+                        </div>
 
-<div class="talk-item">
+                    </div>
 
-<div class="talk-time">16:00</div>
+                    <h3 class="track-type-individual-talks">Track 2 - Artificial Intelligence and Machine Learning (RA2501) | Chair: Ian Robertson</h3>
+                    <div>
 
-<div class="talk-title">The significance of vulnerability for being trustworthy about AI</div>
+                        <div class="talk-item">
 
-<div class="talk-speakers">Giacomo Figà-Talamanca, Niël Conradie</div>
+                            <div class="talk-time">16:00</div>
 
-</div>
+                            <div class="talk-title">The significance of vulnerability for being trustworthy about AI</div>
 
-<div class="talk-item">
+                            <div class="talk-speakers">Giacomo Figà-Talamanca, Niël Conradie</div>
 
-<div class="talk-time">16:30</div>
+                        </div>
 
-<div class="talk-title">AI art: aesthetics (and ethics) in a digital age</div>
+                        <div class="talk-item">
 
-<div class="talk-speakers">YJ Erden</div>
+                            <div class="talk-time">16:30</div>
 
-</div>
+                            <div class="talk-title">AI art: aesthetics (and ethics) in a digital age</div>
 
-<div class="talk-item">
+                            <div class="talk-speakers">YJ Erden</div>
 
-<div class="talk-time">17:00</div>
+                        </div>
 
-<div class="talk-title">Consciousness in the creative process and the problem for AI</div>
+                        <div class="talk-item">
 
-<div class="talk-speakers">Joachim Nicolodi</div>
+                            <div class="talk-time">17:00</div>
 
-</div>
+                            <div class="talk-title">Consciousness in the creative process and the problem for AI</div>
 
-</div>
+                            <div class="talk-speakers">Joachim Nicolodi</div>
 
-<h3 class="track-type-individual-talks">Track 3 - Societal Implications of AI and Computing (RA2503) | Chair: Oluwaseun Sanwoolu</h3>
-<div>
+                        </div>
 
-<div class="talk-item">
+                    </div>
 
-<div class="talk-time">16:00</div>
+                    <h3 class="track-type-individual-talks">Track 3 - Societal Implications of AI and Computing (RA2503) | Chair: Oluwaseun Sanwoolu</h3>
+                    <div>
 
-<div class="talk-title">No Hard Feelings?: A Philosophical Analysis of the Social Value of Expressions of Emotions</div>
+                        <div class="talk-item">
 
-<div class="talk-speakers">Alexandra Prégent</div>
+                            <div class="talk-time">16:00</div>
 
-</div>
+                            <div class="talk-title">No Hard Feelings?: A Philosophical Analysis of the Social Value of Expressions of Emotions</div>
 
-<div class="talk-item">
+                            <div class="talk-speakers">Alexandra Prégent</div>
 
-<div class="talk-time">16:30</div>
+                        </div>
 
-<div class="talk-title">Emerging sociotechnical imaginaries in the ethics of QT: Lessons for Quantum Technology from Artificial Intelligence</div>
+                        <div class="talk-item">
 
-<div class="talk-speakers">Sybolt Doorn, Lavinia Marin</div>
+                            <div class="talk-time">16:30</div>
 
-</div>
+                            <div class="talk-title">Emerging sociotechnical imaginaries in the ethics of QT: Lessons for Quantum Technology from Artificial Intelligence</div>
 
-</div>
+                            <div class="talk-speakers">Sybolt Doorn, Lavinia Marin</div>
 
-<h3 class="track-type-symposium">Track 4 - Generative Companionship in the Digital Age - Session 3 (On the Issue of Authenticity in Human-AI Relationships) (Learn-X)</h3>
-<div>
+                        </div>
 
-<div class="talk-item">
+                    </div>
 
-<div class="talk-time">16:00</div>
+                    <h3 class="track-type-symposium">Track 4 - Generative Companionship in the Digital Age - Session 3 (On the Issue of Authenticity in Human-AI Relationships) (Learn-X)</h3>
+                    <div>
 
-<div class="talk-title">Love and Tools</div>
+                        <div class="talk-item">
 
-<div class="talk-speakers">Ariela Tubert, Justin Tiehen</div>
+                            <div class="talk-time">16:00</div>
 
-</div>
+                            <div class="talk-title">Love and Tools</div>
 
-<div class="talk-item">
+                            <div class="talk-speakers">Ariela Tubert, Justin Tiehen</div>
 
-<div class="talk-time">16:30</div>
+                        </div>
 
-<div class="talk-title">'Real Enough'? Negotiating Authenticity in Human-AI Relations</div>
+                        <div class="talk-item">
 
-<div class="talk-speakers">Adrienne de Ruiter</div>
+                            <div class="talk-time">16:30</div>
 
-</div>
+                            <div class="talk-title">'Real Enough'? Negotiating Authenticity in Human-AI Relations</div>
 
-<div class="talk-item">
+                            <div class="talk-speakers">Adrienne de Ruiter</div>
 
-<div class="talk-time">17:00</div>
+                        </div>
 
-<div class="talk-title">Ersatz Others that Remember You: The New Ethical Dilemmas</div>
+                        <div class="talk-item">
 
-<div class="talk-speakers">Robert Clowes</div>
+                            <div class="talk-time">17:00</div>
 
-</div>
+                            <div class="talk-title">Ersatz Others that Remember You: The New Ethical Dilemmas</div>
 
-</div>
+                            <div class="talk-speakers">Robert Clowes</div>
 
-<h3 class="track-type-symposium">Track 5 - Bridging Justice and Meaningful Human Control in Medical AI (Inspire)</h3>
-<div>
+                        </div>
 
-<div class="talk-item">
+                    </div>
 
-<div class="talk-time">16:00</div>
+                    <h3 class="track-type-symposium">Track 5 - Bridging Justice and Meaningful Human Control in Medical AI (Inspire)</h3>
+                    <div>
 
-<div class="talk-title">Designing for Meaningful Human Control Over LLM Tools in Healthcare...</div>
+                        <div class="talk-item">
 
-<div class="talk-speakers">Jacqueline Kernahan, Atay Kozlovski</div>
+                            <div class="talk-time">16:00</div>
 
-</div>
+                            <div class="talk-title">Designing for Meaningful Human Control Over LLM Tools in Healthcare...</div>
 
-<div class="talk-item">
+                            <div class="talk-speakers">Jacqueline Kernahan, Atay Kozlovski</div>
 
-<div class="talk-time">16:30</div>
+                        </div>
 
-<div class="talk-title">I'll answer you to death: LLMs' epistemic recklessness in the medical sector</div>
+                        <div class="talk-item">
 
-<div class="talk-speakers">Gabriele Nanino</div>
+                            <div class="talk-time">16:30</div>
 
-</div>
+                            <div class="talk-title">I'll answer you to death: LLMs' epistemic recklessness in the medical sector</div>
 
-<div class="talk-item">
+                            <div class="talk-speakers">Gabriele Nanino</div>
 
-<div class="talk-time">17:00</div>
+                        </div>
 
-<div class="talk-title">Panel discussion among speakers</div>
+                        <div class="talk-item">
 
-</div>
+                            <div class="talk-time">17:00</div>
 
-</div>
+                            <div class="talk-title">Panel discussion among speakers</div>
 
-</div>
+                        </div>
 
-</div>
+                    </div>
 
-<div class="session session-closing">
-<div class="session-time">17:30-18:00</div>
-<div class="session-title">Closing</div>
-</div>
+                </div>
 
-<div class="session session-social">
-<div class="session-time">18:30</div>
-<div class="session-title">Conference Dinner at UPark Hotel. Arrivals from 18:00</div>
-</div>
+            </div>
 
-</div>
+            <div class="session session-closing">
+                <div class="session-time">17:30-18:00</div>
+                <div class="session-title">Closing</div>
+            </div>
 
-<h3>Day 2: Wednesday, July 2</h3>
-<div>
+        </div>
 
-<div class="session session-registration">
-<div class="session-time">09:00-09:30</div>
-<div class="session-title">Registration and Coffee</div>
-</div>
+        <h3>Day 2: Wednesday, July 2</h3>
+        <div>
 
-<div class="session session-plenary">
-<div class="session-time">09:30-10:30</div>
-<div class="session-title">Plenary Session</div>
-<div class="plenary-info">
-<div class="plenary-title">Machine Learning in Science: Dimensions of Understanding</div>
-<div class="plenary-speaker">Speaker: Emily Sullivan</div>
+            <div class="session session-registration">
+                <div class="session-time">09:00-09:30</div>
+                <div class="session-title">Registration and Coffee</div>
+            </div>
 
-<div class="plenary-chair">Chair: Björn Lundgren</div>
+            <div class="session session-plenary">
+                <div class="session-time">09:30-10:30</div>
+                <div class="session-title">Plenary Session</div>
+                <div class="plenary-info">
+                    <div class="plenary-title">Machine Learning in Science: Dimensions of Understanding</div>
+                    <div class="plenary-speaker">Speaker: Emily Sullivan</div>
 
-<div class="plenary-chair">Simon Award Keynote</div>
+                    <div class="plenary-chair">Chair: Björn Lundgren</div>
 
-</div>
-</div>
+                    <div class="plenary-chair">IACAP Simon Award Keynote</div>
 
-<div class="session session-break">
-<div class="session-time">10:30-11:00</div>
-<div class="session-title">Coffee</div>
-</div>
+                </div>
+            </div>
 
-<div class="session">
-<div class="session-time">11:00-13:00</div>
-<div class="session-title">Session 1</div>
+            <div class="session session-break">
+                <div class="session-time">10:30-11:00</div>
+                <div class="session-title">Coffee</div>
+            </div>
 
-<div id="tracksAccordion-day2-session3" class="tracks-accordion">
+            <div class="session">
+                <div class="session-time">11:00-13:00</div>
+                <div class="session-title">Session 1</div>
 
-<h3 class="track-type-individual-talks">Track 1 - Computing and Scientific Inquiry (RA1501) | Chair: Johannes Lenhard</h3>
-<div>
+                <div id="tracksAccordion-day2-session3" class="tracks-accordion">
 
-<div class="talk-item">
+                    <h3 class="track-type-individual-talks">Track 1 - Computing and Scientific Inquiry (RA1501) | Chair: Johannes Lenhard</h3>
+                    <div>
 
-<div class="talk-time">11:00</div>
+                        <div class="talk-item">
 
-<div class="talk-title">Reproducing Simulations</div>
+                            <div class="talk-time">11:00</div>
 
-<div class="talk-speakers">Nico Formanek</div>
+                            <div class="talk-title">Reproducing Simulations</div>
 
-</div>
+                            <div class="talk-speakers">Nico Formanek</div>
 
-<div class="talk-item">
+                        </div>
 
-<div class="talk-time">11:30</div>
+                        <div class="talk-item">
 
-<div class="talk-title">How can we trust an XAI explanation? Three robustness criteria for trustworthy XAI methods</div>
+                            <div class="talk-time">11:30</div>
 
-<div class="talk-speakers">Annika Schuster, Florian Boge</div>
+                            <div class="talk-title">How can we trust an XAI explanation? Three robustness criteria for trustworthy XAI methods</div>
 
-</div>
+                            <div class="talk-speakers">Annika Schuster, Florian Boge</div>
 
-<div class="talk-item">
+                        </div>
 
-<div class="talk-time">12:00</div>
+                        <div class="talk-item">
 
-<div class="talk-title">The benchmarking epistemology: What inferences can scientists draw from competitive comparisons of prediction models?</div>
+                            <div class="talk-time">12:00</div>
 
-<div class="talk-speakers">Timo Freiesleben, Sebastian Zezulka</div>
+                            <div class="talk-title">The benchmarking epistemology: What inferences can scientists draw from competitive comparisons of prediction models?</div>
 
-</div>
+                            <div class="talk-speakers">Timo Freiesleben, Sebastian Zezulka</div>
 
-<div class="talk-item">
+                        </div>
 
-<div class="talk-time">12:30</div>
+                        <div class="talk-item">
 
-<div class="talk-title">Why AI is not going to take mathematicians' jobs (or on the complexity of mathematicians' jobs)</div>
+                            <div class="talk-time">12:30</div>
 
-<div class="talk-speakers">Nancy Abigail Nuñez Hernández</div>
+                            <div class="talk-title">Why AI is not going to take mathematicians' jobs (or on the complexity of mathematicians' jobs)</div>
 
-</div>
+                            <div class="talk-speakers">Nancy Abigail Nuñez Hernández</div>
 
-</div>
+                        </div>
 
-<h3 class="track-type-symposium">Track 2 - Reimagining AI Agents (RA2501)</h3>
-<div>
+                    </div>
 
-<div class="talk-item">
+                    <h3 class="track-type-symposium">Track 2 - Reimagining AI Agents (RA2501)</h3>
+                    <div>
 
-<div class="talk-time">11:00</div>
+                        <div class="talk-item">
 
-<div class="talk-title">Panel 1: Angelic AIs as Artifactual, Epistemic, Social and Collective Agents</div>
+                            <div class="talk-time">11:00</div>
 
-</div>
+                            <div class="talk-title">Panel 1: Angelic AIs as Artifactual, Epistemic, Social and Collective Agents</div>
 
-<div class="talk-item">
+                        </div>
 
-<div class="talk-time">12:00</div>
+                        <div class="talk-item">
 
-<div class="talk-title">Panel 2: Theological Perspectives on AI: Agency, Personhood and God</div>
+                            <div class="talk-time">12:00</div>
 
-</div>
+                            <div class="talk-title">Panel 2: Theological Perspectives on AI: Agency, Personhood and God</div>
 
-</div>
+                        </div>
 
-<h3 class="track-type-symposium">Track 3 - Advancing debates on the epistemology of medical AI (RA2504)</h3>
-<div>
+                    </div>
 
-<div class="talk-item">
+                    <h3 class="track-type-symposium">Track 3 - Advancing debates on the epistemology of medical AI (RA2504)</h3>
+                    <div>
 
-<div class="talk-time">11:00</div>
+                        <div class="talk-item">
 
-<div class="talk-title">Revisiting the limits of computational reliabilism</div>
+                            <div class="talk-time">11:00</div>
 
-<div class="talk-speakers">Emanuele Ratti, Juan Durán</div>
+                            <div class="talk-title">Revisiting the limits of computational reliabilism</div>
 
-</div>
+                            <div class="talk-speakers">Emanuele Ratti, Juan Durán</div>
 
-<div class="talk-item">
+                        </div>
 
-<div class="talk-time">11:30</div>
+                        <div class="talk-item">
 
-<div class="talk-title">Artificial Ignorance: Why AI's Tacit Knowledge isn't Epistemically Legitimate</div>
+                            <div class="talk-time">11:30</div>
 
-<div class="talk-speakers">Emma-Jane Spencer</div>
+                            <div class="talk-title">Artificial Ignorance: Why AI's Tacit Knowledge isn't Epistemically Legitimate</div>
 
-</div>
+                            <div class="talk-speakers">Emma-Jane Spencer</div>
 
-<div class="talk-item">
+                        </div>
 
-<div class="talk-time">12:00</div>
+                        <div class="talk-item">
 
-<div class="talk-title">Epistemic Trustworthiness and Data-Driven Healthcare Research Expertise</div>
+                            <div class="talk-time">12:00</div>
 
-<div class="talk-speakers">Chirag Arora</div>
+                            <div class="talk-title">Epistemic Trustworthiness and Data-Driven Healthcare Research Expertise</div>
 
-</div>
+                            <div class="talk-speakers">Chirag Arora</div>
 
-<div class="talk-item">
+                        </div>
 
-<div class="talk-time">12:30</div>
+                        <div class="talk-item">
 
-<div class="talk-title">Preserving Human Autonomy in Medical AI Interactions</div>
+                            <div class="talk-time">12:30</div>
 
-<div class="talk-speakers">Stefan Buijsman</div>
+                            <div class="talk-title">Preserving Human Autonomy in Medical AI Interactions</div>
 
-</div>
+                            <div class="talk-speakers">Stefan Buijsman</div>
 
-</div>
+                        </div>
 
-<h3 class="track-type-symposium">Track 4 - Moral and Legal AI Alignment (Learn-X)</h3>
-<div>
+                    </div>
 
-<div class="talk-item">
+                    <h3 class="track-type-symposium">Track 4 - Moral and Legal AI Alignment (Learn-X)</h3>
+                    <div>
 
-<div class="talk-time">11:00</div>
+                        <div class="talk-item">
 
-<div class="talk-title">Computational Meta-Epistemology and the Necessity of Decentralized Collective Intelligence for AI Alignment</div>
+                            <div class="talk-time">11:00</div>
 
-<div class="talk-speakers">Andy Williams</div>
+                            <div class="talk-title">Computational Meta-Epistemology and the Necessity of Decentralized Collective Intelligence for AI Alignment</div>
 
-</div>
+                            <div class="talk-speakers">Andy Williams</div>
 
-<div class="talk-item">
+                        </div>
 
-<div class="talk-time">11:30</div>
+                        <div class="talk-item">
 
-<div class="talk-title">Beyond Technocratic Control: Cultivating Human Maturity and Responsibility in AI Alignment</div>
+                            <div class="talk-time">11:30</div>
 
-<div class="talk-speakers">Michael Färber, Birte Platow</div>
+                            <div class="talk-title">Beyond Technocratic Control: Cultivating Human Maturity and Responsibility in AI Alignment</div>
 
-</div>
+                            <div class="talk-speakers">Michael Färber, Birte Platow</div>
 
-<div class="talk-item">
+                        </div>
 
-<div class="talk-time">12:00</div>
+                        <div class="talk-item">
 
-<div class="talk-title">The Ethical No-Free-Lunch Principle: Fundamental Limits to Purely Data-Driven AI Ethics</div>
+                            <div class="talk-time">12:00</div>
 
-<div class="talk-speakers">Luca Rivelli</div>
+                            <div class="talk-title">The Ethical No-Free-Lunch Principle: Fundamental Limits to Purely Data-Driven AI Ethics</div>
 
-</div>
+                            <div class="talk-speakers">Luca Rivelli</div>
 
-<div class="talk-item">
+                        </div>
 
-<div class="talk-time">12:30</div>
+                        <div class="talk-item">
 
-<div class="talk-title">AI value alignment in human machine interaction using LLM chatbots: technical, epistemic and ethical challenges of diversity</div>
+                            <div class="talk-time">12:30</div>
 
-<div class="talk-speakers">Dorothea Kolossa, Sabine Ammon</div>
+                            <div class="talk-title">AI value alignment in human machine interaction using LLM chatbots: technical, epistemic and ethical challenges of diversity</div>
 
-</div>
+                            <div class="talk-speakers">Dorothea Kolossa, Sabine Ammon</div>
 
-</div>
+                        </div>
 
-<h3 class="track-type-symposium">Track 5 - AI and animals: Ethical impacts of AI technologies on non-humans (Inspire)</h3>
-<div>
+                    </div>
 
-<div class="talk-item">
+                    <h3 class="track-type-symposium">Track 5 - AI and animals: Ethical impacts of AI technologies on non-humans (Inspire)</h3>
+                    <div>
 
-<div class="talk-time">11:00</div>
+                        <div class="talk-item">
 
-<div class="talk-title">An Introduction to the Ethics of Artificial Intelligence and Animals</div>
+                            <div class="talk-time">11:00</div>
 
-<div class="talk-speakers">Mark Ryan, Bernice Bovenkerk, Leonie Bossert</div>
+                            <div class="talk-title">An Introduction to the Ethics of Artificial Intelligence and Animals</div>
 
-</div>
+                            <div class="talk-speakers">Mark Ryan, Bernice Bovenkerk, Leonie Bossert</div>
 
-<div class="talk-item">
+                        </div>
 
-<div class="talk-time">11:30</div>
+                        <div class="talk-item">
 
-<div class="talk-title">Ethical Aspects of Non-animal Models for Therapy Delivery Across the Blood-brain Barrier: the NAP4DIVE Project</div>
+                            <div class="talk-time">11:30</div>
 
-<div class="talk-speakers">Philip Nickel</div>
+                            <div class="talk-title">Ethical Aspects of Non-animal Models for Therapy Delivery Across the Blood-brain Barrier: the NAP4DIVE Project</div>
 
-</div>
+                            <div class="talk-speakers">Philip Nickel</div>
 
-<div class="talk-item">
+                        </div>
 
-<div class="talk-time">12:00</div>
+                        <div class="talk-item">
 
-<div class="talk-title">Artificial Ants and Ethical Entanglements: Rethinking AI's Role in Non-Human Research</div>
+                            <div class="talk-time">12:00</div>
 
-<div class="talk-speakers">Lilli-Chiara Kurth, Alessandro Mac-Nelly, Max Baraitser Smith</div>
+                            <div class="talk-title">Artificial Ants and Ethical Entanglements: Rethinking AI's Role in Non-Human Research</div>
 
-</div>
+                            <div class="talk-speakers">Lilli-Chiara Kurth, Alessandro Mac-Nelly, Max Baraitser Smith</div>
 
-<div class="talk-item">
+                        </div>
 
-<div class="talk-time">12:30</div>
+                        <div class="talk-item">
 
-<div class="talk-title">Something Looks Fishy! An Exploration of the Social and Ethical Implications of Fishial Recognition Systems</div>
+                            <div class="talk-time">12:30</div>
 
-<div class="talk-speakers">Paulan Korenhof, Mark Ryan</div>
+                            <div class="talk-title">Something Looks Fishy! An Exploration of the Social and Ethical Implications of Fishial Recognition Systems</div>
 
-</div>
+                            <div class="talk-speakers">Paulan Korenhof, Mark Ryan</div>
 
-</div>
+                        </div>
 
-</div>
+                    </div>
 
-</div>
+                </div>
 
-<div class="session session-break">
-<div class="session-time">13:00-14:00</div>
-<div class="session-title">Lunch</div>
-</div>
+            </div>
 
-<div class="session">
-<div class="session-time">14:00-15:30</div>
-<div class="session-title">Session 2</div>
+            <div class="session session-break">
+                <div class="session-time">13:00-14:00</div>
+                <div class="session-title">Lunch</div>
+            </div>
 
-<div id="tracksAccordion-day2-session5" class="tracks-accordion">
+            <div class="session">
+                <div class="session-time">14:00-15:30</div>
+                <div class="session-title">Session 2</div>
 
-<h3 class="track-type-individual-talks">Track 1 - Computing and Intelligence (RA1501) | Chair: John Sullins</h3>
-<div>
+                <div id="tracksAccordion-day2-session5" class="tracks-accordion">
 
-<div class="talk-item">
+                    <h3 class="track-type-individual-talks">Track 1 - Computing and Intelligence (RA1501) | Chair: John Sullins</h3>
+                    <div>
 
-<div class="talk-time">14:00</div>
+                        <div class="talk-item">
 
-<div class="talk-title">What is Intelligence?</div>
+                            <div class="talk-time">14:00</div>
 
-<div class="talk-speakers">Arzu Formanek</div>
+                            <div class="talk-title">What is Intelligence?</div>
 
-</div>
+                            <div class="talk-speakers">Arzu Formanek</div>
 
-<div class="talk-item">
+                        </div>
 
-<div class="talk-time">14:30</div>
+                        <div class="talk-item">
 
-<div class="talk-title">From Active Matter to Complex Intelligent Systems: An Agent-Based Framework</div>
+                            <div class="talk-time">14:30</div>
 
-<div class="talk-speakers">Gordana Dodig-Crnkovic</div>
+                            <div class="talk-title">From Active Matter to Complex Intelligent Systems: An Agent-Based Framework</div>
 
-</div>
+                            <div class="talk-speakers">Gordana Dodig-Crnkovic</div>
 
-<div class="talk-item">
+                        </div>
 
-<div class="talk-time">15:00</div>
+                        <div class="talk-item">
 
-<div class="talk-title">From Simulating Towards Duplicating the Brain - The Case of Neuromorphic AI</div>
+                            <div class="talk-time">15:00</div>
 
-<div class="talk-speakers">Johannes Brinz</div>
+                            <div class="talk-title">From Simulating Towards Duplicating the Brain - The Case of Neuromorphic AI</div>
 
-</div>
+                            <div class="talk-speakers">Johannes Brinz</div>
 
-</div>
+                        </div>
 
-<h3 class="track-type-symposium">Track 2 - Reimagining AI Agents (RA2501)</h3>
-<div>
+                    </div>
 
-<div class="talk-item">
+                    <h3 class="track-type-symposium">Track 2 - Reimagining AI Agents (RA2501)</h3>
+                    <div>
 
-<div class="talk-time">14:00</div>
+                        <div class="talk-item">
 
-<div class="talk-title">Panel 3: Communicating with (Non-Human) AI Agency: Occult, Mythological and Scholastic Perspectives</div>
+                            <div class="talk-time">14:00</div>
 
-</div>
+                            <div class="talk-title">Panel 3: Communicating with (Non-Human) AI Agency: Occult, Mythological and Scholastic Perspectives</div>
 
-</div>
+                        </div>
 
-<h3 class="track-type-symposium">Track 3 - Advancing debates on the epistemology of medical AI (RA2504)</h3>
-<div>
+                    </div>
 
-<div class="talk-item">
+                    <h3 class="track-type-symposium">Track 3 - Advancing debates on the epistemology of medical AI (RA2504)</h3>
+                    <div>
 
-<div class="talk-time">14:00-15:30</div>
+                        <div class="talk-item">
 
-<div class="talk-title">Panel (Q&A from audience): Durán, Spencer, Arora, Buijsman</div>
+                            <div class="talk-time">14:00-15:30</div>
 
-</div>
+                            <div class="talk-title">Panel (Q&A from audience): Durán, Spencer, Arora, Buijsman</div>
 
-</div>
+                        </div>
 
-<h3 class="track-type-symposium">Track 4 - Moral and Legal AI Alignment (Learn-X)</h3>
-<div>
+                    </div>
 
-<div class="talk-item">
+                    <h3 class="track-type-symposium">Track 4 - Moral and Legal AI Alignment (Learn-X)</h3>
+                    <div>
 
-<div class="talk-time">14:00</div>
+                        <div class="talk-item">
 
-<div class="talk-title">Pluralism in AI Value Alignment: Motivations and Methods</div>
+                            <div class="talk-time">14:00</div>
 
-<div class="talk-speakers">Parris Haynes, Phillip Honenberger</div>
+                            <div class="talk-title">Pluralism in AI Value Alignment: Motivations and Methods</div>
 
-</div>
+                            <div class="talk-speakers">Parris Haynes, Phillip Honenberger</div>
 
-<div class="talk-item">
+                        </div>
 
-<div class="talk-time">14:30</div>
+                        <div class="talk-item">
 
-<div class="talk-title">Cultural Bias in Large Language Models: Evaluating AI Agents through Moral Questionnaires</div>
+                            <div class="talk-time">14:30</div>
 
-<div class="talk-speakers">Simon Münker</div>
+                            <div class="talk-title">Cultural Bias in Large Language Models: Evaluating AI Agents through Moral Questionnaires</div>
 
-</div>
+                            <div class="talk-speakers">Simon Münker</div>
 
-<div class="talk-item">
+                        </div>
 
-<div class="talk-time">15:00</div>
+                        <div class="talk-item">
 
-<div class="talk-title">Towards a Discursive Normative Grammar for Language Models</div>
+                            <div class="talk-time">15:00</div>
 
-<div class="talk-speakers">Bertram Lomfeld</div>
+                            <div class="talk-title">Towards a Discursive Normative Grammar for Language Models</div>
 
-</div>
+                            <div class="talk-speakers">Bertram Lomfeld</div>
 
-</div>
+                        </div>
 
-<h3 class="track-type-symposium">Track 5 - AI and animals: Ethical impacts of AI technologies on non-humans (Inspire)</h3>
-<div>
+                    </div>
 
-<div class="talk-item">
+                    <h3 class="track-type-symposium">Track 5 - AI and animals: Ethical impacts of AI technologies on non-humans (Inspire)</h3>
+                    <div>
 
-<div class="talk-time">14:00</div>
+                        <div class="talk-item">
 
-<div class="talk-title">Animal welfare in the world of digitalization: Computer Vision in the context of meta-physical structures</div>
+                            <div class="talk-time">14:00</div>
 
-<div class="talk-speakers">Mariska Bosschaert-Bakhuizen</div>
+                            <div class="talk-title">Animal welfare in the world of digitalization: Computer Vision in the context of meta-physical structures</div>
 
-</div>
+                            <div class="talk-speakers">Mariska Bosschaert-Bakhuizen</div>
 
-<div class="talk-item">
+                        </div>
 
-<div class="talk-time">14:30</div>
+                        <div class="talk-item">
 
-<div class="talk-title">AI, Democratic Innovations, and the Representation of Non-Human Animals</div>
+                            <div class="talk-time">14:30</div>
 
-<div class="talk-speakers">Friderike Spang</div>
+                            <div class="talk-title">AI, Democratic Innovations, and the Representation of Non-Human Animals</div>
 
-</div>
+                            <div class="talk-speakers">Friderike Spang</div>
 
-<div class="talk-item">
+                        </div>
 
-<div class="talk-time">15:00</div>
+                        <div class="talk-item">
 
-<div class="talk-title">Search Engines, Large Language Models and Justice for Animals</div>
+                            <div class="talk-time">15:00</div>
 
-<div class="talk-speakers">Angela Martin, Leonie Bossert</div>
+                            <div class="talk-title">Search Engines, Large Language Models and Justice for Animals</div>
 
-</div>
+                            <div class="talk-speakers">Angela Martin, Leonie Bossert</div>
 
-</div>
+                        </div>
 
-</div>
+                    </div>
 
-</div>
+                </div>
 
-<div class="session session-break">
-<div class="session-time">15:30-16:00</div>
-<div class="session-title">Coffee</div>
-</div>
+            </div>
 
-<div class="session">
-<div class="session-time">16:00-17:30</div>
-<div class="session-title">Session 3</div>
+            <div class="session session-break">
+                <div class="session-time">15:30-16:00</div>
+                <div class="session-title">Coffee</div>
+            </div>
 
-<div id="tracksAccordion-day2-session7" class="tracks-accordion">
+            <div class="session">
+                <div class="session-time">16:00-17:30</div>
+                <div class="session-title">Session 3</div>
 
-<h3 class="track-type-individual-talks">Track 1 - Embodied, Ecological, and Distributed Cognition (RA1501) | Chair: Robin Zebrowski</h3>
-<div>
+                <div id="tracksAccordion-day2-session7" class="tracks-accordion">
 
-<div class="talk-item">
+                    <h3 class="track-type-individual-talks">Track 1 - Embodied, Ecological, and Distributed Cognition (RA1501) | Chair: Robin Zebrowski</h3>
+                    <div>
 
-<div class="talk-time">16:00</div>
+                        <div class="talk-item">
 
-<div class="talk-title">Neuro-Symbolic AI, Reason, and Content: Connecting the Nonconceptual and the Conceptual</div>
+                            <div class="talk-time">16:00</div>
 
-<div class="talk-speakers">Jacob Rump</div>
+                            <div class="talk-title">Neuro-Symbolic AI, Reason, and Content: Connecting the Nonconceptual and the Conceptual</div>
 
-</div>
+                            <div class="talk-speakers">Jacob Rump</div>
 
-<div class="talk-item">
+                        </div>
 
-<div class="talk-time">16:30</div>
+                        <div class="talk-item">
 
-<div class="talk-title">The shared cybernetic roots of computationalism and enactivism</div>
+                            <div class="talk-time">16:30</div>
 
-<div class="talk-speakers">Henrique Mendes</div>
+                            <div class="talk-title">The shared cybernetic roots of computationalism and enactivism</div>
 
-</div>
+                            <div class="talk-speakers">Henrique Mendes</div>
 
-<div class="talk-item">
+                        </div>
 
-<div class="talk-time">17:00</div>
+                        <div class="talk-item">
 
-<div class="talk-title">Autonomous and AI-Enabled Systems: Extensions or Replacements of Human Will and Control?</div>
+                            <div class="talk-time">17:00</div>
 
-<div class="talk-speakers">Nathan Wood</div>
+                            <div class="talk-title">Autonomous and AI-Enabled Systems: Extensions or Replacements of Human Will and Control?</div>
 
-</div>
+                            <div class="talk-speakers">Nathan Wood</div>
 
-</div>
+                        </div>
 
-<h3 class="track-type-symposium">Track 2 - Reimagining AI Agents (RA2501)</h3>
-<div>
+                    </div>
 
-<div class="talk-item">
+                    <h3 class="track-type-symposium">Track 2 - Reimagining AI Agents (RA2501)</h3>
+                    <div>
 
-<div class="talk-time">16:00</div>
+                        <div class="talk-item">
 
-<div class="talk-title">Panel 4: Latent Spaces and Demonic Machines: AI Deception and Enchantment</div>
+                            <div class="talk-time">16:00</div>
 
-</div>
+                            <div class="talk-title">Panel 4: Latent Spaces and Demonic Machines: AI Deception and Enchantment</div>
 
-</div>
+                        </div>
 
-<h3 class="track-type-workshop">Track 3 - Early Career Publishing (RA2504)</h3>
-<div>
+                    </div>
 
-<div class="talk-item">
+                    <h3 class="track-type-workshop">Track 3 - Workshop: Early Career Publishing (RA2504)</h3>
+                    <div>
 
-<div class="talk-time">16:00</div>
+                        <div class="talk-item">
 
-<div class="talk-title">Workshop: Early Career Publishing - Springer</div>
+                            <div class="talk-time">16:00</div>
 
-</div>
+                            <div class="talk-title">Workshop: Early Career Publishing</div>
 
-<div class="talk-item">
+                            <div class="talk-speakers">Springer</div>
 
-<div class="talk-time">16:30-17:30</div>
+                        </div>
 
-<div class="talk-title">Workshop Value-driven Alignment of Language Modules</div>
+                    </div>
 
-</div>
+                    <h3 class="track-type-symposium">Track 4 - Moral and Legal AI Alignment (Learn-X)</h3>
+                    <div>
 
-</div>
+                        <div class="talk-item">
 
-<h3 class="track-type-symposium">Track 4 - Moral and Legal AI Alignment (Learn-X)</h3>
-<div>
+                            <div class="talk-time">16:00</div>
 
-<div class="talk-item">
+                            <div class="talk-title">Moral Ordinals, Axiometry and Alignment of Values in Small Instruct Language Models</div>
 
-<div class="talk-time">16:00</div>
+                            <div class="talk-speakers">Daniel Hromada</div>
 
-<div class="talk-title">Moral Ordinals, Axiometry and Alignment of Values in Small Instruct Language Models</div>
+                        </div>
 
-<div class="talk-speakers">Daniel Hromada</div>
+                        <div class="talk-item">
 
-</div>
+                            <div class="talk-time">16:30</div>
 
-</div>
+                            <div class="talk-title">Workshop: Value-driven Alignment of Language Modules</div>
 
-<h3 class="track-type-symposium">Track 5 - AI and animals: Ethical impacts of AI technologies on non-humans (Inspire)</h3>
-<div>
+                        </div>
 
-<div class="talk-item">
+                    </div>
 
-<div class="talk-time">16:00</div>
+                    <h3 class="track-type-symposium">Track 5 - AI and animals: Ethical impacts of AI technologies on non-humans (Inspire)</h3>
+                    <div>
 
-<div class="talk-title">It's Hard Enough Without AI: The Value of Diagnosis in Veterinary Practice</div>
+                        <div class="talk-item">
 
-<div class="talk-speakers">Mona Giersberg, Franck Meijboom</div>
+                            <div class="talk-time">16:00</div>
 
-</div>
+                            <div class="talk-title">It's Hard Enough Without AI: The Value of Diagnosis in Veterinary Practice</div>
 
-<div class="talk-item">
+                            <div class="talk-speakers">Mona Giersberg, Franck Meijboom</div>
 
-<div class="talk-time">16:30</div>
+                        </div>
 
-<div class="talk-title">The Synergy between AI and Biotechnology for Conservation: an Epistemic Justice Problem</div>
+                        <div class="talk-item">
 
-<div class="talk-speakers">Bernice Bovenkerk, Dominic Lenzi</div>
+                            <div class="talk-time">16:30</div>
 
-</div>
+                            <div class="talk-title">The Synergy between AI and Biotechnology for Conservation: an Epistemic Justice Problem</div>
 
-<div class="talk-item">
+                            <div class="talk-speakers">Bernice Bovenkerk, Dominic Lenzi</div>
 
-<div class="talk-time">17:00</div>
+                        </div>
 
-<div class="talk-title">Unlearning Human Bias: Teaching Language Models to Think Beyond Species</div>
+                        <div class="talk-item">
 
-<div class="talk-speakers">Christoph Krüger, Sam Tucker-Davis</div>
+                            <div class="talk-time">17:00</div>
 
-</div>
+                            <div class="talk-title">Unlearning Human Bias: Teaching Language Models to Think Beyond Species</div>
 
-</div>
+                            <div class="talk-speakers">Christoph Krüger, Sam Tucker-Davis</div>
 
-</div>
+                        </div>
 
-</div>
+                    </div>
 
-<div class="session session-closing">
-<div class="session-time">17:30-18:00</div>
-<div class="session-title">Closing</div>
-</div>
+                </div>
 
-<div class="session session-social">
-<div class="session-time">18:30</div>
-<div class="session-title">Conference Dinner at UPark Hotel. Arrivals from 18:00</div>
-</div>
-</div>
+            </div>
 
-<h3>Day 3: Thursday, July 3</h3>
-<div>
+            <div class="session session-closing">
+                <div class="session-time">17:30-18:00</div>
+                <div class="session-title">Closing</div>
+            </div>
 
-<div class="session session-registration">
-<div class="session-time">09:00-09:30</div>
-<div class="session-title">Registration and Coffee</div>
-</div>
+            <div class="session session-social">
+                <div class="session-time">18:30</div>
+                <div class="session-title">Conference Dinner at UPark Hotel. Arrivals from 18:00</div>
+            </div>
 
-<div class="session session-plenary">
-<div class="session-time">09:30-10:30</div>
-<div class="session-title">Plenary Session</div>
-<div class="plenary-info">
-<div class="plenary-title">Using AI as Philosophical Method</div>
-<div class="plenary-speaker">Speaker: Vincent Müller</div>
+        </div>
 
-<div class="plenary-chair">Chair: Steve T McKinlay</div>
+        <h3>Day 3: Thursday, July 3</h3>
+        <div>
 
-<div class="plenary-chair">Covey Award Keynote</div>
+            <div class="session session-registration">
+                <div class="session-time">09:00-09:30</div>
+                <div class="session-title">Registration and Coffee</div>
+            </div>
 
-</div>
-</div>
+            <div class="session session-plenary">
+                <div class="session-time">09:30-10:30</div>
+                <div class="session-title">Plenary Session</div>
+                <div class="plenary-info">
+                    <div class="plenary-title">Using AI as Philosophical Method</div>
+                    <div class="plenary-speaker">Speaker: Vincent Müller</div>
 
-<div class="session session-break">
-<div class="session-time">10:30-11:00</div>
-<div class="session-title">Coffee</div>
-</div>
+                    <div class="plenary-chair">Chair: Steve T McKinlay</div>
 
-<div class="session">
-<div class="session-time">11:00-13:00</div>
-<div class="session-title">Session 1</div>
+                    <div class="plenary-chair">iACAP Covey Award Keynote</div>
 
-<div id="tracksAccordion-day3-session3" class="tracks-accordion">
+                </div>
+            </div>
 
-<h3 class="track-type-individual-talks">Track 1 - Computing and Scientific Inquiry (RA1501) | Chair: Björn Lundgren</h3>
-<div>
+            <div class="session session-break">
+                <div class="session-time">10:30-11:00</div>
+                <div class="session-title">Coffee</div>
+            </div>
 
-<div class="talk-item">
+            <div class="session">
+                <div class="session-time">11:00-13:00</div>
+                <div class="session-title">Session 1</div>
 
-<div class="talk-time">11:00</div>
+                <div id="tracksAccordion-day3-session3" class="tracks-accordion">
 
-<div class="talk-title">Deep-learning Models and Scientific Understanding through Explanations and Descriptions</div>
+                    <h3 class="track-type-individual-talks">Track 1 - Computing and Scientific Inquiry (RA1501) | Chair: Björn Lundgren</h3>
+                    <div>
 
-<div class="talk-speakers">Giovanni Galli</div>
+                        <div class="talk-item">
 
-</div>
+                            <div class="talk-time">11:00</div>
 
-<div class="talk-item">
+                            <div class="talk-title">Deep-learning Models and Scientific Understanding through Explanations and Descriptions</div>
 
-<div class="talk-time">11:30</div>
+                            <div class="talk-speakers">Giovanni Galli</div>
 
-<div class="talk-title">Deep Neural Networks as Vehicles for Scientific Understanding</div>
+                        </div>
 
-<div class="talk-speakers">Frauke Stoll</div>
+                        <div class="talk-item">
 
-</div>
+                            <div class="talk-time">11:30</div>
 
-<div class="talk-item">
+                            <div class="talk-title">Deep Neural Networks as Vehicles for Scientific Understanding</div>
 
-<div class="talk-time">12:00</div>
+                            <div class="talk-speakers">Frauke Stoll</div>
 
-<div class="talk-title">Knowledge and Truth in Machine Learning</div>
+                        </div>
 
-<div class="talk-speakers">Ioannis Votsis</div>
+                        <div class="talk-item">
 
-</div>
+                            <div class="talk-time">12:00</div>
 
-<div class="talk-item">
+                            <div class="talk-title">Knowledge and Truth in Machine Learning</div>
 
-<div class="talk-time">12:30</div>
+                            <div class="talk-speakers">Ioannis Votsis</div>
 
-<div class="talk-title">Machine Learning in Science: Approximation over Idealization</div>
+                        </div>
 
-<div class="talk-speakers">Luis G. Lopez</div>
+                        <div class="talk-item">
 
-</div>
+                            <div class="talk-time">12:30</div>
 
-</div>
+                            <div class="talk-title">Machine Learning in Science: Approximation over Idealization</div>
 
-<h3 class="track-type-individual-talks">Track 2 - Artificial Intelligence and Machine Learning (RA2501) | Chair: Chirag Arora</h3>
-<div>
+                            <div class="talk-speakers">Luis G. Lopez</div>
 
-<div class="talk-item">
+                        </div>
 
-<div class="talk-time">11:00</div>
+                    </div>
 
-<div class="talk-title">The Non-Bias Myth. A Popular Belief in AI and Machine Learning</div>
+                    <h3 class="track-type-individual-talks">Track 2 - Artificial Intelligence and Machine Learning (RA2501) | Chair: Chirag Arora</h3>
+                    <div>
 
-<div class="talk-speakers">Johannes Lenhard, Matthias Brandl</div>
+                        <div class="talk-item">
 
-</div>
+                            <div class="talk-time">11:00</div>
 
-<div class="talk-item">
+                            <div class="talk-title">The Non-Bias Myth. A Popular Belief in AI and Machine Learning</div>
 
-<div class="talk-time">11:30</div>
+                            <div class="talk-speakers">Johannes Lenhard, Matthias Brandl</div>
 
-<div class="talk-title">Ideals of Transparency in Artificial Intelligence and Philosophy</div>
+                        </div>
 
-<div class="talk-speakers">Hajo Greif</div>
+                        <div class="talk-item">
 
-</div>
+                            <div class="talk-time">11:30</div>
 
-<div class="talk-item">
+                            <div class="talk-title">Ideals of Transparency in Artificial Intelligence and Philosophy</div>
 
-<div class="talk-time">12:00</div>
+                            <div class="talk-speakers">Hajo Greif</div>
 
-<div class="talk-title">Beyond Representation: A Philosophy for Understanding Large Language Models</div>
+                        </div>
 
-<div class="talk-speakers">Steve T McKinlay</div>
+                        <div class="talk-item">
 
-</div>
+                            <div class="talk-time">12:00</div>
 
-<div class="talk-item">
+                            <div class="talk-title">Beyond Representation: A Philosophy for Understanding Large Language Models</div>
 
-<div class="talk-time">12:30</div>
+                            <div class="talk-speakers">Steve T McKinlay</div>
 
-<div class="talk-title">A Transformer Says 'Slab'</div>
+                        </div>
 
-<div class="talk-speakers">Fabian Pregel</div>
+                        <div class="talk-item">
 
-</div>
+                            <div class="talk-time">12:30</div>
 
-</div>
+                            <div class="talk-title">A Transformer Says 'Slab'</div>
 
-<h3 class="track-type-symposium">Track 3 - Teaching With and About AI: Engagement Philosophy and Case Studies (RA2502)</h3>
-<div>
+                            <div class="talk-speakers">Fabian Pregel</div>
 
-<div class="talk-item">
+                        </div>
 
-<div class="talk-time">11:00</div>
+                    </div>
 
-<div class="talk-title">Workshop: Teaching With and About AI, Case Studies from 2024</div>
+                    <h3 class="track-type-workshop">Track 3 - Workshop: Teaching With and About AI: Engagement Philosophy and Case Studies (RA2502)</h3>
+                    <div>
 
-<div class="talk-speakers">Brian Ballsun-Stanton, Max Aeon Parks</div>
+                        <div class="talk-item">
 
-</div>
+                            <div class="talk-time">11:00</div>
 
-</div>
+                            <div class="talk-title">Workshop: Teaching With and About AI, Case Studies from 2024</div>
 
-<h3 class="track-type-symposium">Track 4 - The epistemic risks of AI integration (RA2804)</h3>
-<div>
+                            <div class="talk-speakers">Brian Ballsun-Stanton, Max Aeon Parks</div>
 
-<div class="talk-item">
+                        </div>
 
-<div class="talk-time">11:00</div>
+                    </div>
 
-<div class="talk-title">Varieties of Epistemic Risks in Emerging Technologies</div>
+                    <h3 class="track-type-symposium">Track 4 - The epistemic risks of AI integration (RA2804)</h3>
+                    <div>
 
-<div class="talk-speakers">Sascha Fink</div>
+                        <div class="talk-item">
 
-</div>
+                            <div class="talk-time">11:00</div>
 
-<div class="talk-item">
+                            <div class="talk-title">Varieties of Epistemic Risks in Emerging Technologies</div>
 
-<div class="talk-time">11:30</div>
+                            <div class="talk-speakers">Sascha Fink</div>
 
-<div class="talk-title">AI and the heterogeneity of pain</div>
+                        </div>
 
-<div class="talk-speakers">Hadeel Naeem</div>
+                        <div class="talk-item">
 
-</div>
+                            <div class="talk-time">11:30</div>
 
-<div class="talk-item">
+                            <div class="talk-title">AI and the heterogeneity of pain</div>
 
-<div class="talk-time">12:00</div>
+                            <div class="talk-speakers">Hadeel Naeem</div>
 
-<div class="talk-title">The Limitation Game: Anthropomorphising and 'AI testimony'</div>
+                        </div>
 
-<div class="talk-speakers">Ian Robertson</div>
+                        <div class="talk-item">
 
-</div>
+                            <div class="talk-time">12:00</div>
 
-<div class="talk-item">
+                            <div class="talk-title">The Limitation Game: Anthropomorphising and 'AI testimony'</div>
 
-<div class="talk-time">12:30</div>
+                            <div class="talk-speakers">Ian Robertson</div>
 
-<div class="talk-title">Artificial Vices</div>
+                        </div>
 
-<div class="talk-speakers">Deb Marber</div>
+                        <div class="talk-item">
 
-</div>
+                            <div class="talk-time">12:30</div>
 
-</div>
+                            <div class="talk-title">Artificial Vices</div>
 
-<h3 class="track-type-symposium">Track 5 - The values and disruptive capacities of AI Systems (RA2334 - 80)</h3>
-<div>
+                            <div class="talk-speakers">Deb Marber</div>
 
-<div class="talk-item">
+                        </div>
 
-<div class="talk-time">11:00</div>
+                    </div>
 
-<div class="talk-title">Misalignment or misuse? A tradeoff</div>
+                    <h3 class="track-type-symposium">Track 5 - The values and disruptive capacities of AI Systems (RA2334)</h3>
+                    <div>
 
-<div class="talk-speakers">Max Hellrigel-Holderbaum</div>
+                        <div class="talk-item">
 
-</div>
+                            <div class="talk-time">11:00</div>
 
-<div class="talk-item">
+                            <div class="talk-title">Misalignment or misuse? A tradeoff</div>
 
-<div class="talk-time">11:30</div>
+                            <div class="talk-speakers">Max Hellrigel-Holderbaum</div>
 
-<div class="talk-title">AI outsourcing and the value of autonomy</div>
+                        </div>
 
-<div class="talk-speakers">Eleonora Catena</div>
+                        <div class="talk-item">
 
-</div>
+                            <div class="talk-time">11:30</div>
 
-<div class="talk-item">
+                            <div class="talk-title">AI outsourcing and the value of autonomy</div>
 
-<div class="talk-time">12:00</div>
+                            <div class="talk-speakers">Eleonora Catena</div>
 
-<div class="talk-title">AI Value Alignment: From Rights to Capabilities</div>
+                        </div>
 
-<div class="talk-speakers">Ibifuro R. Jaja</div>
+                        <div class="talk-item">
 
-</div>
+                            <div class="talk-time">12:00</div>
 
-<div class="talk-item">
+                            <div class="talk-title">AI Value Alignment: From Rights to Capabilities</div>
 
-<div class="talk-time">12:30</div>
+                            <div class="talk-speakers">Ibifuro R. Jaja</div>
 
-<div class="talk-title">Short-term or long-term AI ethics? A dilemma for fanatics</div>
+                        </div>
 
-<div class="talk-speakers">Vincent C. Müller</div>
+                        <div class="talk-item">
 
-</div>
+                            <div class="talk-time">12:30</div>
 
-</div>
+                            <div class="talk-title">Short-term or long-term AI ethics? A dilemma for fanatics</div>
 
-</div>
+                            <div class="talk-speakers">Vincent C. Müller</div>
 
-</div>
+                        </div>
 
-<div class="session session-break">
-<div class="session-time">13:00-14:00</div>
-<div class="session-title">Lunch</div>
-</div>
+                    </div>
 
-<div class="session">
-<div class="session-time">14:00-15:30</div>
-<div class="session-title">Session 2</div>
+                </div>
 
-<div id="tracksAccordion-day3-session5" class="tracks-accordion">
+            </div>
 
-<h3 class="track-type-individual-talks">Track 1 - Artificial Intelligence and Machine Learning (RA1501) | Chair: Steve T McKinlay</h3>
-<div>
+            <div class="session session-break">
+                <div class="session-time">13:00-14:00</div>
+                <div class="session-title">Lunch</div>
+            </div>
 
-<div class="talk-item">
+            <div class="session">
+                <div class="session-time">14:00-15:30</div>
+                <div class="session-title">Session 2</div>
 
-<div class="talk-time">14:00</div>
+                <div id="tracksAccordion-day3-session5" class="tracks-accordion">
 
-<div class="talk-title">On the Normativity of the Concept of Believability in Generative Agents</div>
+                    <h3 class="track-type-individual-talks">Track 1 - Artificial Intelligence and Machine Learning (RA1501) | Chair: Steve T McKinlay</h3>
+                    <div>
 
-<div class="talk-speakers">Sven Thomas, Leonie Möck</div>
+                        <div class="talk-item">
 
-</div>
+                            <div class="talk-time">14:00</div>
 
-<div class="talk-item">
+                            <div class="talk-title">On the Normativity of the Concept of Believability in Generative Agents</div>
 
-<div class="talk-time">14:30</div>
+                            <div class="talk-speakers">Sven Thomas, Leonie Möck</div>
 
-<div class="talk-title">Commonsense Reasoning in Artificial Intelligence: Challenges and Evaluation of Large Language Models</div>
+                        </div>
 
-<div class="talk-speakers">Zeynep Kabadere</div>
+                        <div class="talk-item">
 
-</div>
+                            <div class="talk-time">14:30</div>
 
-<div class="talk-item">
+                            <div class="talk-title">Commonsense Reasoning in Artificial Intelligence: Challenges and Evaluation of Large Language Models</div>
 
-<div class="talk-time">15:00</div>
+                            <div class="talk-speakers">Zeynep Kabadere</div>
 
-<div class="talk-title">Ed-tech, role responsibilities and teachers' moral entanglement</div>
+                        </div>
 
-<div class="talk-speakers">Fabio Tollon, Michał Wieczorek</div>
+                        <div class="talk-item">
 
-</div>
+                            <div class="talk-time">15:00</div>
 
-</div>
+                            <div class="talk-title">Ed-tech, role responsibilities and teachers' moral entanglement</div>
 
-<h3 class="track-type-individual-talks">Track 2 - Robotics, Autonomous Systems, and Human-Machine Interaction (RA2501) | Chair: Nancy Abigail Nuñez Hernández</h3>
-<div>
+                            <div class="talk-speakers">Fabio Tollon, Michał Wieczorek</div>
 
-<div class="talk-item">
+                        </div>
 
-<div class="talk-time">14:00</div>
+                    </div>
 
-<div class="talk-title">Robots and Resentment</div>
+                    <h3 class="track-type-individual-talks">Track 2 - Robotics, Autonomous Systems, and Human-Machine Interaction (RA2501) | Chair: Nancy Abigail Nuñez Hernández</h3>
+                    <div>
 
-<div class="talk-speakers">Don Berkich</div>
+                        <div class="talk-item">
 
-</div>
+                            <div class="talk-time">14:00</div>
 
-<div class="talk-item">
+                            <div class="talk-title">Robots and Resentment</div>
 
-<div class="talk-time">14:30</div>
+                            <div class="talk-speakers">Don Berkich</div>
 
-<div class="talk-title">Hell is Other Robots: Participatory Sense-Making and GenAI</div>
+                        </div>
 
-<div class="talk-speakers">Robin Zebrowski</div>
+                        <div class="talk-item">
 
-</div>
+                            <div class="talk-time">14:30</div>
 
-<div class="talk-item">
+                            <div class="talk-title">Hell is Other Robots: Participatory Sense-Making and GenAI</div>
 
-<div class="talk-time">15:00</div>
+                            <div class="talk-speakers">Robin Zebrowski</div>
 
-<div class="talk-title">On the moral status of present-day robotic and AI systems</div>
+                        </div>
 
-<div class="talk-speakers">Björn Lundgren, Olof Leffler</div>
+                        <div class="talk-item">
 
-</div>
+                            <div class="talk-time">15:00</div>
 
-</div>
+                            <div class="talk-title">On the moral status of present-day robotic and AI systems</div>
 
-<h3 class="track-type-workshop">Track 3 - Teaching With and About AI: Engagement Philosophy and Case Studies (RA2502)</h3>
-<div>
+                            <div class="talk-speakers">Björn Lundgren, Olof Leffler</div>
 
-<div class="talk-item">
+                        </div>
 
-<div class="talk-time">14:00</div>
+                    </div>
 
-<div class="talk-title">Interactive workshop: Writing and Research with (and about) AI: using Claude and OpenAI's LLMs to scaffold and edit papers</div>
+                    <h3 class="track-type-workshop">Track 3 - Workshop: Teaching With and About AI: Engagement Philosophy and Case Studies (RA2502)</h3>
+                    <div>
 
-<div class="talk-speakers">Brian Ballsun-Stanton</div>
+                        <div class="talk-item">
 
-</div>
+                            <div class="talk-time">14:00</div>
 
-</div>
+                            <div class="talk-title">Interactive workshop: Writing and Research with (and about) AI: using Claude and OpenAI's LLMs to scaffold and edit papers</div>
 
-<h3 class="track-type-posters">Track 4 - IACAP Posters Session (RA2804) | Chair: Ahmed Amer</h3>
-<div>
+                            <div class="talk-speakers">Brian Ballsun-Stanton</div>
 
-<div class="talk-item">
+                        </div>
 
-<div class="talk-time">14:00</div>
+                    </div>
 
-<div class="talk-title">Flashlights posters 1-3</div>
+                    <h3 class="track-type-posters">Track 4 - IACAP Posters Session (RA2804) | Chair: Ahmed Amer</h3>
+                    <div>
 
-</div>
+                        <div class="talk-item">
 
-<div class="talk-item">
+                            <div class="talk-time">14:00</div>
 
-<div class="talk-time">14:30</div>
+                            <div class="talk-title">Flashlights posters 1-3</div>
 
-<div class="talk-title">Flashlights posters 4-6</div>
+                        </div>
 
-</div>
+                        <div class="talk-item">
 
-<div class="talk-item">
+                            <div class="talk-time">14:30</div>
 
-<div class="talk-time">15:00</div>
+                            <div class="talk-title">Flashlights posters 4-6</div>
 
-<div class="talk-title">Flashlights posters 7-9</div>
+                        </div>
 
-</div>
+                        <div class="talk-item">
 
-</div>
+                            <div class="talk-time">15:00</div>
 
-<h3 class="track-type-symposium">Track 5 - Generative Companionship in the Digital Age - Session 4 (AI Companions and User's Mental Health) (RA2334 - 80)</h3>
-<div>
+                            <div class="talk-title">Flashlights posters 7-9</div>
 
-<div class="talk-item">
+                        </div>
 
-<div class="talk-time">14:00</div>
+                    </div>
 
-<div class="talk-title">Possibilities and Limits of a Virtual Therapist</div>
+                    <h3 class="track-type-symposium">Track 5 - Generative Companionship in the Digital Age - Session 4 (AI Companions and User's Mental Health) (RA2334)</h3>
+                    <div>
 
-<div class="talk-speakers">Rita Lobo</div>
+                        <div class="talk-item">
 
-</div>
+                            <div class="talk-time">14:00</div>
 
-<div class="talk-item">
+                            <div class="talk-title">Possibilities and Limits of a Virtual Therapist</div>
 
-<div class="talk-time">14:30</div>
+                            <div class="talk-speakers">Rita Lobo</div>
 
-<div class="talk-title">The Digital Other in AI Therapy</div>
+                        </div>
 
-<div class="talk-speakers">Pii Telakivi</div>
+                        <div class="talk-item">
 
-</div>
+                            <div class="talk-time">14:30</div>
 
-<div class="talk-item">
+                            <div class="talk-title">The Digital Other in AI Therapy</div>
 
-<div class="talk-time">15:00</div>
+                            <div class="talk-speakers">Pii Telakivi</div>
 
-<div class="talk-title">Anthropomorphization of Mental Health Chatbots</div>
+                        </div>
 
-<div class="talk-speakers">Thomas Leis</div>
+                        <div class="talk-item">
 
-</div>
+                            <div class="talk-time">15:00</div>
 
-</div>
+                            <div class="talk-title">Anthropomorphization of Mental Health Chatbots</div>
 
-</div>
+                            <div class="talk-speakers">Thomas Leis</div>
 
-</div>
+                        </div>
 
-<div class="session session-break">
-<div class="session-time">15:30-16:00</div>
-<div class="session-title">Coffee</div>
-</div>
+                    </div>
 
-<div class="session session-plenary">
-<div class="session-time">16:30-17:30</div>
-<div class="session-title">Plenary Session</div>
-<div class="plenary-info">
-<div class="plenary-title">U.S. Academic Research: A History and Status Report</div>
-<div class="plenary-speaker">Speaker: Tom Powers</div>
+                </div>
 
-<div class="plenary-chair">Chair: Björn Lundgren</div>
+            </div>
 
-</div>
-</div>
+            <div class="session session-break">
+                <div class="session-time">15:30-16:00</div>
+                <div class="session-title">Coffee</div>
+            </div>
 
-<div class="session session-closing">
-<div class="session-time">17:30-18:00</div>
-<div class="session-title">Closing</div>
-</div>
+            <div class="session session-plenary">
+                <div class="session-time">16:30-17:30</div>
+                <div class="session-title">Plenary Session</div>
+                <div class="plenary-info">
+                    <div class="plenary-title">U.S. Academic Research: A History and Status Report</div>
+                    <div class="plenary-speaker">Speaker: Tom Powers</div>
 
-</div>
+                    <div class="plenary-chair">Chair: Björn Lundgren</div>
 
-</div>
+                </div>
+            </div>
 
-<script>
-$(document).ready(function() {
-// Show loading indicator while initializing
-$('body').addClass('loading');
+            <div class="session session-closing">
+                <div class="session-time">17:30-18:00</div>
+                <div class="session-title">Closing</div>
+            </div>
 
-// Initialize main accordion for days
-$("#mainAccordion").accordion({
-header: "> h3",
-heightStyle: "content",
-collapsible: true,
-active: 0, // Open first day by default
-animate: 300,
-icons: {
-header: "ui-icon-triangle-1-e",
-activeHeader: "ui-icon-triangle-1-s"
-}
-});
+        </div>
 
-// Initialize all track accordions
-$(".tracks-accordion").each(function() {
-$(this).accordion({
-header: "> h3",
-heightStyle: "content",
-collapsible: true,
-active: false, // Start with all tracks collapsed
-animate: 200,
-icons: {
-header: "ui-icon-triangle-1-e",
-activeHeader: "ui-icon-triangle-1-s"
-}
-});
-});
-
-// Abstract toggle functionality
-$('.abstract-toggle').click(function(e) {
-e.stopPropagation();
-var $this = $(this);
-var abstractId = $this.data('abstract-id');
-var $abstract = $('#' + abstractId);
-
-if ($abstract.is(':visible')) {
-$abstract.slideUp(200);
-$this.html('View Abstract ▼');
-} else {
-$abstract.slideDown(200);
-$this.html('Hide Abstract ▲');
-}
-});
-
-// Remove loading indicator
-$('body').removeClass('loading');
-});
-</script>
-</body>
-</html>
+    </div>
+    
