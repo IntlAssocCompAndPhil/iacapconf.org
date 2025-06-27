@@ -267,11 +267,11 @@ border-radius: 0 0 4px 4px;
 
 /* Track type indicators */
 .tracks-accordion .track-type-symposium {
-background: #020232 !important;
+background: #495e34 !important;
 }
 
 .tracks-accordion .track-type-workshop {
-background: #1f13e0 !important;
+background: #5e3449 !important;
 }
 
 /* Icons for track accordion */
