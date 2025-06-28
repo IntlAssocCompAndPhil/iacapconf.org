@@ -22,7 +22,13 @@ Schedule will be updated regularly. Latest version: 27 June, 2025. View below as
 
  A booklet with abstracts of all talks and posters can be viewed as an embedded pdf below or  <a href="/2025/IACAP-AISB-2025_Book_of_Abstracts.pdf">downloaded here</a>.
 
-  <object data="/2025/IACAP-AISB-2025_Book_of_Abstracts.pdf" width="100%" height="1100"></object> 
+<!-- <object data="/2025/IACAP-AISB-2025_Book_of_Abstracts.pdf" width="100%" height="1100"></object>  -->
+
+{% include abstracts-toc.html %}
+
+
+{% include abstracts-accordion.html %}
+
 
 
 <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
@@ -79,9 +85,90 @@ $this.html('Hide Abstract ▲');
 }
 });
 
+// Initialize abstracts accordion
+$("#abstractsAccordion").accordion({
+  header: "> h3",
+  heightStyle: "content",
+  collapsible: true,
+  active: false, // Start with all sections collapsed
+  animate: 300,
+  icons: {
+    header: "ui-icon-triangle-1-e",
+    activeHeader: "ui-icon-triangle-1-s"
+  }
+});
+
+// Initialize symposia nested accordions
+$(".symposia-accordion").each(function() {
+  $(this).accordion({
+    header: "> h3",
+    heightStyle: "content",
+    collapsible: true,
+    active: false,
+    animate: 200,
+    icons: {
+      header: "ui-icon-triangle-1-e",
+      activeHeader: "ui-icon-triangle-1-s"
+    }
+  });
+}); 
+
+// ToC navigation for abstracts
+$('.toc-link').click(function(e) {
+  e.preventDefault();
+  
+  var targetId = $(this).attr('href').substring(1);
+  var $target = $('#' + targetId);
+  var section = $(this).data('section');
+  var symposiumId = $(this).data('symposium');
+  
+  // Open the appropriate accordion section
+  var $mainAccordion = $("#abstractsAccordion");
+  var sectionIndex = $mainAccordion.find('> h3').index($('#' + section));
+  $mainAccordion.accordion("option", "active", sectionIndex);
+  
+  // If it's in a symposium, open that too
+  if (symposiumId) {
+    setTimeout(function() {
+      var $sympAccordion = $(".symposia-accordion");
+      var sympIndex = $sympAccordion.find('> h3').index($('#' + symposiumId));
+      $sympAccordion.accordion("option", "active", sympIndex);
+      
+      // Scroll to the talk after accordions open
+      setTimeout(function() {
+        $('html, body').animate({
+          scrollTop: $target.offset().top - 100
+        }, 500);
+        
+        // Highlight the talk
+        $target.addClass('highlighted');
+        setTimeout(function() {
+          $target.removeClass('highlighted');
+        }, 2000);
+      }, 400);
+    }, 400);
+  } else {
+    // Scroll to the talk after accordion opens
+    setTimeout(function() {
+      $('html, body').animate({
+        scrollTop: $target.offset().top - 100
+      }, 500);
+      
+      // Highlight the talk
+      $target.addClass('highlighted');
+      setTimeout(function() {
+        $target.removeClass('highlighted');
+      }, 2000);
+    }, 400);
+  }
+});
+
 // Remove loading indicator
 $('body').removeClass('loading');
 });
+
+
+
 </script>
 
 <head>
@@ -406,5 +493,226 @@ font-size: 0.9rem;
 .tracks-accordion .ui-icon {
 right: 10px;
 } 
+
+
+/* Abstracts Accordion Styles */
+#abstractsAccordion.ui-accordion .ui-accordion-header {
+  background: #34495e;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 5px;
+  padding: 15px 20px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#abstractsAccordion.ui-accordion .ui-accordion-header:hover {
+  background: #2c3e50;
+}
+
+#abstractsAccordion.ui-accordion .ui-accordion-header.ui-state-active {
+  background: #2c3e50;
+  border-radius: 8px 8px 0 0;
+  margin-bottom: 0;
+}
+
+#abstractsAccordion.ui-accordion .ui-accordion-content {
+  background: white;
+  border: none;
+  padding: 20px;
+  margin-bottom: 5px;
+  border-radius: 0 0 8px 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Icons for abstracts accordion */
+#abstractsAccordion .ui-icon {
+  background-image: none !important;
+  text-indent: 0;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: auto;
+  height: auto;
+  font-size: 1.5rem;
+  margin-top: 0;
+}
+
+#abstractsAccordion .ui-icon:before {
+  content: "+";
+  color: white;
+  font-weight: bold;
+}
+
+#abstractsAccordion .ui-state-active .ui-icon:before {
+  content: "−";
+}
+
+/* Symposia nested accordion */
+.symposia-accordion.ui-accordion .ui-accordion-header {
+  background: #ecf0f1;
+  color: #2c3e50;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  padding: 12px 15px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.symposia-accordion.ui-accordion .ui-accordion-header:hover {
+  background: #d5dbdb;
+  border-color: #bdc3c7;
+}
+
+.symposia-accordion.ui-accordion .ui-accordion-header.ui-state-active {
+  background: #3498db;
+  color: white;
+  border-color: #3498db;
+  border-radius: 4px 4px 0 0;
+  margin-bottom: 0;
+}
+
+/* Talk item styles for abstracts */
+.talk-item {
+  margin-bottom: 20px;
+  padding: 15px;
+  background: #f8f9fa;
+  border-radius: 4px;
+  border-left: 3px solid #3498db;
+}
+
+.talk-item h4 {
+  margin-top: 0;
+  color: #2c3e50;
+}
+
+.talk-speakers {
+  font-weight: bold;
+  color: #666;
+  margin: 5px 0;
+  font-style: italic;
+}
+
+.talk-item p{
+  margin-top: 10px;
+  line-height: 1.6;
+}
+
+.talk-item p {
+  margin: 10px 0;
+}
+
+.talk-item p:first-child {
+  margin-top: 0;
+}
+
+.talk-item p:last-child {
+  margin-bottom: 0;
+}
+
+/* Section-specific colors */
+.section-plenary .talk-item {
+  border-left-color: #27ae60;
+  background: #e8f8f5;
+}
+
+.section-poster .talk-item {
+  border-left-color: #f39c12;
+  background: #fef5e7;
+}
+
+.symposium-content {
+  padding: 10px 0;
+}
+
+/* Table of Contents styles */
+.abstracts-toc {
+  background: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.abstracts-toc h3 {
+  margin-top: 0;
+  color: #2c3e50;
+}
+
+.toc-section {
+  margin-bottom: 20px;
+}
+
+.toc-section h4 {
+  color: #34495e;
+  margin-bottom: 10px;
+}
+
+.toc-symposium {
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+.toc-symposium h5 {
+  color: #3498db;
+  margin-bottom: 8px;
+}
+
+.abstracts-toc ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.abstracts-toc li {
+  margin-bottom: 8px;
+}
+
+.toc-link {
+  display: block;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+
+.toc-link:hover {
+  background: #e8f4f8;
+}
+
+.toc-title {
+  display: block;
+  color: #2c3e50;
+  font-weight: 500;
+}
+
+.toc-authors {
+  display: block;
+  color: #666;
+  font-size: 0.9em;
+  font-style: italic;
+}
+
+/* Highlight effect */
+.talk-item.highlighted {
+  animation: highlight 2s ease-out;
+}
+
+@keyframes highlight {
+  0% {
+    background-color: #fff3cd;
+    transform: scale(1.02);
+  }
+  100% {
+    background-color: inherit;
+    transform: scale(1);
+  }
+}
 </style>
 </head>
