@@ -17,8 +17,6 @@ Your viewing options:
 
 1.  <a href="/2025/IACAP-AISB_Program_2025-06-27.pdf">PDF download</a> optimised for printing.
 
- <!-- <object data="/2025/IACAP-AISB_Program_2025-06-27.pdf" width="800" height="550"></object>  -->
-
 2. Interactive web content optimised for screen and mobile viewing:
 
 {% include schedule.html %}
