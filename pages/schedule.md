@@ -25,9 +25,11 @@ Your viewing options:
 
 <h2 id="book-of-abstracts">Book of Abstracts</h2>
 
- A booklet with abstracts of all talks and posters, with two vieweing options:
+ A booklet with abstracts of all talks and posters, with two viewing options:
 
  1.   <a href="/2025/IACAP-AISB-2025_Book_of_Abstracts.pdf">PDF download</a> optimised for printing.
+
+ 2. Interactive web content optimised for screen and mobile viewing:
 
 <!-- <object data="/2025/IACAP-AISB-2025_Book_of_Abstracts.pdf" width="100%" height="1100"></object>  -->
 
@@ -35,9 +37,6 @@ Your viewing options:
 
 
 {% include abstracts-accordion.html %}
-
-
-2. Interactive web content optimised for screen and mobile viewing:
 
 <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 <script src="https://code.jquery.com/ui/1.14.1/jquery-ui.min.js"></script>
