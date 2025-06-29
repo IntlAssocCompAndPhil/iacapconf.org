@@ -11,4 +11,4 @@ This highly interdisciplinary workshop is free for members of 4TU.ethics and tho
 - 15:30-17:00 Workshop
 - 17:00 - 19:30 Reception
 
-The workshop will take place in room RA1501 in the Ravelijn building. See [here](/pages/practical.html) for details on the location.
+The workshop will take place in room RA1501 in the Ravelijn building. See [here](/pages/practical.html#on-campus) for details on the location.
