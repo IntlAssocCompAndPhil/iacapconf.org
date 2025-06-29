@@ -20,6 +20,8 @@ On 30 June a 4TU.ethics workshop on AI and neurotechnology will be held at the U
  
 This highly interdisciplinary workshop is free for members of 4TU.ethics and those who are registered to attend the conference. The workshop is followed by a reception that doubles as a 4TU.ethics social event, but you should register for this separately if you intend to join. The workshop is planned in association with [special issue on NeuroAI](https://www.elspublishing.com/journals/law-ethics-technology/special_issues/ai-enabled-neurotechnologies).
 
+The workshop will take place in room RA1501 in the Ravelijn building. See [here](/pages/practical.html) for details on the location.
+
 ## Keynote Speakers
 
 * AISB Keynote - [Philip Brey](https://people.utwente.nl/p.a.e.brey)
