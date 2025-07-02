@@ -51,7 +51,7 @@ $("#mainAccordion").accordion({
 header: "> h3",
 heightStyle: "content",
 collapsible: true,
-active: 0, // Open first day by default
+active: 1, // Open first day by default
 animate: 300,
 icons: {
 header: "ui-icon-triangle-1-e",
