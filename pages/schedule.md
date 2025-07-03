@@ -11,11 +11,11 @@ toc: true
 
 <h2 id="schedule">Schedule</h2>
 
-Schedule will be updated regularly. Latest version: 02 July, 2025. 
+Schedule will be updated regularly. Latest version: 03 July, 2025. 
 
 Your viewing options:
 
-1.  <a href="/2025/IACAP-AISB_Program_2025-07-02.pdf">PDF download</a> optimised for printing.
+1.  <a href="/2025/IACAP-AISB_Program_2025-07-03.pdf">PDF download</a> optimised for printing.
 
 2. Interactive web content optimised for screen and mobile viewing:
 
