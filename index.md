@@ -12,14 +12,15 @@ layout: home
 
 ### 1-3 July 2025, University of Twente, NL
 
-The [International Association for Computing and Philosophy](https://iacap.org) (IACAP) and the [Society for the Study of Artificial Intelligence and Simulation of Behaviour](https://aisb.org.uk/) (AISB) will host a joint conference from 1-3 July, 2025 at the University of Twente, NL. Submissions are closed, programme is in preparation, outline schedule is available [here](/pages/schedule.md).
+The [International Association for Computing and Philosophy](https://iacap.org) (IACAP) and the [Society for the Study of Artificial Intelligence and Simulation of Behaviour](https://aisb.org.uk/) (AISB) will host a joint conference from 1-3 July, 2025 at the University of Twente, NL. Submissions and registration are closed. Programme and abstracts are available [here](/pages/schedule.md), symposia proceedings [here](https://aisb.org.uk/wp-content/uploads/2025/06/AISB-IACAP-Convention2025.pdf).
 
 ### 30 June 2025, 4TU.ethics Workshop 
 
-On 30 June, 4TU.ethics will host a workshop on AI and neurotechnology at the University of Twente that will directly precede the conference. This workshop, generously sponsored by 4TU.ethics, and organised in conjunction with member societies IACAP and AISB, also comprises the formal opening of the joint IACAP-AISB conference. The conference will include symposia, talks, posters, and panels on a range of topics from AI to computing. The 4TU.ethics workshop will give space to consider AI and neurotechnology ethics before an already exciting programme of events.
+On 30 June a 4TU.ethics workshop on AI and neurotechnology will be held at the University of Twente, NL. This workshop, organised in conjunction with member societies IACAP and AISB, also comprises the formal opening of the joint IACAP-AISB conference, which takes place at UT From 1 to 3 July 2025. The workshop schedule can be found [here](pages/4tu).
+ 
+This highly interdisciplinary workshop is free for members of 4TU.ethics and those who are registered to attend the conference. The workshop is followed by a reception that doubles as a 4TU.ethics social event, but you should register for this separately if you intend to join. The workshop is planned in association with [special issue on NeuroAI](https://www.elspublishing.com/journals/law-ethics-technology/special_issues/ai-enabled-neurotechnologies).
 
-This highly interdisciplinary workshop is free and open to everyone, although priority will be given to members of 4TU.ethics and those who are registered to attend the conference. The workshop will be followed by a reception which doubles as a 4TU.ethics social event, allowing visitors the opportunity to meet up and (further) discuss ideas over drinks. The workshop is planned in association with this [special issue on NeuroAI](https://www.elspublishing.com/journals/law-ethics-technology/special_issues/ai-enabled-neurotechnologies). 
-
+The workshop will take place in room RA1501 in the Ravelijn building. See [here](/pages/practical.html#on-campus) for details on the location.
 
 ## Keynote Speakers
 
@@ -31,7 +32,9 @@ This highly interdisciplinary workshop is free and open to everyone, although pr
 
 * **Conference dates**: July 1-3
 * **Conference website**: [iacapconf.org/](https://iacapconf.org/)
-* **Conference registration**: [2025.tickets.iacapconf.org/](https://2025.tickets.iacapconf.org/) – early bird rates until May 31, registration closes June 19
+* **Conference proceedings (from symposia)**: [pdf from AISB website](https://aisb.org.uk/wp-content/uploads/2025/06/AISB-IACAP-Convention2025.pdf)
+* **[Conference registration (now closed)](https://2025.tickets.iacapconf.org/)**
+* **Code of Conduct**: [view here](pages/code_of_conduct)
 * **Host Organisation Websites**:
   * [IACAP.org](https://iacap.org)
   * [AISB.org.uk](https://aisb.org.uk/)
@@ -44,7 +47,7 @@ This highly interdisciplinary workshop is free and open to everyone, although pr
 
 ## IACAP-AISB-2025 Organising Committee [OC]
  
-* Y. J. Erden (Univeristy of Twente)
+* Y. J. Erden (University of Twente)
 * Stephen Rainey (TU Delft) 
 * Rob Wortham (University of Bath)
 * Arzu Formanek (Fraunhofer Institute)
@@ -53,7 +56,9 @@ This highly interdisciplinary workshop is free and open to everyone, although pr
 
 Questions about the conference to: [Y. J. Erden](mailto:y.j.erden@utwente.nl) and [Stephen Rainey](mailto:S.Rainey@tudelft.nl) 
 
-Questions about the symposia to: [Y. J. Erden](mailto:y.j.erden@utwente.nl) and [Stephen Rainey](mailto:S.Rainey@tudelft.nl) 
+General questions about symposia to: [Y. J. Erden](mailto:y.j.erden@utwente.nl) and [Stephen Rainey](mailto:S.Rainey@tudelft.nl)
+
+Questions about symposium interna to the respective symposium organisers.
 
 Questions about non-symposia presentations, posters and registration technicalities: [Arzu Fomanek, Björn Lundgren, Hajo Greif, Brian Ballsun-Stanton](mailto:iacap@ballsun.com) 
 

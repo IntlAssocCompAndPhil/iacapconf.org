@@ -30,8 +30,8 @@ github_username:
 remote_theme: "mmistakes/jekyll-theme-basically-basic@1.4.5"
 
 header_pages:
-  - pages/registration.md
   - pages/schedule.md
+  - pages/code_of_conduct.md
   - pages/practical.md
   - pages/iacap.md
   - pages/aisb.md
