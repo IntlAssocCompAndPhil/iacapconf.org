@@ -26,6 +26,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
 github_username:  
+# theme: jekyll-theme-basically-basic
+remote_theme: "mmistakes/jekyll-theme-basically-basic@1.4.5"
 
 header_pages:
   - pages/registration.md
@@ -33,11 +35,9 @@ header_pages:
   - pages/practical.md
   - pages/iacap.md
   - pages/aisb.md
-footer_pages:
-  - pages/past_conferences.md
 
 # Build settings
-theme: minima
+# theme: minima
 plugins:
   - jekyll-include-cache
 
