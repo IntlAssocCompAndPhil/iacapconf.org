@@ -1,6 +1,6 @@
 ---
 layout: home
-alt_title: "IACAP - Kansas 2026"
+alt_title: "IACAP — Kansas 2026"
 sub_title: International Association for Computing and Philosophy Annual Conference
 image: "/assets/kansas-i2c-crop.jpg"
 title: IACAP 2026 Call for Abstracts
@@ -23,10 +23,9 @@ The International Association for Computing and Philosophy ([IACAP](https://www.
 * Notification of acceptance: March 31, 2026.  
 * Conference registration will open 1 April, 2026
 
-
 ## Tracks
 
-IACAP has a long-lasting tradition of promoting philosophical dialogue and interdisciplinary research on all aspects of computing. IACAP’s members have contributed to shaping the philosophical and ethical debate about computing, information technologies, and artificial intelligence. The 2026 annual meeting will continue this tradition and will gather philosophers, ethicists, roboticists, computer scientists, and engineers interested in topics such as:
+IACAP has a long tradition of promoting philosophical dialogue and interdisciplinary research on all aspects of computing. Its members have contributed to the philosophical and ethical debates about computing, information technologies, and artificial intelligence. The 2026 annual conference will continue this tradition by bringing together researchers from various fields who are interested in the topics covered in our tracks, such as:
 
 * Computation, Cognitive Science, and Cognition  
 * Computational Methods in the Sciences  
@@ -47,24 +46,25 @@ IACAP has a long-lasting tradition of promoting philosophical dialogue and inter
 
 ## Special Tracks
 
+### Automation in Science
+
+From *software-intensive science* (e.g., computational biology, chemistry, etc.) to machine learning techniques in fields like particle physics, computational methods have been playing an increasingly important, and often indispensable, role in the way we conduct scientific inquiry. Increasingly, the role they play can be characterized as automation, since these techniques accomplish tasks previously conducted exclusively by human intervention. This track invites papers that aim to explore the philosophical (i.e., epistemological, ethical, or civilizational) implications of such a development from perspectives such as philosophy of science, philosophy of technology and/or philosophy of computation amongst others.
+
 ### Epistemology of ML
 
-Machine learning technologies from deep neural networks to language models are being increasingly used in both formal and practical inquiry— e.g., science, policy-making, finance, etc.— in novel and important ways. Yet, their epistemic properties, roles, import and status are far from established. We invite papers that explore epistemological matters in ML technology.
-
-### Ethics of AI
-
-The recent rise in the use of multimodal data science technologies— often categorized under the umbrella of Artificial Intelligence— in diverse socially consequential contexts (e.g., governance, medicine, etc.) has brought with it an abundance of ethical concerns across several domains deemed of moral relevance. While much has been written on the possible harms of AI technologies related to discrimination, privacy, governance and automation, an ethics of AI from a philosophical perspective can also offer a much more fundamental understanding of ethical concerns that go beyond just the accounting or the mitigating of harms. We invite papers that aim to expand on this latter, broader dimension of ethical concerns in AI.
+Contemporary Machine learning (ML) approaches are being increasingly used in both formal and practical inquiry— e.g., science, policy-making, finance, etc.— in novel and important ways. Yet, their epistemic properties, roles, import and status are far from established. We invite papers that explore epistemological issues in machine learning and its applications.
 
 ### Pragmatics of LLMs
 
-Recent advances in large language models, and the increasing institutional adoption of favoured services, create opportunities for philosophers to develop experience-based frameworks for professional practice and philosophical work. This track invites papers examining how philosophers develop norms and guidance for LLM use in research, professional, and collegial contexts, addressing questions of professional responsibility, pedagogical guidance, and the identification of problematic practices, informed by recent developments in LLM capabilities. 
+Recent advances in large language models (LLMs), and the increasing institutional adoption of favoured services, create opportunities for philosophers to develop experience-based frameworks for professional practice and philosophical work. This track invites papers examining how philosophers develop norms and guidance for LLM use in research, professional, and collegial contexts, addressing questions of professional responsibility, pedagogical guidance, and the identification of problematic practices, informed by recent developments in LLM capabilities.
 
 ## Workshop proposals
 
-For a workshop proposal, please provide:
-* (a) a short abstract (approx. 200-300 words) describing the workshop in such a way as to be displayed in the conference program. Please add 
-* (b) a  long abstract (approx.) 1000 words that describes and justifies the  workshop topic in more detail. We also ask that you upload 
-* (c) a set of short abstracts for each paper in the workshop.  
+A workshop typically lasts around 90 min. Various formats are possible, from a themed session with various pre-selected papers on a defined topic to book symposia. If you have an idea but are unsure about its fit, please contact us beforehand. For a workshop proposal, please provide:
+
+* (a) a short abstract (approx. 200-300 words) describing the workshop in such a way as to be displayed in the conference program;
+* (b) an extended abstract (approx.) 1000 words that describes and justifies the workshop topic in more detail; and 
+* (c) upload a set of short abstracts for each paper in the workshop.
 
 # Submission Information
 
