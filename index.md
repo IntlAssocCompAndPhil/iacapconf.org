@@ -64,7 +64,7 @@ For a workshop proposal, please provide (a) a short abstract (approx. 200-300 wo
 
 # Submission Information
 
-* [Abstract Submission](https://pretalx.iacapconf.org/iacap-2026/cfp)
+* [Submit a Proposal](https://pretalx.iacapconf.org/iacap-2026/submit/)
 
 
 
