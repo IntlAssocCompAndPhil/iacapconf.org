@@ -29,6 +29,7 @@ github_username:
 # theme: jekyll-theme-basically-basic
 remote_theme: "mmistakes/jekyll-theme-basically-basic@1.4.5"
 markdown: kramdown
+logo: iacapkansas-2026-400.png
 
 header_pages:
   - pages/schedule.md
