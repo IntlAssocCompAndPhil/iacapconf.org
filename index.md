@@ -1,9 +1,9 @@
 ---
 layout: home
-alt_title: "IACAP — Kansas 2026"
+title: "IACAP — Kansas 2026"
 sub_title: International Association for Computing and Philosophy Annual Conference
 image: "/assets/iacap-kansas-2026-header.png"
-title: IACAP 2026 Call for Abstracts
+alt_title: IACAP 2026 Call for Abstracts
 ---
 
 
