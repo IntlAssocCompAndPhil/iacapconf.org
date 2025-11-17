@@ -7,13 +7,14 @@ title: IACAP 2026 Call for Abstracts
 ---
 
 
-The International Association for Computing and Philosophy (IACAP, [https://www.iacap.org](https://www.iacap.org)) is pleased to put out this call for abstracts for its next conference in 2026.
+The International Association for Computing and Philosophy ([IACAP](https://www.iacap.org)) is pleased to put out this call for abstracts for its next conference in 2026.
 
-* [Call for Papers](https://pretalx.iacapconf.org/iacap-2026/cfp)
-* Conference dates: July 15th, 16th and 17th, 2026.  
-* Conference location: University of Kansas. Lawrence, KS, USA.  
-* Conference host: [Center for Cyber-Social Dynamics](https://i2s-research.ku.edu/center-cyber-social-dynamics-ccsd).  
-* Conference Website: https://iacapconf.org
+* Conference Dates: July 15th, 16th and 17th, 2026.  
+* Conference Location: University of Kansas. Lawrence, KS, USA.  
+* Conference Host: [Center for Cyber-Social Dynamics](https://i2s-research.ku.edu/center-cyber-social-dynamics-ccsd).  
+* Conference Website: [https://iacapconf.org](https://iacapconf.org)
+* Conference Call for Papers: [Submission Platform](https://pretalx.iacapconf.org/iacap-2026/cfp)
+
 
 ## Important Dates
 
@@ -60,7 +61,10 @@ Recent advances in large language models, and the increasing institutional adopt
 
 ## Workshop proposals
 
-For a workshop proposal, please provide (a) a short abstract (approx. 200-300 words) describing the workshop in such a way as to be displayed in the conference program. Please add (b) a  long abstract (approx.) 1000 words that describes and justifies the  symposium topic in more detail. We also ask that you upload (c)  a set of short abstracts for each paper in the workshop.  
+For a workshop proposal, please provide:
+* (a) a short abstract (approx. 200-300 words) describing the workshop in such a way as to be displayed in the conference program. Please add 
+* (b) a  long abstract (approx.) 1000 words that describes and justifies the  workshop topic in more detail. We also ask that you upload 
+* (c) a set of short abstracts for each paper in the workshop.  
 
 # Submission Information
 
