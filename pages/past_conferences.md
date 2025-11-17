@@ -3,6 +3,12 @@ layout: page
 title: Past Conferences
 ---
 
+## 2025
+
+* [IACAP-AISB 2025 – Enschede, NL, July 1-3](/2025/)
+* [IACAP-AISB 2025 – Enschede, NL, Program](/2025/IACAP-ASIB_Program_2025-07-03.pdf)
+* [IACAP-AISB 2025 – Enschede, NL, Book of Abstracts](/2025/IACAP-AISB-2025_Book_of_Abstracts.pdf)
+
 ## 2024
 
 * [IACAP 2024 - Eugene, OR, July 8-10](/2024/)

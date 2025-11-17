@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: IACAP/AISB-25
+title: International Association for Computing and Philosophy Conference — Kansas 2026
 email: iacap@ballsun.com
 description: >- # this means to ignore newlines until "baseurl:"
   The Conference site for the IACAP Conferences
@@ -28,6 +28,7 @@ twitter_username:
 github_username:  
 # theme: jekyll-theme-basically-basic
 remote_theme: "mmistakes/jekyll-theme-basically-basic@1.4.5"
+markdown: kramdown
 
 header_pages:
   - pages/schedule.md
@@ -49,14 +50,25 @@ plugins:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - .asset-cache
+  - .bundle
+  - .codeclimate.yml
+  - .editorconfig
+  - .gitattributes
+  - .jekyll-assets-cache
+  - .sass-cache
+  - .scss-lint.yml
+  - CHANGELOG
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - node_modules
+  - Rakefile
+  - README
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - /docs # ignore Basically Basic sample site
+  - /example # ignore Basically Basic dev site

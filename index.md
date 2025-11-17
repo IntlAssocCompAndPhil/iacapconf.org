@@ -1,79 +1,73 @@
 ---
 layout: home
+alt_title: "IACAP - Kansas 2026"
+sub_title: International Association for Computing and Philosophy Annual Conference
+image: "/assets/kansas-i2c-crop.jpg"
+title: IACAP 2026 Call for Abstracts
 ---
 
 
-<div style="margin:auto;text-align:center;margin-left:auto;margin-right:auto;width:100%;">
-<a style="margin-left:auto;margin-right:2em;" href="https://iacap.org"><img src="iacap300.png" style="height:7em;"/></a> 
-<a style="margin-right:auto" href="https://aisb.org.uk/"><img src="aisb.png" style="height:7em;"/></a>
-</div>
+The International Association for Computing and Philosophy (IACAP, [https://www.iacap.org](https://www.iacap.org)) is pleased to put out this call for abstracts for its next conference in 2026.
 
-# Joint IACAP/AISB Conference on Philosophy of Computing and AI (IACAP/AISB-25)
+* [Call for Papers](https://pretalx.iacapconf.org/iacap-2026/cfp)
+* Conference dates: July 15th, 16th and 17th, 2026.  
+* Conference location: University of Kansas. Lawrence, KS, USA.  
+* Conference host: [Center for Cyber-Social Dynamics](https://i2s-research.ku.edu/center-cyber-social-dynamics-ccsd).  
+* Conference Website: https://iacapconf.org
 
-### 1-3 July 2025, University of Twente, NL
+## Important Dates
 
-The [International Association for Computing and Philosophy](https://iacap.org) (IACAP) and the [Society for the Study of Artificial Intelligence and Simulation of Behaviour](https://aisb.org.uk/) (AISB) will host a joint conference from 1-3 July, 2025 at the University of Twente, NL. Submissions and registration are closed. Programme and abstracts are available [here](/pages/schedule.md), symposia proceedings [here](https://aisb.org.uk/wp-content/uploads/2025/06/AISB-IACAP-Convention2025.pdf).
-
-### 30 June 2025, 4TU.ethics Workshop 
-
-On 30 June a 4TU.ethics workshop on AI and neurotechnology will be held at the University of Twente, NL. This workshop, organised in conjunction with member societies IACAP and AISB, also comprises the formal opening of the joint IACAP-AISB conference, which takes place at UT From 1 to 3 July 2025. The workshop schedule can be found [here](pages/4tu).
- 
-This highly interdisciplinary workshop is free for members of 4TU.ethics and those who are registered to attend the conference. The workshop is followed by a reception that doubles as a 4TU.ethics social event, but you should register for this separately if you intend to join. The workshop is planned in association with [special issue on NeuroAI](https://www.elspublishing.com/journals/law-ethics-technology/special_issues/ai-enabled-neurotechnologies).
-
-The workshop will take place in room RA1501 in the Ravelijn building. See [here](/pages/practical.html#on-campus) for details on the location.
-
-## Keynote Speakers
-
-* AISB Keynote - [Philip Brey](https://people.utwente.nl/p.a.e.brey)
-* IACAP Covey Award Address – [Vincent C. Müller](https://www.iacap.org/2025/03/29/2025-covey-award-winner-vincent-c-muller/)
-* IACAP Simon Award Address – [Emily E. Sullivan](https://www.iacap.org/2025/04/07/2025-simon-award-winner-emily-sullivan/)
-
-## Important Information
-
-* **Conference dates**: July 1-3
-* **Conference website**: [iacapconf.org/](https://iacapconf.org/)
-* **Conference proceedings (from symposia)**: [pdf from AISB website](https://aisb.org.uk/wp-content/uploads/2025/06/AISB-IACAP-Convention2025.pdf)
-* **[Conference registration (now closed)](https://2025.tickets.iacapconf.org/)**
-* **Code of Conduct**: [view here](pages/code_of_conduct)
-* **Host Organisation Websites**:
-  * [IACAP.org](https://iacap.org)
-  * [AISB.org.uk](https://aisb.org.uk/)
-* **Conference location**: Enschede, NL.
-* **Conference host**: University of Twente
-* **[Call for Abstracts (now closed)](https://pretalx.iacapconf.org/iacap-2025/cfp)**
-* **Useful Resources:**
-  * [Practical Information](pages/practical)
-  * [Schedule](pages/schedule)
-
-## IACAP-AISB-2025 Organising Committee [OC]
- 
-* Y. J. Erden (University of Twente)
-* Stephen Rainey (TU Delft) 
-* Rob Wortham (University of Bath)
-* Arzu Formanek (Fraunhofer Institute)
-* Björn Lundgren (University of Erlangen)
-* Hajo Greif (Warsaw University of Technology)
-
-Questions about the conference to: [Y. J. Erden](mailto:y.j.erden@utwente.nl) and [Stephen Rainey](mailto:S.Rainey@tudelft.nl) 
-
-General questions about symposia to: [Y. J. Erden](mailto:y.j.erden@utwente.nl) and [Stephen Rainey](mailto:S.Rainey@tudelft.nl)
-
-Questions about symposium interna to the respective symposium organisers.
-
-Questions about non-symposia presentations, posters and registration technicalities: [Arzu Fomanek, Björn Lundgren, Hajo Greif, Brian Ballsun-Stanton](mailto:iacap@ballsun.com) 
-
-## Call for Proposals (archive) 
-
-You will find the call for proposals [here](https://iacapconf.org/pages/cfp)
-
-## Join the Community
+* Individual abstracts (up to 1000 words) due date: January 31, 2026.  
+* Workshop Proposals due date: January 31, 2026.   
+* Notification of acceptance: March 31, 2026.  
+* Conference registration will open 1 April, 2026
 
 
-For updates on IACAP conferences and to be part of the conversation with other attendees, you can join:
+## Tracks
 
-* Our [Slack channel here](https://join.slack.com/t/iacapworkspace/shared_invite/zt-1qjs05kaa-BecKu_EZnBrPLUky0XV9xg)
-* Our [Mailing List here](https://listi.jpberlin.de/mailman/listinfo/iacap-announce) (no book or paper announcements)
+IACAP has a long-lasting tradition of promoting philosophical dialogue and interdisciplinary research on all aspects of computing. IACAP’s members have contributed to shaping the philosophical and ethical debate about computing, information technologies, and artificial intelligence. The 2026 annual meeting will continue this tradition and will gather philosophers, ethicists, roboticists, computer scientists, and engineers interested in topics such as:
 
-## Past conferences
+* Computation, Cognitive Science, and Cognition  
+* Computational Methods in the Sciences  
+* Computer-Mediated Communication  
+* Epistemological Issues in Artificial Intelligence and Computing  
+* Ethics of Artificial Intelligence, Computation, Information, and Robotics  
+* Human-Computational Systems Interaction  
+* Information Culture and Society  
+* Philosophy and History of Computing  
+* Philosophy of Artificial Intelligence  
+* Philosophy of Artificial Life and Biologically Inspired Computing  
+* Philosophy of Information and Information Technology  
+* Robotics and Embodiment  
+* SIG: Mind and Machines  
+* Societal and Environmental Impact of Computing Technologies and Automated Systems  
+* Theoretical Problems in Computer Science  
+* Virtual Reality
+
+## Special Tracks
+
+### Epistemology of ML
+
+Machine learning technologies from deep neural networks to language models are being increasingly used in both formal and practical inquiry— e.g., science, policy-making, finance, etc.— in novel and important ways. Yet, their epistemic properties, roles, import and status are far from established. We invite papers that explore epistemological matters in ML technology.
+
+### Ethics of AI
+
+The recent rise in the use of multimodal data science technologies— often categorized under the umbrella of Artificial Intelligence— in diverse socially consequential contexts (e.g., governance, medicine, etc.) has brought with it an abundance of ethical concerns across several domains deemed of moral relevance. While much has been written on the possible harms of AI technologies related to discrimination, privacy, governance and automation, an ethics of AI from a philosophical perspective can also offer a much more fundamental understanding of ethical concerns that go beyond just the accounting or the mitigating of harms. We invite papers that aim to expand on this latter, broader dimension of ethical concerns in AI.
+
+### Pragmatics of LLMs
+
+Recent advances in large language models, and the increasing institutional adoption of favoured services, create opportunities for philosophers to develop experience-based frameworks for professional practice and philosophical work. This track invites papers examining how philosophers develop norms and guidance for LLM use in research, professional, and collegial contexts, addressing questions of professional responsibility, pedagogical guidance, and the identification of problematic practices, informed by recent developments in LLM capabilities. 
+
+## Workshop proposals
+
+For a workshop proposal, please provide (a) a short abstract (approx. 200-300 words) describing the workshop in such a way as to be displayed in the conference program. Please add (b) a  long abstract (approx.) 1000 words that describes and justifies the  symposium topic in more detail. We also ask that you upload (c)  a set of short abstracts for each paper in the workshop.  
+
+# Submission Information
+
+* [Abstract Submission](https://pretalx.iacapconf.org/iacap-2026/cfp)
+
+
+
+# Past conferences
 
 * See links to our [past conferences](pages/past_conferences.md)
