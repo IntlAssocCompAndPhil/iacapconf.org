@@ -2,14 +2,14 @@
 layout: home
 alt_title: "IACAP — Kansas 2026"
 sub_title: International Association for Computing and Philosophy Annual Conference
-image: "/assets/kansas-i2c-crop.jpg"
+image: "/assets/iacap-kansas-2026-header.png"
 title: IACAP 2026 Call for Abstracts
 ---
 
 
 The International Association for Computing and Philosophy ([IACAP](https://www.iacap.org)) is pleased to put out this call for abstracts for its next conference in 2026.
 
-* Conference Dates: July 15th, 16th and 17th, 2026.  
+* Conference Dates: July 15-17, 2026.
 * Conference Location: University of Kansas. Lawrence, KS, USA.  
 * Conference Host: [Center for Cyber-Social Dynamics](https://i2s-research.ku.edu/center-cyber-social-dynamics-ccsd).  
 * Conference Website: [https://iacapconf.org](https://iacapconf.org)
@@ -18,10 +18,11 @@ The International Association for Computing and Philosophy ([IACAP](https://www.
 
 ## Important Dates
 
-* Individual abstracts (up to 1000 words) due date: January 31, 2026.  
-* Workshop Proposals due date: January 31, 2026.   
-* Notification of acceptance: March 31, 2026.  
-* Conference registration will open 1 April, 2026
+* Extended abstracts for individual talks (up to 1000 words) due on: January 31, 2026.
+* Workshop proposals due on: January 31, 2026. 
+* Notification of acceptance: March 31, 2026.
+* Conference registration will open on: April 1, 2026.
+
 
 ## Tracks
 
