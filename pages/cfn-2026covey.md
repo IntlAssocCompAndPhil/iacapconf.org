@@ -27,7 +27,7 @@ Past recipients of the prestigious award include:
 - 2012: Luciano Floridi (University of Hertfordshire)
 - 2011: Terrell Bynum (Southern Connecticut State University)
 - 2010: John R. Searle (University of California, Berkeley)
-- 2009: Edward N. Zalta (Stanford University)\
+- 2009: Edward N. Zalta (Stanford University)
 
 Please send your nomination(s) through our online form [HERE.](https://limesurvey.mq.edu.au/index.php/237258?lang=en)
 
