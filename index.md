@@ -6,7 +6,6 @@ image: "/assets/iacap-kansas-2026-header.png"
 alt_title: IACAP 2026 Call for Abstracts
 ---
 
-
 The International Association for Computing and Philosophy ([IACAP](https://www.iacap.org)) is pleased to put out this call for abstracts for its next conference in 2026.
 
 * Conference Dates: July 15-17, 2026.
@@ -14,15 +13,15 @@ The International Association for Computing and Philosophy ([IACAP](https://www.
 * Conference Host: [Center for Cyber-Social Dynamics](https://i2s-research.ku.edu/center-cyber-social-dynamics-ccsd).  
 * Conference Website: [https://iacapconf.org](https://iacapconf.org)
 * Conference Call for Papers: [Submission Platform](https://pretalx.iacapconf.org/iacap-2026/cfp)
-
+* Call for Nominations: [Covey Award 2026](pages/cfn-2026covey.md) | [Simon Award 2026](pages/cfn-2026simon.md)
 
 ## Important Dates
 
 * Extended abstracts for individual talks (up to 1000 words) due on: January 31, 2026.
-* Workshop proposals due on: January 31, 2026. 
+* Workshop proposals due on: January 31, 2026.
 * Notification of acceptance: March 31, 2026.
 * Conference registration will open on: April 1, 2026.
-
+* Call for Nominations for Covey and Simon Awards due on: February 28, 2026.
 
 ## Tracks
 
@@ -64,15 +63,13 @@ Recent advances in large language models (LLMs), and the increasing institutiona
 A workshop typically lasts around 90 min. Various formats are possible, from a themed session with various pre-selected papers on a defined topic to book symposia. If you have an idea but are unsure about its fit, please contact us beforehand. For a workshop proposal, please provide:
 
 * (a) a short abstract (approx. 200-300 words) describing the workshop in such a way as to be displayed in the conference program;
-* (b) an extended abstract (approx.) 1000 words that describes and justifies the workshop topic in more detail; and 
+* (b) an extended abstract (approx.) 1000 words that describes and justifies the workshop topic in more detail; and
 * (c) upload a set of short abstracts for each paper in the workshop.
 
 # Submission Information
 
 * [Submit a Proposal](https://pretalx.iacapconf.org/iacap-2026/submit/)
 
-
-
-# Past conferences
+## Past conferences
 
 * See links to our [past conferences](pages/past_conferences.md)
