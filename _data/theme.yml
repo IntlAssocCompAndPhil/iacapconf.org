@@ -49,9 +49,13 @@ google_fonts:
 # pages that have a `title`. Add raw page paths in the order you'd like.
 
 navigation_pages: 
+  - pages/cfp.md
+  - pages/cfn-2026covey.md
+  - pages/cfn-simon.md
   - pages/past_conferences.md 
   - pages/iacap.md  
   - pages/code_of_conduct.md
+
   
   
   
