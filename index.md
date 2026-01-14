@@ -13,7 +13,7 @@ The International Association for Computing and Philosophy ([IACAP](https://www.
 * Conference Host: [Center for Cyber-Social Dynamics](https://i2s-research.ku.edu/center-cyber-social-dynamics-ccsd).  
 * Conference Website: [https://iacapconf.org](https://iacapconf.org)
 * Conference Call for Papers: [Submission Platform](https://pretalx.iacapconf.org/iacap-2026/cfp)
-* Call for Nominations: [Covey Award 2026](pages/cfn-2026covey.md) | [Simon Award 2026](pages/cfn-2026simon.md)
+* Call for Nominations: [Covey Award 2026](pages/cfn-2026covey.md), [Simon Award 2026](pages/cfn-2026simon.md)
 
 ## Important Dates
 
