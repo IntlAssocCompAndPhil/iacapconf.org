@@ -3,53 +3,70 @@ layout: page
 title: Call for Proposals
 ---
 
-## Calls for Symposia Contributions (_all closed_)
+The International Association for Computing and Philosophy ([IACAP](https://www.iacap.org)) is pleased to put out this call for abstracts for its next conference in 2026.
 
-Each symposium at IACAP/AISB has its own programme committee, submission format, specifications and timeline. Here are the symposia that were open for submissions:
-* Symposium and Edited Volume: [Teaching With and About AI using Engagement Philosophy and Case Studies](/2025symposia/teachingAI). Deadline: 28 February 2025.
-* Symposium and Proceedings: [Moral and Legal AI Alignment](https://alignment.udk.ai/). Deadline (extended): 15 March 2025.
-* Symposium: AI and Animals: Ethical Impacts of Artificial Intelligence on Non-humans. Deadline: 14 February 2025.
-* Symposium: [Reimagining AI Agents: Artificial, Angelic, or Adversarial Intelligences?](/2025symposia/reimaginingAI). Deadline (extended): 28 March 2025.
-* Symposium: [Bridging Justice and Meaningful Human Control in Medical AI](https://iacapconf.org/2025symposia/justice-medAI). Deadline (extended): 15 March 2025.
-* Symposium: [Generative Companionship in the Digital Age: On Human-AI Relationships and the Ethical Landscape Surrounding Artificial Others](https://genai-human-relationship.weebly.com/symposium.html). Deadline: 15 March 2025.
-
-## Accepted Symposia in closed format (no call for contributions) 
-
-* Advancing Debates on the Epistemology of Medical AI, with Juan M. Durán, Emanuele Ratti, Emma-Jane Spencer and Chirag Arora 
-* The Epistemic Risks of AI Integration, with Ian Robertson, Sascha Fink, Hadeel Naeem and Brandon Ashby
-* Values and AI Systems, with Vincent C. Müller, Max Hellrigel-Holderbaum, Ibifuro Robert Jaja and Eleonora Catena 
-
-## Call for Abstracts and Symposia Proposals (_all closed_)
-
-The International Association for Computing and Philosophy (IACAP) has a long-lasting tradition of promoting philosophical dialogue and interdisciplinary research on all aspects of computing as it relates to philosophy. IACAP’s members have contributed to shaping the philosophical (both theoretical and applied) debate about computing, information technologies, and artificial intelligence. 
-
-The Society for the Study of Artificial Intelligence and Simulation of Behaviour (AISB) is the largest Artificial Intelligence Society in the United Kingdom. Founded in 1964, the society has an international membership from academia and industry, with a serious interest in Artificial Intelligence, Cognitive Science and related areas. It is a member of the European Coordinating Committee for Artificial Intelligence.
-
-Our joint 2025 annual meeting will gather philosophers, ethicists, roboticists, and computer scientists and engineers interested topics that include:
-
-* Artificial Intelligence and Machine Learning
-* Ethics, Philosophy, and Societal Impact of AI and Computing
-* Robotics, Autonomous Systems, and Human-Machine Interaction
-* Cognitive Science and Computational Models of Mind and Behavior
-* Embodied, Ecological, and Distributed Cognition
-* Consciousness, Emotions, and Affective Computing
-
-We welcome submissions of various kinds: 
-
-* [Symposia](https://pretalx.iacapconf.org/iacap-2025/cfp?submission_type=4821-symposium) – will typically run one or two full days. Successful applicants will issue their own CfPs and organise reviews 
-* [Individual papers](https://pretalx.iacapconf.org/iacap-2025/cfp?submission_type=4820-individual-paper) – typically as 30-minute talks (including Q&A)
-* [Poster presentations](https://pretalx.iacapconf.org/iacap-2025/cfp?submission_type=4822-poster) – either submitted as such or as alternative format for individual papers
-* [Workshops](https://pretalx.iacapconf.org/iacap-2025/cfp?submission_type=4957-workshop) – more open, interactive format, typically as 90-minute sessions
-
-Authors of papers are free to decide whether they submit their contributions to one of the accepted symposia or individually – depending on topical fit. 
-
-Depending on format, submissions may be published in proceedings either as extended abstracts or as full papers. 
+* Conference Dates: July 15-17, 2026.
+* Conference Location: University of Kansas. Lawrence, KS, USA.  
+* Conference Host: [Center for Cyber-Social Dynamics](https://i2s-research.ku.edu/center-cyber-social-dynamics-ccsd).  
+* Conference Website: [https://iacapconf.org](https://iacapconf.org)
+* Conference Call for Papers: [Submission Platform](https://pretalx.iacapconf.org/iacap-2026/cfp)
+* Call for Nominations: [Covey Award 2026](pages/cfn-2026covey.md), [Simon Award 2026](pages/cfn-2026simon.md)
 
 ## Important Dates
 
-* Symposia Proposals due date (_extended_, was December 1): January 15, 2025.
-* Notification of acceptance for Symposia proposals: December 9, 2024 for all submissions sent before December 1, all others January 30, 2025.
-* Extended Abstracts (approx. 1000 words) for individual Presentations, Posters, and  Workshops independent of Symposia, due date (_extended_, was December 20): January 15, 2025. 
-* Notification of acceptance for Presentations, Posters, Workshops: March 31, 2025.
-* Conference Registration will open early April, please check this conference website for updates. If you have submitted a contribution to the conference you will receive an email when the registration opens.
-(For individual papers, posters, and workshops: In case you need a visa, please note this with your submission so that we can facilitate an early review.)
+* Extended abstracts for individual talks (up to 1000 words) due on: January 31, 2026.
+* Workshop proposals due on: January 31, 2026.
+* Notification of acceptance: March 31, 2026.
+* Conference registration will open on: April 1, 2026.
+* Call for Nominations for Covey and Simon Awards due on: February 28, 2026.
+
+## Tracks
+
+IACAP has a long tradition of promoting philosophical dialogue and interdisciplinary research on all aspects of computing. Its members have contributed to the philosophical and ethical debates about computing, information technologies, and artificial intelligence. The 2026 annual conference will continue this tradition by bringing together researchers from various fields who are interested in the topics covered in our tracks, such as:
+
+* Computation, Cognitive Science, and Cognition  
+* Computational Methods in the Sciences  
+* Computer-Mediated Communication  
+* Epistemological Issues in Artificial Intelligence and Computing  
+* Ethics of Artificial Intelligence, Computation, Information, and Robotics  
+* Human-Computational Systems Interaction  
+* Information Culture and Society  
+* Philosophy and History of Computing  
+* Philosophy of Artificial Intelligence  
+* Philosophy of Artificial Life and Biologically Inspired Computing  
+* Philosophy of Information and Information Technology  
+* Robotics and Embodiment  
+* SIG: Mind and Machines  
+* Societal and Environmental Impact of Computing Technologies and Automated Systems  
+* Theoretical Problems in Computer Science  
+* Virtual Reality
+
+## Special Tracks
+
+### Automation in Science
+
+From *software-intensive science* (e.g., computational biology, chemistry, etc.) to machine learning techniques in fields like particle physics, computational methods have been playing an increasingly important, and often indispensable, role in the way we conduct scientific inquiry. Increasingly, the role they play can be characterized as automation, since these techniques accomplish tasks previously conducted exclusively by human intervention. This track invites papers that aim to explore the philosophical (i.e., epistemological, ethical, or civilizational) implications of such a development from perspectives such as philosophy of science, philosophy of technology and/or philosophy of computation amongst others.
+
+### Epistemology of ML
+
+Contemporary Machine learning (ML) approaches are being increasingly used in both formal and practical inquiry— e.g., science, policy-making, finance, etc.— in novel and important ways. Yet, their epistemic properties, roles, import and status are far from established. We invite papers that explore epistemological issues in machine learning and its applications.
+
+### Pragmatics of LLMs
+
+Recent advances in large language models (LLMs), and the increasing institutional adoption of favoured services, create opportunities for philosophers to develop experience-based frameworks for professional practice and philosophical work. This track invites papers examining how philosophers develop norms and guidance for LLM use in research, professional, and collegial contexts, addressing questions of professional responsibility, pedagogical guidance, and the identification of problematic practices, informed by recent developments in LLM capabilities.
+
+## Workshop proposals
+
+A workshop typically lasts around 90 min. Various formats are possible, from a themed session with various pre-selected papers on a defined topic to book symposia. If you have an idea but are unsure about its fit, please contact us beforehand. For a workshop proposal, please provide:
+
+* (a) a short abstract (approx. 200-300 words) describing the workshop in such a way as to be displayed in the conference program;
+* (b) an extended abstract (approx.) 1000 words that describes and justifies the workshop topic in more detail; and
+* (c) upload a set of short abstracts for each paper in the workshop.
+
+# Submission Information
+
+* [Submit a Proposal](https://pretalx.iacapconf.org/iacap-2026/submit/)
+
+## Past conferences
+
+* See links to our [past conferences](pages/past_conferences.md)
