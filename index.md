@@ -20,7 +20,7 @@ The International Association for Computing and Philosophy ([IACAP](https://www.
 * Extended abstracts for individual talks (up to 1000 words) due on: February 28, 2026 (Extended from January)
 * Workshop proposals due on: February 28, 2026 (Extended from January)
 * Notification of acceptance: March 31, 2026 for all proposals sent by January 31, April 30, 2026 for all other proposals.  
-* [Conference registration](https://pretalx.iacapconf.org/) will open on: April 1, 2026\.
+* [Conference registration](https://tickets.iacapconf.org/iacap/2026/) will open on: April 1, 2026\.
 * Call for Nominations for Covey and Simon Awards due on: February 28, 2026.
 
 ## Tracks
