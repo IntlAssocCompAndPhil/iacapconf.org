@@ -14,6 +14,13 @@ The International Association for Computing and Philosophy ([IACAP](https://www.
 * Conference Website: [https://iacapconf.org](https://iacapconf.org)
 * [Conference registration](https://tickets.iacapconf.org/iacap/2026/)
 
+## Keynotes
+
+* [Karina Vold](https://kkvd.com/) (University of Toronto)
+* Gualtiero Piccinini [2026 IACAP Covey Award winner](https://www.iacap.org/2026/05/24/2026-covey-award-winner-gualtiero-piccinini/). 
+* Tom Sterkenburg [2026 IACAP Simon Award winner](https://www.iacap.org/2026/06/06/2026-simon-award-winner-tom-sterkenburg/).
+
+
 
 ## Tracks
 
