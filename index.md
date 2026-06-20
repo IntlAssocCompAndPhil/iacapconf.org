@@ -6,7 +6,9 @@ image: "/assets/iacap-kansas-2026-header.png"
 alt_title: IACAP 2026
 ---
 
-The International Association for Computing and Philosophy ([IACAP](https://www.iacap.org)) is pleased to put out this call for abstracts for its next conference in 2026.
+The International Association for Computing and Philosophy ([IACAP](https://www.iacap.org)) is pleased to announce that registration is now open for the 2026 Annual Conference of the International Association for Computing and Philosophy (IACAP), to be held July 15--17, 2026, at the University of Kansas in Lawrence, Kansas, USA.
+
+Hosted by the Center for Cyber-Social Dynamics, the conference will bring together researchers working at the intersection of philosophy, computing, artificial intelligence, robotics, ethics, cognitive science, and related fields. We are pleased to invite you to participate in this interdisciplinary gathering.
 
 * Conference Dates: July 15-17, 2026.
 * Conference Location: University of Kansas. Lawrence, KS, USA.  
@@ -16,11 +18,9 @@ The International Association for Computing and Philosophy ([IACAP](https://www.
 
 ## Keynotes
 
-* [Karina Vold](https://kkvd.com/) (University of Toronto)
-* Gualtiero Piccinini [2026 IACAP Covey Award winner](https://www.iacap.org/2026/05/24/2026-covey-award-winner-gualtiero-piccinini/). 
-* Tom Sterkenburg [2026 IACAP Simon Award winner](https://www.iacap.org/2026/06/06/2026-simon-award-winner-tom-sterkenburg/).
-
-
+* [Karina Vold](https://kkvd.com/) Philosopher of cognitive science and artificial intelligence and Associate Professor at the University of Toronto's Institute for the History and Philosophy of Science and Technology. Dr. Vold is Principal Investigator at Periscope Research Lab, Research Lead at the Schwartz Reisman Institute for Technology and Society as well as Associate Fellow of the Leverhulme Centre for the Future of Intelligence, University of Cambridge.
+* Gualtiero Piccinini [2026 IACAP Covey Award winner](https://www.iacap.org/2026/05/24/2026-covey-award-winner-gualtiero-piccinini/), Florence G. Kline Professor and Curators' Distinguished Professor of Philosophy at the University of Missouri. 
+* Tom Sterkenburg [2026 IACAP Simon Award winner](https://www.iacap.org/2026/06/06/2026-simon-award-winner-tom-sterkenburg/), Assistant Professor of Philosophy, London School of Economics, currently Emmy Noether group leader at the Munich Center for Mathematical Philosophy (MCMP, LMU Munich) and the Munich Center for Machine Learning (MCML).
 
 ## Tracks
 
