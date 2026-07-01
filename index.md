@@ -43,6 +43,11 @@ IACAP has a long tradition of promoting philosophical dialogue and interdiscipli
 * Theoretical Problems in Computer Science  
 * Virtual Reality
 
+## Organiziers
+
+* **Program Chairs:** Ramon Alvarado, Arzu Formanek, Hajo Greif. 
+* **Organizing Committee:** Ramon Alvarado, Ahmed Amer, Brian Ballsun-Stanton, Arzu Formanek, Hajo Greif, John Symons, Alejandro D Tamez.
+
 ## Venue Information
 
 * Conference Venue; [Nichol's Hall](https://nichols.ku.edu/)
