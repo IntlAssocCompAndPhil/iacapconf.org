@@ -14,7 +14,8 @@ Hosted by the Center for Cyber-Social Dynamics, the conference will bring togeth
 * Conference Location: University of Kansas. Lawrence, KS, USA.  
 * Conference Host: [Center for Cyber-Social Dynamics](https://i2s-research.ku.edu/center-cyber-social-dynamics-ccsd).  
 * Conference Website: [https://iacapconf.org](https://iacapconf.org)
-* [Conference registration](https://tickets.iacapconf.org/iacap/2026/)
+* [Conference Registration](https://tickets.iacapconf.org/iacap/2026/)
+* [Conference Schedule](https://pretalx.iacapconf.org/iacap-2026/schedule/)
 
 ## Keynotes
 
