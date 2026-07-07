@@ -53,6 +53,7 @@ IACAP has a long tradition of promoting philosophical dialogue and interdiscipli
 
 * Conference Venue; [Nichol's Hall](https://nichols.ku.edu/)
 * [Directions and Lodging](2026/20260604-VenueDetails.md)
+* [Logistical Information (venue map, wifi, social events, dinner)](2026/20260708-Logistics.md)
 
 
 ## Join the Community
