@@ -6,15 +6,13 @@ date:   2026-07-08 09:51:00 +1000
 
 ## Conference Venue
 
-The IACAP 2026 Conference will be held on the campus of the University of Kansas, in Lawrence, Kansas. Conference sessions will take place inside [Nichol's Hall](https://nichols.ku.edu/) at the headquarters of the Center for Cybersocial Dynamics (see the building highlighted in turquoise in the map below).
+The IACAP 2026 Conference will be held on the campus of the University of Kansas, in Lawrence, Kansas. Conference sessions will take place inside [Nichol's Hall](https://nichols.ku.edu/) at the headquarters of the Center for Cybersocial Dynamics (the crimson marker on the map below).
 
-![Map of Lawrence, Kansas with the University of Kansas conference venue highlighted](/2026/ku-venue-map.png)
+{% include venue-map.html %}
 
 ## Downtown
 
-[The Oread Hotel](https://www.hilton.com/en/hotels/lwctoup-the-oread-lawrence/) is roughly a 30+ minute walk from our conference venue (see map below for the approximate route) or a ~20-minute slow ride through campus on public transportation (e.g., [route 45](https://lawrencetransit.org/routes/)). If you are coming from downtown Lawrence, you could be at our venue via a 25+ minute bus ride (e.g., [on route 4](https://lawrencetransit.org/routes/)).
-
-![Map showing the approximate walking route from The Oread Hotel to the conference venue](/2026/ku-oread-route-map.png)
+[The Oread Hotel](https://www.hilton.com/en/hotels/lwctoup-the-oread-lawrence/) (the blue marker on the map above) is roughly a 30+ minute walk from our conference venue or a ~20-minute slow ride through campus on public transportation (e.g., [route 45](https://lawrencetransit.org/routes/)). If you are coming from downtown Lawrence, you could be at our venue via a 25+ minute bus ride (e.g., [on route 4](https://lawrencetransit.org/routes/)).
 
 ## Technical Infrastructure
 

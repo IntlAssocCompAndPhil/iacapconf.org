@@ -48,10 +48,11 @@ google_fonts:
 # Create a custom list to override the default setting of including links to all
 # pages that have a `title`. Add raw page paths in the order you'd like.
 
-navigation_pages: 
+navigation_pages:
   - 2026/20260604-tickets.md
+  - 2026/20260708-Logistics.md
   - 2026/20260604-VenueDetails.md
-  - pages/past_conferences.md 
+  - pages/past_conferences.md
   - pages/iacap.md  
   - pages/code_of_conduct.md
 
