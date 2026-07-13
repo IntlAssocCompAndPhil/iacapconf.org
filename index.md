@@ -16,6 +16,7 @@ Hosted by the Center for Cyber-Social Dynamics, the conference will bring togeth
 * Conference Website: [https://iacapconf.org](https://iacapconf.org)
 * [Conference Registration](https://tickets.iacapconf.org/iacap/2026/)
 * [Conference Schedule](https://pretalx.iacapconf.org/iacap-2026/schedule/)
+* [Conference Booklet](2026/IACAP2026-Conference-Booklet.pdf)
 
 ## Keynotes
 
