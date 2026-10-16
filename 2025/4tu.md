@@ -1,3 +1,7 @@
+---
+title: 4TU.ethics workshop
+---
+
 # 4TU.ethics workshop
 
 On 30 June a 4TU.ethics workshop on AI and neurotechnology will be held at the University of Twente, NL. This workshop, organised in conjunction with member societies IACAP and AISB, also comprises the formal opening of the joint IACAP-AISB conference, which takes place at UT From 1 to 3 July 2025.
@@ -11,4 +15,4 @@ This highly interdisciplinary workshop is free for members of 4TU.ethics and tho
 - 15:30-17:00 Workshop
 - 17:00 - 19:30 Reception
 
-The workshop will take place in room RA1501 in the Ravelijn building. See [here](/pages/practical.html#on-campus) for details on the location.
+The workshop will take place in room RA1501 in the Ravelijn building. See [here](practical.md#on-campus) for details on the location.

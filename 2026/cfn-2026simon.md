@@ -1,13 +1,14 @@
 ---
 layout: page
 title: "Call for Nominations: Herbert Simon Award 2026"
+redirect_from: /pages/cfn-2026simon.html
 ---
 
 The International Association for Computing and Philosophy (IACAP) seeks nominations for the 2026 Herbert A. Simon Award.
 
 The Herbert A. Simon Award for Outstanding Research in Computing and Philosophy recognizes scholars at an early stage of their academic career (i.e., roughly within 10 years of finalized PhD\*) who are likely to reshape debates at the nexus of Computing and Philosophy by their original research.
 
-This year, the Simon award will be presented at the 2026 IACAP conference organized at the University of Kansas, USA. Please see the CFP for the conference here: <https://iacapconf.org/>
+This year, the Simon award will be presented at the 2026 IACAP conference organized at the University of Kansas, USA. Please see the CFP for the conference here: <https://iacapconf.org/2026/cfp.html>
 
 Previous recipients of the award include:
 

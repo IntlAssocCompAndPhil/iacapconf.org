@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Programme
+redirect_from: /pages/schedule.html
 toc: true
 ---
 

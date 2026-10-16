@@ -5,9 +5,10 @@
 layout: default
 ---
 
+<span id="main"></span>
 
 <div style="margin:auto;text-text-align:center;width:100%;vertical-text-align:middle;">
-<img src="iacap-logo-oregon-1200.png" style="width:60%;  "/>
+<img src="iacap-logo-oregon-1200.png" alt="IACAP Oregon 2024 logo" style="width:60%;  "/>
 </div>
 
 <h2 style="text-text-align:center; width: 100%; vertical-text-align:middle;">
@@ -17,7 +18,7 @@ Register for the IACAP 2024 Conference in Eugene, Oregon.
 </h2>     
 
 <div style="margin:auto;text-text-align:center;max-width:100%;margin-top:4vh;margin-bottom:2vh">
-<img src="oregon.jpg" style="width:100%">
+<img src="oregon.jpg" alt="Aerial view of the University of Oregon campus, Eugene" style="width:100%">
 </div>   
 
 
@@ -40,11 +41,11 @@ July 8th – 10th, 2024
 
 # Schedule
 
-[Schedule](https://iacapconf.org/20240708-1-IACAP2024_Timetable.pdf), updated 2024-07-08 15:00 UTC
+[Schedule](https://iacapconf.org/2024/20240708-1-IACAP2024_Timetable.pdf), updated 2024-07-08 15:00 UTC
 
 # Book of abstracts
 
-* [Book of Abstracts](https://iacapconf.org/20240708_IACAP2024_Booklet.pdf), updated 2024-07-08 15:00 UTC
+* [Book of Abstracts](https://iacapconf.org/2024/20240708_IACAP2024_Booklet.pdf), updated 2024-07-08 15:00 UTC
 * [Zenodo Community for preprints and long abstracts](https://zenodo.org/communities/iacap-2024/records?q=&l=list&p=1&s=10&sort=newest)
 
 # Internet access

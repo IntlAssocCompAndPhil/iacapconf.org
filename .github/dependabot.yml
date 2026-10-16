@@ -1,0 +1,23 @@
+# Monthly grouped update PRs for gems and pinned actions. New releases wait
+# 14 days before Dependabot proposes them, matching the uv/npm release-age policy.
+version: 2
+updates:
+  - package-ecosystem: bundler
+    directory: /
+    schedule:
+      interval: monthly
+    cooldown:
+      default-days: 14
+    groups:
+      gems:
+        patterns: ["*"]
+
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
+    cooldown:
+      default-days: 14
+    groups:
+      actions:
+        patterns: ["*"]

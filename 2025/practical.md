@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Information
+redirect_from: /pages/practical.html
 toc: true
 ---
 
@@ -15,9 +16,9 @@ toc: true
 
 - You will need to check in at the registration desk on arrival, and keep your conference badge visible at all times in order to access buildings and conference catering. 
 
-- AV equipment is available in all rooms. Computers are installed only in the Ravelijn building (check the [schedule](/pages/schedule) for tracks assigned to rooms starting with "RA"). To be safe, please bring connectors if you prefert to use your own computer, as not all rooms are equipped with all types of AV connections.
+- AV equipment is available in all rooms. Computers are installed only in the Ravelijn building (check the [schedule](schedule.md) for tracks assigned to rooms starting with "RA"). To be safe, please bring connectors if you prefert to use your own computer, as not all rooms are equipped with all types of AV connections.
 
-- If your symposium or talk is hosted in DesignLab (check the [schedule](/pages/schedule) for tracks assigned to rooms "Learn-X" and "Inspire"), you will need to bring your own laptops (or share one), plus any connectors that might be required, e.g. to attach a Mac to an AV wire. There are no computers in those rooms. 
+- If your symposium or talk is hosted in DesignLab (check the [schedule](schedule.md) for tracks assigned to rooms "Learn-X" and "Inspire"), you will need to bring your own laptops (or share one), plus any connectors that might be required, e.g. to attach a Mac to an AV wire. There are no computers in those rooms. 
 
 - For any practical questions or issues before or during the conference, please contact Saskia, Elize and Karin, who will also be at the registration desk each morning: [email contact](mailto:secretariat-philosophy-bms@utwente.nl).
  
@@ -26,7 +27,7 @@ toc: true
 
 The IACAP/AISB 2025 conference venue is situated on the campus of the University of Twente, between the cities of Hengelo and Enschede. The address of the UT campus is [Drienerlolaan 5, 7522 NB Enschede, Netherlands.](https://www.google.nl/maps/place/Universiteit+Twente/@52.2396538,6.84979,17z/data=!3m2!4b1!5s0x47b813d9fcd767e3:0xd6c4861027d901e8!4m6!3m5!1s0x47b813d992e2ab01:0x790b33d6b663608f!8m2!3d52.2396538!4d6.84979!16zL20vMHBzN2g?entry=ttu)
 
-The UT campus is easily accessible by train and bus. Visit/download the [9292](mailto:https://9292.nl/) app for local and national public transport or the [NS](mailto:https://www.ns.nl/) app (trains) for real-time public transport schedules and routes in the Netherlands.
+The UT campus is easily accessible by train and bus. Visit/download the [9292](https://9292.nl/) app for local and national public transport or the [NS](https://www.ns.nl/) app (trains) for real-time public transport schedules and routes in the Netherlands.
 
 Tickets for the train can be bought beforehand on the [website of the NS](https://www.ns.nl/en/travel-information/buying-your-ticket-online.html) or the [NS app](https://www.ns.nl/en/travel-information/ns-app). You are also able to check in with your contactless debit card, credit card or mobile phone. Take a train to one of the train stations **Hengelo, Enschede or Enschede Kennispark** and follow the bus instructions below. On the bus you can pay with your credit/debit card or mobile phone and check out when you leave the bus. The travel will be charged depending on the distance.
 

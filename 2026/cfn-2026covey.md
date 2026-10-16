@@ -1,13 +1,14 @@
 ---
 layout: page
 title: "Call for Nominations: Covey Award 2026"
+redirect_from: /pages/cfn-2026covey.html
 ---
 
 The *International Association for Computing and Philosophy *seeks nominations for the 2026 Covey Award.
 
 The Covey Award recognizes senior scholars with a substantial record of innovative research in the field of computing and philosophy broadly conceived.
 
-This year, the Covey award will be presented at the 2026 IACAP conference at the University of Kansas, USA. Please see the CFP for the conference here: <https://iacapconf.org/>
+This year, the Covey award will be presented at the 2026 IACAP conference at the University of Kansas, USA. Please see the CFP for the conference here: <https://iacapconf.org/2026/cfp.html>
 
 Past recipients of the prestigious award include:
 

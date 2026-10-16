@@ -13,10 +13,10 @@ Hosted by the Center for Cyber-Social Dynamics, the conference will bring togeth
 * Conference Dates: July 15-17, 2026.
 * Conference Location: University of Kansas. Lawrence, KS, USA.  
 * Conference Host: [Center for Cyber-Social Dynamics](https://i2s-research.ku.edu/center-cyber-social-dynamics-ccsd).  
-* Conference Website: [https://iacapconf.org](https://iacapconf.org)
+* Conference Website: [https://iacapconf.org/2026/](https://iacapconf.org/2026/)
 * [Conference Registration](https://tickets.iacapconf.org/iacap/2026/)
 * [Conference Schedule](https://pretalx.iacapconf.org/iacap-2026/schedule/)
-* [Conference Booklet](2026/IACAP2026-Conference-Booklet.pdf)
+* [Conference Booklet](IACAP2026-Conference-Booklet.pdf)
 
 ## Keynotes
 
@@ -53,8 +53,8 @@ IACAP has a long tradition of promoting philosophical dialogue and interdiscipli
 ## Venue Information
 
 * Conference Venue; [Nichol's Hall](https://nichols.ku.edu/)
-* [Directions and Lodging](2026/20260604-VenueDetails.md)
-* [Logistical Information (venue map, wifi, social events, dinner)](2026/20260708-Logistics.md)
+* [Directions and Lodging](20260604-VenueDetails.md)
+* [Logistical Information (venue map, wifi, social events, dinner)](20260708-Logistics.md)
 
 
 ## Join the Community
@@ -69,4 +69,4 @@ For updates on IACAP conferences and to be part of the conversation with other a
 
 ## Past conferences
 
-* See links to our [past conferences](pages/past_conferences.md)
+* See links to our [past conferences](../pages/past_conferences.md)
