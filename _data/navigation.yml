@@ -1,0 +1,7 @@
+# Site navigation, shown on every page after the link to the current conference
+# (which is automatic: the newest YYYY/index.md). Each entry is a page path, or a
+# title and url for a page on another site.
+- pages/past_conferences.md
+- title: IACAP
+  url: https://www.iacap.org
+- pages/code_of_conduct.md

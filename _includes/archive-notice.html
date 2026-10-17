@@ -1,0 +1,7 @@
+{%- comment -%}
+  Shown on an earlier year's pages once a newer YYYY/index.md exists. Needs
+  page_year and current_year (conference-years.html).
+{%- endcomment -%}
+{%- if page_year > 0 and page_year < current_year -%}
+<p class="archive-notice">This page is from the IACAP {{ page_year }} archive. The current conference is <a href="{{ '/' | relative_url }}">IACAP {{ current_year }}</a>.</p>
+{%- endif -%}

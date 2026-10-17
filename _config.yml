@@ -26,14 +26,13 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
 github_username:  
-# Layouts, includes and Sass are vendored from jekyll-theme-basically-basic 1.4.5.
+# Layouts, includes and styles are the site's own (README.md, "Layout"); no theme.
 markdown: kramdown
 sass:
   style: compressed
 logo: iacap-bubble.png
 
 # Build settings
-# theme: minima
 plugins:
   - jekyll-redirect-from
   - jekyll-relative-links

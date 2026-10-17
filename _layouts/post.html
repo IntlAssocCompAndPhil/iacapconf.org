@@ -1,18 +1,5 @@
 ---
-layout: default
+layout: page
 ---
-
-{% include page-intro.html %}
-
-<main id="main" class="page-content" aria-label="Content">
-  <div class="inner">
-    <article class="entry-wrap">
-      <div class="entry-content">
-        {{ content }}
-      </div>
-      {% if site.disqus.shortname %}
-        {% include disqus_comments.html %}
-      {% endif %}
-    </article>
-  </div>
-</main>
+{% comment %} Dated pages (front matter `date`) look like any other page; page.html shows the date. {% endcomment %}
+{{ content }}

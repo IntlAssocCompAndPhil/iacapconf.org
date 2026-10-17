@@ -1,31 +1,45 @@
 ---
 layout: default
 ---
-
-{% include page-intro.html %}
-
-<main id="main" class="page-content" aria-label="Content">
-  <div class="index inner">
-    <div>{{ content }}</div>
-    
-    {% if site.posts.size > 0 %}
-      <div>
-        <header class="section-title">
-          <h2>{{ site.data.theme.t.posts | default: 'Posts' }}{% if paginator.page > 1 %}{{ site.data.theme.t.page | default: 'Page' | prepend: ' - ' | append: ' ' }}{{ paginator.page }} {{ site.data.theme.t.of | default: 'of' }} {{ paginator.total_pages }}{% endif %}</h2>
-        </header>
-        <div class="entries-{{ page.entries_layout | default: 'list' }}">
-          {% if site.plugins contains 'jekyll-paginate' and page.paginate or site.gems contains 'jekyll-paginate' and page.paginate %}
-            {% comment %}
-              Add paginator.posts loop if jekyll-paginate plugin is enabled
-              and page.paginate == true
-            {% endcomment %}
-            {% include posts-paginated.html %}
-          {% else %}
-            {% include posts-all.html %}
-          {% endif %}
-        </div>
-      </div>    
-    {% endif %}
-    
+{% comment %}
+  A conference year's front page (YYYY/index.md). Optional front matter:
+    image        a wide banner above the title
+    title_image  a logo shown as the title (its alt text is the title)
+    sub_title, introduction (Markdown), actions (label/url buttons)
+{% endcomment %}
+{%- include conference-years.html -%}
+{%- assign heading = page.alt_title | default: page.title | default: fallback_title | markdownify | strip_html | strip -%}
+<main id="main">
+  {%- if page.image %}
+  <div class="banner"><img src="{{ page.image | relative_url }}" alt="{{ page.title | escape }}"></div>
+  {%- endif %}
+  <div class="frame page-grid">
+    <div class="page-main">
+      <header class="page-header">
+        {% include archive-notice.html %}
+        {%- if page.title_image %}
+        <h1 class="title-image"><img src="{{ page.title_image | relative_url }}" alt="{{ heading | escape }}"></h1>
+        {%- else %}
+        <h1>{{ heading }}</h1>
+        {%- endif %}
+        {%- if page.sub_title %}
+        <p class="subtitle">{{ page.sub_title | markdownify | strip_html }}</p>
+        {%- endif %}
+        {%- if page.introduction %}
+        <div class="lede">{{ page.introduction | markdownify }}</div>
+        {%- endif %}
+        {%- if page.actions %}
+        <p class="actions">
+          {%- for action in page.actions %}
+          <a class="btn" href="{{ action.url }}">{{ action.label }}</a>
+          {%- endfor %}
+        </p>
+        {%- endif %}
+      </header>
+      <div class="content">
+        {{ content }}
+      </div>
+    </div>
+    {% include page-aside.html html=content %}
   </div>
 </main>

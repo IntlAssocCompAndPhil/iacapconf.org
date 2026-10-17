@@ -1,0 +1,38 @@
+{% comment %}
+  Beside the text on wide screens, after it on narrow ones: the other pages of
+  this page's conference year, then "On this page". Year pages are found from
+  their YYYY/ directory, so a new page appears here without editing any list.
+  Pass the rendered page body as include.html.
+  Needs current_year and page_year (conference-years.html, run by the layout).
+{% endcomment %}
+{%- assign year_pages = "" | split: "" -%}
+{%- if page_year > 0 -%}
+  {%- assign prefix = page_year | append: "/" -%}
+  {%- for p in site.pages -%}
+    {%- assign p_prefix = p.path | slice: 0, 5 -%}
+    {%- if p_prefix == prefix and p.title -%}{%- assign year_pages = year_pages | push: p -%}{%- endif -%}
+  {%- endfor -%}
+{%- endif -%}
+{%- capture toc -%}{% include toc.html html=include.html %}{%- endcapture -%}
+{%- if year_pages.size > 1 or toc != "" -%}
+<aside class="page-aside">
+  {%- if year_pages.size > 1 %}
+  <nav class="year-nav" aria-labelledby="year-nav-title">
+    <h2 id="year-nav-title" class="aside-title">IACAP {{ page_year }}</h2>
+    <ul>
+      {%- assign index_page = year_pages | where_exp: "p", "p.name contains 'index.'" | first -%}
+      {%- if index_page %}
+      <li><a href="{{ index_page.url | relative_url }}"{% if index_page.url == page.url %} aria-current="page"{% endif %}>Overview</a></li>
+      {%- endif -%}
+      {%- assign by_title = year_pages | sort: "title" -%}
+      {%- for p in by_title -%}
+        {%- unless p.name contains "index." %}
+      <li><a href="{{ p.url | relative_url }}"{% if p.url == page.url %} aria-current="page"{% endif %}>{{ p.nav_title | default: p.title | escape }}</a></li>
+        {%- endunless -%}
+      {%- endfor %}
+    </ul>
+  </nav>
+  {%- endif %}
+  {{ toc }}
+</aside>
+{%- endif -%}

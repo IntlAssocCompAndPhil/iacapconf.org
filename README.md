@@ -32,8 +32,19 @@ repository's Settings > Pages > Source must be "GitHub Actions".
 - `YYYY/`: everything for that year's conference. The current year's
   `index.md` is the home page (`permalink: /`).
 - `pages/`: pages that span years (past conferences, code of conduct).
-- `_layouts`, `_includes`, `_sass`, `assets`: vendored from
-  jekyll-theme-basically-basic 1.4.5, plus local additions.
+- `_layouts`: the site's own layouts, plain HTML with no JavaScript.
+  `default` (header, navigation, footer) wraps `page` (any page) and `home`
+  (a year's front page); `post` is `page` with a date.
+- `_includes`: the navigation, the per-year sidebar and "On this page" list,
+  and the archive notice. `conference-years.html` works out the current year:
+  the newest `YYYY/` with an `index.md`. Earlier years' pages then say they are
+  archives, and a page added to a year's directory appears in that year's
+  sidebar, with no list to edit.
+- `_data/navigation.yml`: the header links after the current conference.
+- `assets/stylesheets/main.scss`: the whole stylesheet. Fira Sans is served
+  from `assets/fonts/fira-sans` (SIL Open Font License). The layouts load
+  nothing from other hosts; two archived pages still do (the 2025 schedule
+  loads jQuery, the 2026 logistics page a hash-pinned Leaflet map).
 
 ## Starting a new conference year (e.g. 2028)
 
@@ -42,5 +53,5 @@ repository's Settings > Pages > Source must be "GitHub Actions".
    `redirect_from: /pages/cfp.html` from `2027/cfp.md` to `2028/cfp.md`.
 2. Remove `permalink` and `redirect_from` from `2027/index.md`, so it becomes
    the archive at `/2027/`, and point its "Conference Website" line at `/2027/`.
-3. Update the navigation in `_data/theme.yml` and `title` in `_config.yml`.
+3. Update `title` in `_config.yml`. The header and sidebars follow by themselves.
 4. Add the year to `pages/past_conferences.md`.

@@ -1,15 +1,28 @@
 ---
 layout: default
 ---
-
-{% include page-intro.html %}
-
-<main id="main" class="page-content" aria-label="Content">
-  <div class="inner">
-    <article class="entry-wrap">
-      <div class="entry-content">
+{% comment %}
+  An ordinary page: title, the text, and beside it this year's pages and
+  "On this page" (_includes/page-aside.html).
+{% endcomment %}
+{%- include conference-years.html -%}
+<main id="main">
+  <div class="frame page-grid">
+    <div class="page-main">
+      <header class="page-header">
+        {% include archive-notice.html %}
+        <h1>{{ page.alt_title | default: page.title | default: fallback_title | markdownify | strip_html }}</h1>
+        {%- if page.sub_title %}
+        <p class="subtitle">{{ page.sub_title | markdownify | strip_html }}</p>
+        {%- endif %}
+        {%- if page.date %}
+        <p class="page-date"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time></p>
+        {%- endif %}
+      </header>
+      <div class="content">
         {{ content }}
       </div>
-    </article>
+    </div>
+    {% include page-aside.html html=content %}
   </div>
 </main>

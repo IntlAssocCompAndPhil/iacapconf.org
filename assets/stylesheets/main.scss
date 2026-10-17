@@ -1,41 +1,447 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
+# Jekyll compiles this to /assets/stylesheets/main.css (the dashes are enough)
 ---
+// The whole stylesheet for iacapconf.org. Plain CSS (no framework, no imports);
+// the layouts it styles are in _layouts/. Colours and type follow the site's
+// earlier Basically Basic theme.
 
-@charset "utf-8";
-
-// Theme skin
-@import "basically-basic/themes/{{ site.data.theme.skin | default: 'default' }}";
-
-@import "basically-basic";
-
-// Pages whose title is a logo shown in the introduction (front matter
-// `classes: [header-logo]`): hide the text heading visually but keep it for
-// screen readers, and size the logo to sit in the text column.
-.header-logo .intro-title {
-  position: absolute !important;
-  width: 1px;
-  height: 1px;
-  clip: rect(0, 0, 0, 0);
-  overflow: hidden;
+// Fira Sans, served from this site (assets/fonts/fira-sans, SIL Open Font
+// License: OFL.txt there). Latin and Latin Extended only; other scripts fall
+// back to the system font.
+@font-face {
+  font-family: "Fira Sans";
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/fira-sans/fira-sans-400-italic-latin-ext.woff2") format("woff2");
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 
-.header-logo .intro-logo {
+@font-face {
+  font-family: "Fira Sans";
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/fira-sans/fira-sans-400-italic-latin.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/fira-sans/fira-sans-400-normal-latin-ext.woff2") format("woff2");
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/fira-sans/fira-sans-400-normal-latin.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "Fira Sans";
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../fonts/fira-sans/fira-sans-600-italic-latin-ext.woff2") format("woff2");
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: "Fira Sans";
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../fonts/fira-sans/fira-sans-600-italic-latin.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../fonts/fira-sans/fira-sans-600-normal-latin-ext.woff2") format("woff2");
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../fonts/fira-sans/fira-sans-600-normal-latin.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+:root {
+  --text: #181c22;
+  --heading: #525559;
+  --muted: #5d6064;
+  --accent: #00838a;
+  --accent-dark: #00676d;
+  --accent-tint: #e5f3f3;
+  --border: #d4d5d7;
+  --background: #fff;
+  --font: "Fira Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  --gutter: clamp(1rem, 4vw, 4rem);
+  --measure: 50rem;
+  --aside: 15rem;
+  --gap: 3rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  // 14px on a phone, rising to 18px on a laptop.
+  font-size: clamp(14px, 12.67px + 0.417vw, 18px);
+}
+
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--text);
+  font-family: var(--font);
+  line-height: 1.5;
+}
+
+img,
+video,
+iframe {
+  max-width: 100%;
+}
+
+img {
+  height: auto;
+}
+
+a {
+  color: var(--accent);
+}
+
+a:hover {
+  color: var(--text);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 1.75em 0 0.5em;
+  color: var(--heading);
+  line-height: 1.2;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 1.5em 0;
+}
+
+th,
+td {
+  padding: 0.4em 0.75em;
+  border-bottom: 1px solid var(--border);
+  text-align: left;
+  vertical-align: top;
+}
+
+blockquote {
+  margin: 1.5em 0;
+  padding-left: 1em;
+  border-left: 4px solid var(--border);
+  color: var(--muted);
+}
+
+code,
+pre {
+  font-family: var(--mono);
+  font-size: 0.9em;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid var(--border);
+  margin: 2em 0;
+}
+
+.skip-link {
+  position: absolute;
+  left: -100vw;
+}
+
+.skip-link:focus {
+  left: 1rem;
+  top: 1rem;
+  z-index: 10;
+  padding: 0.5rem 1rem;
+  background: var(--background);
+}
+
+// One left edge for everything: header, title, text and footer all sit inside
+// a .frame, so they share its indent.
+.frame {
+  max-width: calc(var(--measure) + var(--gap) + var(--aside) + 2 * var(--gutter));
+  padding-inline: var(--gutter);
+}
+
+// Header: site title, then the site links (beside it when there is room).
+
+.site-header-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem 2rem;
+  padding-block: 1.5rem;
+}
+
+.site-title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  max-width: 34rem;
+  color: var(--text);
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.15;
+  text-decoration: none;
+}
+
+.site-logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+@media (max-width: 47.99rem) {
+  .site-header-inner {
+    gap: 0.25rem 1.5rem;
+    padding-block: 0.75rem 0.5rem;
+  }
+
+  .site-title {
+    font-size: 1rem;
+  }
+
+  .site-logo {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+.site-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 1.5rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.site-nav a {
+  display: inline-block;
+  padding-block: 0.35rem;
+  color: var(--text);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.site-nav a:hover,
+.site-nav a[aria-current="page"] {
+  color: var(--accent);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.35em;
+}
+
+// The page: text, and beside it (wide screens) or after it the aside.
+
+.page-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: var(--gap);
+  padding-block: 1.5rem 2rem;
+}
+
+@media (min-width: 72rem) {
+  .page-grid {
+    grid-template-columns: minmax(0, var(--measure)) var(--aside);
+    align-items: start;
+  }
+}
+
+.page-main {
+  max-width: var(--measure);
+}
+
+.page-header {
+  margin-bottom: 2.5rem;
+}
+
+.page-header > :first-child {
+  margin-top: 0;
+}
+
+.page-header h1 {
+  margin: 1rem 0 0.75rem;
+  font-size: clamp(1.75rem, 1.2rem + 2vw, 3rem);
+}
+
+.page-header .title-image {
+  margin-bottom: 1.25rem;
+}
+
+.title-image img {
   display: block;
   width: auto;
-  max-width: 100%;
   max-height: 7.25rem;
 }
 
-// Line the masthead up with the page text. On wide screens the theme indents
-// the masthead by 5vw but the text by a fixed 3rem/4rem (_layout.scss), so the
-// two drift apart as the window widens.
-.site-title {
-  @include breakpoint($large) {
-    padding-left: 3rem;
+.subtitle {
+  margin-top: 0;
+  color: var(--muted);
+  font-size: 1.2em;
+  font-style: italic;
+}
+
+.page-date {
+  color: var(--muted);
+}
+
+.lede {
+  font-size: 1.125em;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 1.5rem 0 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.5em 1em;
+  border-radius: 0.25em;
+  background: var(--accent);
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: var(--accent-dark);
+  color: #fff;
+}
+
+.banner img {
+  display: block;
+  width: 100%;
+}
+
+.archive-notice {
+  margin: 1rem 0;
+  padding: 0.6rem 1rem;
+  border-left: 4px solid var(--accent);
+  background: var(--accent-tint);
+}
+
+.content > :first-child {
+  margin-top: 0;
+}
+
+.page-main {
+  overflow-wrap: break-word;
+}
+
+.content table,
+.content pre {
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+// Aside: this year's pages and "On this page".
+
+.page-aside {
+  font-size: 0.9rem;
+}
+
+.aside-title {
+  margin: 0 0 0.5rem;
+  color: var(--muted);
+  font-size: 0.8rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.page-aside ul {
+  margin: 0 0 2rem;
+  padding: 0;
+  list-style: none;
+}
+
+.page-aside li a {
+  display: block;
+  padding: 0.2rem 0 0.2rem 0.75rem;
+  border-left: 2px solid var(--border);
+  color: var(--text);
+  text-decoration: none;
+}
+
+.page-aside li a:hover {
+  color: var(--accent);
+}
+
+.page-aside li a[aria-current="page"] {
+  border-left-color: var(--accent);
+  color: var(--accent);
+  font-weight: 600;
+}
+
+@media (min-width: 72rem) {
+  .page-aside {
+    position: sticky;
+    top: 1.5rem;
+    max-height: calc(100vh - 3rem);
+    overflow-y: auto;
+  }
+}
+
+// On narrow screens the aside follows the text, where a list of this page's
+// sections is no help; the year's pages stay.
+@media (max-width: 71.99rem) {
+  .page-aside .toc {
+    display: none;
   }
 
-  @include breakpoint($xlarge) {
-    padding-left: 4rem;
+  .year-nav {
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--border);
   }
+}
+
+.site-footer {
+  margin-top: 2rem;
+  padding-block: 1.5rem;
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.site-footer p {
+  margin: 0.25rem 0;
 }

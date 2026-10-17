@@ -1,0 +1,21 @@
+{% comment %}
+  Sets current_year (the newest YYYY/ directory that has an index page) and
+  page_year (the YYYY/ directory this page lives in, or 0 for site-wide pages)
+  and fallback_title ("IACAP YYYY" for an untitled year page, else the site title).
+  A conference becomes current as soon as its YYYY/index.md exists; earlier
+  years then show as archives without any edits.
+{% endcomment %}
+{%- assign current_year = 0 -%}
+{%- for p in site.pages -%}
+  {%- assign sep = p.path | slice: 4, 1 -%}
+  {%- assign base = p.name | split: "." | first -%}
+  {%- if sep == "/" and base == "index" -%}
+    {%- assign y = p.path | slice: 0, 4 | plus: 0 -%}
+    {%- if y > current_year -%}{%- assign current_year = y -%}{%- endif -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- assign page_year = 0 -%}
+{%- assign sep = page.path | slice: 4, 1 -%}
+{%- if sep == "/" -%}{%- assign page_year = page.path | slice: 0, 4 | plus: 0 -%}{%- endif -%}
+{%- capture year_title %}IACAP {{ page_year }}{% endcapture -%}
+{%- if page_year > 0 -%}{%- assign fallback_title = year_title -%}{%- else -%}{%- assign fallback_title = site.title -%}{%- endif -%}
