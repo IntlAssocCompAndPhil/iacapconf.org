@@ -12,9 +12,7 @@ layout: default
 </div>
 
 <h2 style="text-text-align:center; width: 100%; vertical-text-align:middle;">
-<a href="https://2024.iacapconf.org/IACAP/conference/">
 Register for the IACAP 2024 Conference in Eugene, Oregon. 
-</a>
 </h2>     
 
 <div style="margin:auto;text-text-align:center;max-width:100%;margin-top:4vh;margin-bottom:2vh">

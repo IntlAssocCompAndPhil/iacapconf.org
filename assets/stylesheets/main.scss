@@ -8,3 +8,13 @@
 @import "basically-basic/themes/{{ site.data.theme.skin | default: 'default' }}";
 
 @import "basically-basic";
+
+// Pages whose header image is a logo rather than a wide banner (front matter
+// `classes: [header-logo]`): cap its height and centre it.
+.header-logo .intro-image img {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  max-height: 40vh;
+  margin: 0 auto;
+}

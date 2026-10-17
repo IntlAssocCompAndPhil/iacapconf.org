@@ -4,6 +4,8 @@ title: "IACAP 2027 — Noto, Italy"
 alt_title: IACAP 2027
 sub_title: International Association for Computing and Philosophy Annual Conference
 image: "/iacapNoto2480.png"
+# Logo rather than a wide banner: cap its height (assets/stylesheets/main.scss).
+classes: [header-logo]
 # This year's page is the site's home page. Next year, remove these two lines;
 # the page then lives at /2027/ as the archive.
 permalink: /

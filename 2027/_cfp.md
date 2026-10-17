@@ -36,7 +36,7 @@ Does your abstract need an early review due to visa or planning considerations? 
 
 ## Tracks
 
-IACAP has a long tradition of promoting philosophical dialogue and interdisciplinary research on all aspects of computing. Its members have contributed to the philosophical and ethical debates about computing, information technologies, and artificial intelligence. The 2026 annual conference will continue this tradition by bringing together researchers from various fields who are interested in the topics covered in our tracks, such as:
+IACAP has a long tradition of promoting philosophical dialogue and interdisciplinary research on all aspects of computing. Its members have contributed to the philosophical and ethical debates about computing, information technologies, and artificial intelligence. The 2027 annual conference will continue this tradition by bringing together researchers from various fields who are interested in the topics covered in our tracks, such as:
 
 * Computation, Cognitive Science, and Cognition
 * Computational Methods in the Sciences
@@ -56,10 +56,6 @@ IACAP has a long tradition of promoting philosophical dialogue and interdiscipli
 * Virtual Reality
 
 ## Special Tracks
-
-TBD
-
-&lt;Add your favourite special track here&gt;
 
 ### Documenting AI interactions in Philosophy Research
 

@@ -33,7 +33,7 @@ The workshop will take place in room RA1501 in the Ravelijn building. See [here]
 * **Conference dates**: July 1-3
 * **Conference website**: [iacapconf.org/2025/](https://iacapconf.org/2025/)
 * **Conference proceedings (from symposia)**: [pdf from AISB website](https://aisb.org.uk/wp-content/uploads/2025/06/AISB-IACAP-Convention2025.pdf)
-* **[Conference registration (now closed)](https://2025.tickets.iacapconf.org/)**
+* **Conference registration (now closed)**
 * **Code of Conduct**: [view here](../pages/code_of_conduct.md)
 * **Host Organisation Websites**:
   * [IACAP.org](https://iacap.org)

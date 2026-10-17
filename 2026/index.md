@@ -4,6 +4,8 @@ title: "IACAP — Kansas 2026"
 sub_title: International Association for Computing and Philosophy Annual Conference
 image: "/assets/iacap-kansas-2026-header.png"
 alt_title: IACAP 2026
+# The 2026 ticket page only redirected to the seasonal ticket shop.
+redirect_from: /2026/20260604-tickets.html
 ---
 
 The International Association for Computing and Philosophy ([IACAP](https://www.iacap.org)) is pleased to announce that registration is now open for the 2026 Annual Conference of the International Association for Computing and Philosophy (IACAP), to be held July 15--17, 2026, at the University of Kansas in Lawrence, Kansas, USA.
@@ -14,7 +16,6 @@ Hosted by the Center for Cyber-Social Dynamics, the conference will bring togeth
 * Conference Location: University of Kansas. Lawrence, KS, USA.  
 * Conference Host: [Center for Cyber-Social Dynamics](https://i2s-research.ku.edu/center-cyber-social-dynamics-ccsd).  
 * Conference Website: [https://iacapconf.org/2026/](https://iacapconf.org/2026/)
-* [Conference Registration](https://tickets.iacapconf.org/iacap/2026/)
 * [Conference Schedule](https://pretalx.iacapconf.org/iacap-2026/schedule/)
 * [Conference Booklet](IACAP2026-Conference-Booklet.pdf)
 

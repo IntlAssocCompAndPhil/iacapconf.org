@@ -57,7 +57,7 @@ When you enter the Gallery follow the sign (turn left) to DesignLab and walk the
 
 ## Design Lab
 
-The conference includes a collaboration with [DesignLab](https://www.utwente.nl/en/designlab/). As well as providing rooms for some of our symposia and other events, colleagues in DesignLab can also provide tours of their unique spaces for creative, transdisciplinary work on societal challenges. More information about the tours will be provided during the conference. You can find the route to reach DesignLab [here](https://www.utwente.nl/en/designlab/about-designLab/contact/#how-to-find-us).
+The conference includes a collaboration with [DesignLab](https://www.utwente.nl/en/designlab/). As well as providing rooms for some of our symposia and other events, colleagues in DesignLab can also provide tours of their unique spaces for creative, transdisciplinary work on societal challenges. More information about the tours will be provided during the conference. You can find the route to reach DesignLab [here](https://web.archive.org/web/20260214020339/https://www.utwente.nl/en/designlab/about-designLab/contact/).
 
 ## Hotels
 
@@ -67,4 +67,4 @@ The conference includes a collaboration with [DesignLab](https://www.utwente.nl/
 | [**Fletcher Hotel De Broeierd Enschede**](https://www.fletcherhotelenschede.nl/nl/)<br><br>(750 m from campus UT) | Mail to [sales@fletcherhotelenschede.nl](mailto:sales@fletcherhotelenschede.nl) with reference: FH105-GR-00000135 to make use of reduced room rate (valid till 29 May 2025 or as long as available) |
 | **[InterCityHotel Enschede](https://intercityhotel-enschede.h-rez.com/)**<br><br>(4,3 km from campus UT) | Mail [completed form](/2025/Reservation_Form_Intercity_Hotel.pdf) to [enschede@intercityhotel.com](mailto:enschede@intercityhotel.com) (valid till 5 May 2025 or as long as available) |
 | [**City Hotel Hengelo**](https://www.cityhotelhengelo.com/en/)<br><br>(5,2 km from campus UT) | Mail to [groups.hengelo@leonardo-hotels.nl](mailto:groups.hengelo@leonardo-hotels.nl) with reference IACAP/AISB 2025 for max. 12% discount on flexible prices for standard, kingsize bed- and superior rooms |
-| [**Van der Valk Hotel Hengelo**](https://www.hotelhengelo.com/special-discount/IACAP-AISB-25)<br><br>(8,9 km from campus UT) | Book directly [via this link](https://www.hotelhengelo.com/special-discount/IACAP-AISB-25) to get 5% discount and use code: HEN-IACAP2025 (valid till 15 June 2025) |
+| [**Van der Valk Hotel Hengelo**](https://web.archive.org/web/20251219151748/https://www.hotelhengelo.com/special-discount/IACAP-AISB-25)<br><br>(8,9 km from campus UT) | Book directly [via this link](https://web.archive.org/web/20251219151748/https://www.hotelhengelo.com/special-discount/IACAP-AISB-25) to get 5% discount and use code: HEN-IACAP2025 (valid till 15 June 2025) |
