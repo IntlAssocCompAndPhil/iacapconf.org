@@ -1,6 +1,8 @@
 ---
 title: "Reimagining AI Agents: Artificial, Angelic, or Adversarial
 Intelligences? Symposium, IACAP/AISB-25"
+# Moved from 2025symposia/ so it belongs to the 2025 conference.
+redirect_from: /2025symposia/reimaginingAI.html
 ---
 
 **Symposium Date & Location:**

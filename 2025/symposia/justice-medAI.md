@@ -1,5 +1,7 @@
 ---
 title: "Bridging Justice and Meaningful Human Control in Medical AI Symposium, IACAP/AISB-25"
+# Moved from 2025symposia/ so it belongs to the 2025 conference.
+redirect_from: /2025symposia/justice-medAI.html
 ---
 
 ### Symposium Date & Location

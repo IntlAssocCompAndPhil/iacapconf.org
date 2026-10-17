@@ -1,5 +1,7 @@
 ---
 title: Call for Abstracts for the Teaching With and About AI using Engagement Philosophy and Case Studies Symposium, IACAP/AISB-25
+# Moved from 2025symposia/ so it belongs to the 2025 conference.
+redirect_from: /2025symposia/teachingAI.html
 ---
 
 ## Conveners
