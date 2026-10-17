@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: International Association for Computing and Philosophy Conference — Kansas 2026
+title: International Association for Computing and Philosophy Conference — Noto 2027
 email: iacap@ballsun.com
 description: >- # this means to ignore newlines until "baseurl:"
   The Conference site for the IACAP Conferences
@@ -26,22 +26,25 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
 github_username:  
-# theme: jekyll-theme-basically-basic
-remote_theme: "mmistakes/jekyll-theme-basically-basic@1.4.5"
+# Layouts, includes and Sass are vendored from jekyll-theme-basically-basic 1.4.5.
 markdown: kramdown
+sass:
+  style: compressed
 logo: iacap-bubble.png
-
-header_pages:
-  - pages/schedule.md
-  - pages/code_of_conduct.md
-  - pages/practical.md
-  - pages/iacap.md
-  - pages/aisb.md
 
 # Build settings
 # theme: minima
 plugins:
-  - jekyll-include-cache
+  - jekyll-redirect-from
+  - jekyll-relative-links
+
+# Pages without a layout render as pages (GitHub's legacy builder did this implicitly).
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
 
 # Exclude from processing.
 # The following items will not be processed, by default.

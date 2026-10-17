@@ -3,16 +3,23 @@ layout: page
 title: Past Conferences
 ---
 
+## 2026
+
+* [IACAP 2026 – Lawrence, KS, USA, July 15-17](/2026/)
+* [IACAP 2026 – Lawrence, KS, USA, Call for Proposals](/2026/cfp.html)
+* [IACAP 2026 – Lawrence, KS, USA, Conference Booklet](/2026/IACAP2026-Conference-Booklet.pdf)
+
 ## 2025
 
 * [IACAP-AISB 2025 – Enschede, NL, July 1-3](/2025/)
-* [IACAP-AISB 2025 – Enschede, NL, Program](/2025/IACAP-ASIB_Program_2025-07-03.pdf)
+* [IACAP-AISB 2025 – Enschede, NL, Program](/2025/IACAP-AISB_Program_2025-07-03.pdf)
 * [IACAP-AISB 2025 – Enschede, NL, Book of Abstracts](/2025/IACAP-AISB-2025_Book_of_Abstracts.pdf)
 
 ## 2024
 
 * [IACAP 2024 - Eugene, OR, July 8-10](/2024/)
-* [IACAP 2024 - Eugene, OR, timetable](/2024/20240708_IACAP2024_Booklet.pdf)
+* [IACAP 2024 - Eugene, OR, timetable](/2024/20240708-1-IACAP2024_Timetable.pdf)
+* [IACAP 2024 - Eugene, OR, book of abstracts](/2024/20240708_IACAP2024_Booklet.pdf)
 * [IACAP 2024 - Eugene, OR, program](/2024/20240701-IACAP2024_Program.pdf)
 
 ## 2023
@@ -63,6 +70,14 @@ title: Past Conferences
 ## 2011
 
 * [IACAP 2011 – Aarhus, Denmark, July 4-6](/pages/iacap2011.md)
+
+## 2009
+
+* [NA-CAP@IU 2009: Networks and Their Philosophical Implications – Indiana University, Bloomington, June 14-16, Program](/2009/NACAP2009_Program.pdf)
+
+## 2008
+
+* [NA-CAP@IU 2008: The Limits of Computation – Indiana University, Bloomington, July 10-12, Conference Book](/2008/NACAP2008_ConferenceBook.pdf)
 
 ## 1986–2010
 

@@ -1,9 +1,18 @@
-_site
-.sass-cache
-.jekyll-cache
+# Jekyll build output and caches
+/_site/
+.sass-cache/
+.jekyll-cache/
 .jekyll-metadata
-vendor
-.direnv
-.DS_Store
 
+# Bundler installs gems here (path set in .bundle/config). Anchored to the root:
+# an unanchored "vendor" also hid the theme's _sass/basically-basic/vendor/.
+/vendor/
+
+# Local environment tooling; Ruby is pinned by .ruby-version and managed by rbenv
+.envrc
 .direnv/
+
+# Isolated git worktrees
+/.worktrees/
+
+.DS_Store

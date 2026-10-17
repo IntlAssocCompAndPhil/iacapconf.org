@@ -4,23 +4,23 @@ layout: home
 
 
 <div style="margin:auto;text-align:center;margin-left:auto;margin-right:auto;width:100%;">
-<a style="margin-left:auto;margin-right:2em;" href="https://iacap.org"><img src="/iacap300.png" style="height:7em;"/></a> 
-<a style="margin-right:auto" href="https://aisb.org.uk/"><img src="/aisb.png" style="height:7em;"/></a>
+<a style="margin-left:auto;margin-right:2em;" href="https://iacap.org"><img src="/iacap300.png" alt="IACAP" style="height:7em;"/></a> 
+<a style="margin-right:auto" href="https://aisb.org.uk/"><img src="/aisb.png" alt="AISB" style="height:7em;"/></a>
 </div>
 
 # Joint IACAP/AISB Conference on Philosophy of Computing and AI (IACAP/AISB-25)
 
 ### 1-3 July 2025, University of Twente, NL
 
-The [International Association for Computing and Philosophy](https://iacap.org) (IACAP) and the [Society for the Study of Artificial Intelligence and Simulation of Behaviour](https://aisb.org.uk/) (AISB) will host a joint conference from 1-3 July, 2025 at the University of Twente, NL. Submissions and registration are closed. Programme and abstracts are available [here](/pages/schedule.md), symposia proceedings [here](https://aisb.org.uk/wp-content/uploads/2025/06/AISB-IACAP-Convention2025.pdf).
+The [International Association for Computing and Philosophy](https://iacap.org) (IACAP) and the [Society for the Study of Artificial Intelligence and Simulation of Behaviour](https://aisb.org.uk/) (AISB) will host a joint conference from 1-3 July, 2025 at the University of Twente, NL. Submissions and registration are closed. Programme and abstracts are available [here](schedule.md), symposia proceedings [here](https://aisb.org.uk/wp-content/uploads/2025/06/AISB-IACAP-Convention2025.pdf).
 
 ### 30 June 2025, 4TU.ethics Workshop 
 
-On 30 June a 4TU.ethics workshop on AI and neurotechnology will be held at the University of Twente, NL. This workshop, organised in conjunction with member societies IACAP and AISB, also comprises the formal opening of the joint IACAP-AISB conference, which takes place at UT From 1 to 3 July 2025. The workshop schedule can be found [here](pages/4tu).
+On 30 June a 4TU.ethics workshop on AI and neurotechnology will be held at the University of Twente, NL. This workshop, organised in conjunction with member societies IACAP and AISB, also comprises the formal opening of the joint IACAP-AISB conference, which takes place at UT From 1 to 3 July 2025. The workshop schedule can be found [here](4tu.md).
  
 This highly interdisciplinary workshop is free for members of 4TU.ethics and those who are registered to attend the conference. The workshop is followed by a reception that doubles as a 4TU.ethics social event, but you should register for this separately if you intend to join. The workshop is planned in association with [special issue on NeuroAI](https://www.elspublishing.com/journals/law-ethics-technology/special_issues/ai-enabled-neurotechnologies).
 
-The workshop will take place in room RA1501 in the Ravelijn building. See [here](/pages/practical.html#on-campus) for details on the location.
+The workshop will take place in room RA1501 in the Ravelijn building. See [here](practical.md#on-campus) for details on the location.
 
 ## Keynote Speakers
 
@@ -31,10 +31,10 @@ The workshop will take place in room RA1501 in the Ravelijn building. See [here]
 ## Important Information
 
 * **Conference dates**: July 1-3
-* **Conference website**: [iacapconf.org/](https://iacapconf.org/)
+* **Conference website**: [iacapconf.org/2025/](https://iacapconf.org/2025/)
 * **Conference proceedings (from symposia)**: [pdf from AISB website](https://aisb.org.uk/wp-content/uploads/2025/06/AISB-IACAP-Convention2025.pdf)
-* **[Conference registration (now closed)](https://2025.tickets.iacapconf.org/)**
-* **Code of Conduct**: [view here](pages/code_of_conduct)
+* **Conference registration (now closed)**
+* **Code of Conduct**: [view here](../pages/code_of_conduct.md)
 * **Host Organisation Websites**:
   * [IACAP.org](https://iacap.org)
   * [AISB.org.uk](https://aisb.org.uk/)
@@ -42,8 +42,8 @@ The workshop will take place in room RA1501 in the Ravelijn building. See [here]
 * **Conference host**: University of Twente
 * **[Call for Abstracts (now closed)](https://pretalx.iacapconf.org/iacap-2025/cfp)**
 * **Useful Resources:**
-  * [Practical Information](pages/practical)
-  * [Schedule](pages/schedule)
+  * [Practical Information](practical.md)
+  * [Schedule](schedule.md)
 
 ## IACAP-AISB-2025 Organising Committee [OC]
  
@@ -64,7 +64,7 @@ Questions about non-symposia presentations, posters and registration technicalit
 
 ## Call for Proposals (archive) 
 
-You will find the call for proposals [here](https://iacapconf.org/pages/cfp)
+You will find the call for proposals [here](cfp.md)
 
 ## Join the Community
 
@@ -76,4 +76,4 @@ For updates on IACAP conferences and to be part of the conversation with other a
 
 ## Past conferences
 
-* See links to our [past conferences](pages/past_conferences.md)
+* See links to our [past conferences](../pages/past_conferences.md)
