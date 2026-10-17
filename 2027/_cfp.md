@@ -2,6 +2,8 @@
   The IACAP 2027 call for papers. Included by 2027/index.md (the home page) and
   2027/cfp.md, so edit it here only. Links in this file must be absolute
   (https://... or /2027/...): .md links are not rewritten inside includes.
+  The home page's introduction (2027/index.md) repeats the dates, venue and
+  deadline: change both together.
 {% endcomment %}
 
 The International Association for Computing and Philosophy (IACAP, <https://www.iacap.org>) is pleased to put out this call for abstracts for its next conference in 2027.

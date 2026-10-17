@@ -1,11 +1,19 @@
 ---
 layout: home
 title: "IACAP 2027 — Noto, Italy"
-alt_title: IACAP 2027
-sub_title: International Association for Computing and Philosophy Annual Conference
-image: "/iacapNoto2480.png"
-# Logo rather than a wide banner: cap its height (assets/stylesheets/main.scss).
+alt_title: "IACAP 2027 — Noto, Italy"
+# The logo in the introduction is the visible title; the heading above stays for
+# screen readers (assets/stylesheets/main.scss). Keep the dates in step with _cfp.md.
+# iacapNoto-nomargin.png is iacapNoto2480.png with its white border cropped off, so
+# it lines up with the text: re-crop it if the logo is re-exported.
 classes: [header-logo]
+introduction: |
+  ![IACAP 2027 — Noto, Italy](/iacapNoto-nomargin.png){: .intro-logo}
+
+  July 14–16, 2027 · University of Messina, Noto Campus, Sicily · Submissions due January 15, 2027
+actions:
+  - label: Submit a proposal
+    url: https://pretalx.com/iacap-2027/submit/
 # This year's page is the site's home page. Next year, remove these two lines;
 # the page then lives at /2027/ as the archive.
 permalink: /
