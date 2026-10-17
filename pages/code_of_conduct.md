@@ -5,7 +5,7 @@ title: Code of Conduct
 
 IACAP is dedicated to providing a safe and harassment-free conference experience for everyone, regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age or religion. We do not tolerate harassment of conference participants in any form. Conference participants violating these rules may be sanctioned or expelled from the conference without a refund at the discretion of the conference organisers.   
    
-**Harassment includes, but is not limited to:**  
+## Harassment includes, but is not limited to:
  
 * Verbal comments that reinforce social structures of domination related to gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age, religion  
 * Sexual images in public spaces  
@@ -18,7 +18,7 @@ IACAP is dedicated to providing a safe and harassment-free conference experience
 * Advocating for, or encouraging, any of the above behaviour
 
    
-**Enforcement:**  
+## Enforcement:
  
 * Participants asked to stop any harassing behaviour are expected to comply immediately.  
 * If a participant engages in harassing behaviour, event organisers retain the right to take action to keep the event a welcoming environment for all participants. This includes warning the offender or expulsion from the conference with no refund.  
@@ -26,7 +26,7 @@ IACAP is dedicated to providing a safe and harassment-free conference experience
 * We expect participants to follow these rules at all event venues and event-related social activities.
 
    
-**Reporting:**  
+## Reporting:
  
 
 * If someone makes you or anyone else feel unsafe or unwelcome, please report it as soon as possible. Harassment and other code of conduct violations reduce the value of our event for everyone. We want you to have a positive experience at our event. That's why we're making every effort to ensure it's a success. It is people like you who make our event a better place, and we really appreciate your contributions.  
